@@ -1,0 +1,105 @@
+{
+  "status": "verificacion_correcta_sql_generado",
+  "tables": [
+    {
+      "table": "mline_ta_proyecto_estado",
+      "business_id": "id_proyecto_estado",
+      "dataset_id": 412,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_tc_proyecto",
+      "business_id": "id_proyecto",
+      "dataset_id": 6,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_celda_capa",
+      "business_id": "id_celda_capa",
+      "dataset_id": 406,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_infraestructura_celda",
+      "business_id": "id_infraestructura_celda",
+      "dataset_id": 407,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "business_id": "id_proyecto_alternativa",
+      "dataset_id": 408,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_proyecto_capa",
+      "business_id": "id_proyecto_capa",
+      "dataset_id": 409,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_proyecto_componente",
+      "business_id": "id_proyecto_componente",
+      "dataset_id": 410,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "business_id": "id_proyecto_regla_cfg",
+      "dataset_id": 411,
+      "oid_field": "OBJECTID",
+      "isVersioned": false,
+      "isTraditionalVersioned": false,
+      "isBranchVersioned": false,
+      "isArchived": false
+    }
+  ],
+  "sql_generated": true,
+  "server_modified": false,
+  "notes": [
+    "La inspección solo lee ArcGIS y ejecuta SELECT; el SQL resultante no se ejecutó.",
+    "La verificación es una instantánea. No cambie registro, versionado o archivado entre esta comprobación y la ejecución SQL.",
+    "La vigencia temporal y coincidencia de servidor se verifican nuevamente en el SQL generado."
+  ],
+  "template": "C:\\Users\\CT6788\\Desktop\\InformaciónMapline\\InformaciónMapline\\03_agregar_PK_FK_SQLServer.sql",
+  "template_sha256": "00551887fc4e53fc2bbfd0a65e312e1d80af4541f9279a9d0c63cba141160a70",
+  "identity": {
+    "database": "ArcGisAWS",
+    "server": "EEPAWSDBP01",
+    "user": "gis",
+    "schema": "gis",
+    "server_utc": "2026-11-03T12:21:15"
+  },
+  "output": "C:\\Users\\CT6788\\Desktop\\InformaciónMapline\\InformaciónMapline\\03_agregar_PK_FK_VERIFICADO.sql",
+  "output_sha256": "d834ea3b8065f8612f33b046b250917e209a09447f1209ae847c003012024253",
+  "verified_utc": "2026-11-03T12:21:15",
+  "local_timestamp_utc": "2026-11-03T12:21:19.618352+00:00"
+}

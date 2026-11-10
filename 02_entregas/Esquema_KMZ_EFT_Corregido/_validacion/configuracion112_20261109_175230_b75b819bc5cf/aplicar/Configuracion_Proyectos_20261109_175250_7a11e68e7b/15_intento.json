@@ -1,0 +1,10 @@
+{
+  "accion": "ACTIVAR_TRACKING",
+  "campos": {
+    "creatorFieldName": "created_user",
+    "createdAtFieldName": "created_date",
+    "editorFieldName": "last_edited_user",
+    "editedAtFieldName": "last_edited_date"
+  },
+  "zona": "UTC"
+}

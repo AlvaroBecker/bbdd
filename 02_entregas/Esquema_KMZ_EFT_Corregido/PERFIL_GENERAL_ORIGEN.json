@@ -1,0 +1,137 @@
+{
+  "modelo_sha256": "5fc138d536e6661e5dd45af296d536a02e917d24215f39f771526dbb3fc04b55",
+  "fuentes": [
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "sha256": "9e0a746b078fd925c33867b6fe1367de0d4756c091140f4c6505de3d97702d9c",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "sha256": "5f3440301488126ee763137f6e02ccdfa48c6efc94fb73a20e50db40c078005e",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "sha256": "77258db83b217ca2cad0237149e5a028692fdb726f6c1267a075176aed6a5796",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "sha256": "4a0542c0d595884d9cd8694bc94dba0d82e856837ccccb2ac46e706a68a1d261",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "ruta_lectura": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\01_fuentes\\kmz\\Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "xsi_declarado_en_copia_lectura": [
+        "doc.kml"
+      ]
+    }
+  ],
+  "fuentes_ausentes": [],
+  "clases": 75,
+  "definiciones_perfiladas": 2185,
+  "rutas_inventariadas": 961,
+  "rutas_fuente_ausente": 0,
+  "rutas_con_diferencias": 0,
+  "asignaciones_esperadas": 127725,
+  "asignaciones_observadas": 127725,
+  "propuestas": {
+    "REVISAR_NUMERICO_SIN_SEMANTICA": 474,
+    "MANTENER_TEXT_CONTENIDO": 726,
+    "SIN_VALORES_UTILES_CONSERVAR_TEXT": 129,
+    "MANTENER_TEXT_IDENTIFICADOR_O_ETIQUETA": 685,
+    "CANDIDATO_DOUBLE": 97,
+    "REVISAR_FECHA": 52,
+    "REVISAR_CEROS_INICIALES": 21,
+    "CANDIDATO_LONG": 1
+  },
+  "campos_cobertura_incompleta": 0,
+  "campos_superan_longitud_actual": 1,
+  "campos_con_conflictos": 1,
+  "incidencias_agrupadas": 2,
+  "incidencias_por_tipo": {
+    "VALORES_CONFLICTIVOS": 253
+  },
+  "cambios_en_modelo": false,
+  "cambios_en_sde": false,
+  "alcance": "Borrador de tipos de atributos propios pendientes. No aprueba mapeos, fechas, unidades ni conversiones. No deduplica entidades, no elimina atributos ni trunca datos de origen. Ejemplos del informe se limitan a250caracteres; longitudes se miden completas."
+}

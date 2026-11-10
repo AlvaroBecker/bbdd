@@ -1,0 +1,84 @@
+{
+  "version_paquete": "1.9",
+  "version_modelo": 12,
+  "estado": "VALIDACION_TIPOS_COMPLETA_CON_PENDIENTES",
+  "campos_revisados": 3340,
+  "campos_tipo_provisional": 0,
+  "incidencias_de_valores_o_mapeo": 4,
+  "fuentes": [
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "sha256": "9e0a746b078fd925c33867b6fe1367de0d4756c091140f4c6505de3d97702d9c"
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "sha256": "5f3440301488126ee763137f6e02ccdfa48c6efc94fb73a20e50db40c078005e"
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "sha256": "77258db83b217ca2cad0237149e5a028692fdb726f6c1267a075176aed6a5796"
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "sha256": "4a0542c0d595884d9cd8694bc94dba0d82e856837ccccb2ac46e706a68a1d261"
+    },
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af"
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01"
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039"
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9"
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34"
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a"
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8"
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff"
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2"
+    }
+  ],
+  "fuentes_reverificadas_por_sha256": true,
+  "relectura_xml": false,
+  "evidencia_valores_identica": true,
+  "perfil_original_sha256": "28088388a8dbe1973568c0e5ba9eabc42c2abdfd912f66e3965142fffd8b25c4",
+  "perfil_alineado_sha256": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0",
+  "informe_evaluacion": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\Tipos_KMZ_20261109_145352_ba68106b6bdd\\resultado.json",
+  "informe_evaluacion_sha256": "022dc8f7fd316bdb69fd6df5198f8c6a251a9bbf24f4194e00b2571e23fc0a15",
+  "cambios_en_sde": false,
+  "ingesta_autorizada": false,
+  "archivos_sha256": {
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "mapeo_capas_revision.csv": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439",
+    "campos_por_ruta.csv": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31",
+    "inspeccion_kmz.py": "de960fd80e58a0c6d6d556d702e6c30e37f3e1a5070765653c7991feba427479",
+    "validar_tipos_kmz.py": "f79ebbcc4503d7b02936a9b1b8804721e1d389ee135ceb2803e288b61fdaa36c",
+    "referencia_cierre_tipos.py": "1df43326a84118435daa0e55871e10492ef078c1b792556a41b0b8e01fa33397",
+    "cierre_tipos_1_9.json": "dff1ea283aa806823627542df18762d4b2e0fa0cf894cafe10fb3dc4df3e72aa",
+    "esquema_anterior_1_8.json": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+    "PERFIL_COMPLETO_KMZ_1_9.json": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0",
+    "PERFIL_COMPLETO_KMZ_1_9.sha256": "127b8289faad7f2d9dded1fca26033adeb8bab9f294ab3ede195d6681cf69465",
+    "03_scripts/alinear_perfil_cierre_1_9.py": "8436ef432ccca2672954df94277ce0f83561402736a2e7c1d0688a37e89f1dee"
+  }
+}

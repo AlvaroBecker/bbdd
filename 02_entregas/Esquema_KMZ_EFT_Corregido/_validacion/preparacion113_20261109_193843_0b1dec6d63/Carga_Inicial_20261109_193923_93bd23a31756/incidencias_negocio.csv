@@ -1,0 +1,6 @@
+﻿codigo;mensaje;nivel;objeto;ocurrencias
+REGISTROS_INACTIVOS_CONSERVADOS;"Se conserva es_registro=0 o fecha de eliminacion; no se filtran filas historicas.";ADVERTENCIA;mline_tc_proyecto;34
+OBJETO_VACIO_SIN_EVIDENCIA;"No hay registros para contrastar identidades o relaciones; vacio no significa verificado.";PENDIENTE;mline_td_proyecto_area_interes;
+OBJETO_VACIO_SIN_EVIDENCIA;"No hay registros para contrastar identidades o relaciones; vacio no significa verificado.";PENDIENTE;mline_td_proyecto_infraestructura;
+OBJETO_VACIO_SIN_EVIDENCIA;"No hay registros para contrastar identidades o relaciones; vacio no significa verificado.";PENDIENTE;mline_td_proyecto_ltransmision;
+OBJETO_VACIO_SIN_EVIDENCIA;"No hay registros para contrastar identidades o relaciones; vacio no significa verificado.";PENDIENTE;vertices;

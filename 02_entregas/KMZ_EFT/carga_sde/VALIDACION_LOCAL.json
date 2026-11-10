@@ -1,0 +1,197 @@
+{
+  "resultado": "VERIFICADO_LOCALMENTE_SDE_NO_EJECUTADO",
+  "fecha_utc": "2026-11-03T20:42:11.518670+00:00",
+  "script_sha256": "2d1131c056f54bcd79f5ea7ef00de797bc9ded0ad58047abf396dd9a459dca4a",
+  "arcgis_pro": "3.7.1",
+  "pruebas_unitarias_aprobadas": 8,
+  "kmz_preparados": 13,
+  "placemarks_originales": 279623,
+  "objetos_originales_con_atributos": 279973,
+  "entidades_convertidas": 285819,
+  "placemarks_sin_entidad_convertida": 902,
+  "objetos_locales_preparados": 45,
+  "partes_json_comparadas_con_origen": 502304,
+  "originales_sha256_verificados": 13,
+  "piloto_copia_jaen": {
+    "objetos_copiados_verificados": 6,
+    "json_reconstruidos": 7007,
+    "coordenadas_xy_z_y_multipatches_verificadas": true,
+    "sobrescritura_rechazada": true,
+    "alteracion_coordenadas_detectada": true
+  },
+  "piloto_geometria_mixta": {
+    "placemarks": 3,
+    "entidades": 4,
+    "vinculos_verificados": true
+  },
+  "conexion_sde_remota_ejecutada": false,
+  "por_fuente": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "placemarks": 816,
+      "entidades_convertidas": 894,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01",
+      "placemarks": 65650,
+      "entidades_convertidas": 66418,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039",
+      "placemarks": 503,
+      "entidades_convertidas": 593,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9",
+      "placemarks": 7005,
+      "entidades_convertidas": 7445,
+      "placemarks_sin_entidad": 26
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34",
+      "placemarks": 8510,
+      "entidades_convertidas": 8614,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a",
+      "placemarks": 119153,
+      "entidades_convertidas": 119544,
+      "placemarks_sin_entidad": 150
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8",
+      "placemarks": 21498,
+      "entidades_convertidas": 21778,
+      "placemarks_sin_entidad": 358
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff",
+      "placemarks": 47969,
+      "entidades_convertidas": 47621,
+      "placemarks_sin_entidad": 368
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "placemarks": 3112,
+      "entidades_convertidas": 3398,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "sha256": "9e0a746b078fd925c33867b6fe1367de0d4756c091140f4c6505de3d97702d9c",
+      "placemarks": 2612,
+      "entidades_convertidas": 3166,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "sha256": "5f3440301488126ee763137f6e02ccdfa48c6efc94fb73a20e50db40c078005e",
+      "placemarks": 1156,
+      "entidades_convertidas": 1395,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "sha256": "77258db83b217ca2cad0237149e5a028692fdb726f6c1267a075176aed6a5796",
+      "placemarks": 493,
+      "entidades_convertidas": 504,
+      "placemarks_sin_entidad": 0
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "sha256": "4a0542c0d595884d9cd8694bc94dba0d82e856837ccccb2ac46e706a68a1d261",
+      "placemarks": 1146,
+      "entidades_convertidas": 4449,
+      "placemarks_sin_entidad": 0
+    }
+  ],
+  "script_sha256_validacion_lote_original": "45d6c3acede2a1e1afb46e1f8271edc07cfd672a14afb472db2809d10c9ba98e",
+  "toolbox_sha256": "12610e8a90136c815e7b583382f1c5ca892e5b34b29bd3295ddc9469e15f1d19",
+  "toolbox_validacion": {
+    "fecha_utc": "2026-11-03T20:58:47.547162+00:00",
+    "pruebas_totales_aprobadas": 10,
+    "importacion_arcpy_real": true,
+    "ejecuciones_gp_locales_consecutivas": 2,
+    "salidas_y_mensajes_verificados": true,
+    "restauracion_entorno_y_logging_verificada": true,
+    "destino_dentro_de_entrada_rechazado": true,
+    "sde_remoto_ejecutado": false,
+    "cambio_cargador": "Logging de ejecucion acotado al logger propio, con cierre de archivos y restauracion del estado para uso repetido dentro de ArcGIS Pro."
+  },
+  "correccion_guardado_informe": {
+    "fecha_utc": "2026-11-03T21:39:41.166198+00:00",
+    "pruebas_totales_aprobadas": 13,
+    "bloqueo_transitorio_reintentado": true,
+    "bloqueo_persistente_conserva_anterior_y_tmp": true,
+    "error_original_no_ocultado": true,
+    "ejecuciones_reales_toolbox": 2,
+    "causa_politica_o_proceso_remoto_no_verificada": true,
+    "carga_sde_remota_ejecutada": false
+  },
+  "script_sha256_antes_selector": "3541a4553021eb43a3b7565108101802fe53728f01597b3a38c65c8d93d6ac08",
+  "toolbox_sha256_antes_selector": "a63511eaa934b0f691dd47027e514785a5977638553723d5a75b9a2644683b53",
+  "selector_reanudacion": {
+    "fecha_utc": "2026-11-03T23:35:49.888221+00:00",
+    "pruebas_totales_aprobadas": 20,
+    "comando": "python -m unittest -v test_cargar_kmz_sde.py test_toolbox_arcgis.py",
+    "duracion_segundos": 84.389,
+    "selector_carpetas_subcarpetas_importacion_arcpy_real": true,
+    "seleccion_parcial_sin_exigir_inventario_completo": true,
+    "reutilizacion_sin_reconversion_misma_carpeta": true,
+    "estructura_legacy_conversion_probada_con_fixture_real": true,
+    "fuente_incompleta_repreparada_sin_borrar_artefactos_previos": true,
+    "auditoria_solo_de_seleccion_actual": true,
+    "checkpoints_no_seleccionados_conservados": true,
+    "vinculo_de_trazabilidad_alterado_rechazado": true,
+    "validacion_devuelve_snapshot_y_preserva_checkpoint": true,
+    "bloqueo_de_carpeta_ajena_respetado": true,
+    "fallo_inicial_logging_libera_bloqueo": true,
+    "intentos_previos_sde_impiden_reanudacion": true,
+    "restauracion_entorno_y_logging_verificada": true,
+    "lote_completo_trece_reconvertido_esta_actualizacion": false,
+    "carga_sde_remota_ejecutada": false,
+    "control_memoria_implementado": false,
+    "nota_memoria": "Pospuesto por decision del usuario. La seleccion no limita RAM durante KML To Layer.",
+    "nota_reanudacion": "Valida originales, conteos, esquema y trazabilidad; no certifica coordenadas contra una huella previa.",
+    "nota_terminal": "unittest termino OK; el wrapper PowerShell produce despues un error SetShouldExit por modo de lenguaje restringido."
+  },
+  "script_sha256_antes_nombres_legibles": "90f195b32213b58c104af59d598eb9c2e71f207da86d3d5a790ec95e8a41628e",
+  "toolbox_sha256_antes_nombres_legibles": "4bbf6db8780472abfd8ca7a68c8c535834b5aa529c473ddc807bb0045bc3cbbc",
+  "nombres_legibles_renombrar": {
+    "fecha_utc": "2026-11-04T14:28:12.292455+00:00",
+    "pruebas_totales_aprobadas": 27,
+    "comando": "python -m unittest -v test_cargar_kmz_sde.py test_toolbox_arcgis.py",
+    "duracion_segundos": 155.922,
+    "inventario_sha256": "6dc55ffe0301df5188d62516af6b70deead2106cfd4f81bc6c47f003482d7d9a",
+    "nombres_destino": "<nombre_sde>_puntos|lineas|poligonos|multipatch|multipuntos|atributos|balance",
+    "nombres_sde_validos_unicos_y_editables_en_inventario": true,
+    "atributos_y_balance_por_kmz": true,
+    "carga_duplicada_con_nombre_nuevo_o_anterior_bloqueada": true,
+    "reanudacion_solo_con_destinos_previos_verificados": true,
+    "kmz_ya_cargado_rechazado_antes_de_convertir": true,
+    "renombrado_real_arcpy_geodatabase_archivos": true,
+    "renombrado_rechaza_datos_alterados_sin_cambios": true,
+    "renombrado_idempotente": true,
+    "renombrado_interrumpido_recuperado": true,
+    "renombrado_objeto_en_uso_detiene_sin_cambios_prueba_simulada": true,
+    "lote_chanchamayo_anterior_asignable": "3b51369d6f32 = sha256(sha256 Chanchamayo)[:12]",
+    "renombrado_sde_remota_ejecutado": false,
+    "carga_sde_remota_ejecutada_por_esta_maquina": false,
+    "control_memoria_implementado": false,
+    "nota_sde": "Rename usa nombre calificado y reintenta sin calificar; no probado contra ArcGisAWS.",
+    "nota_terminal": "unittest termino OK; el wrapper PowerShell produce despues un error SetShouldExit por modo de lenguaje restringido."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "fallo",
+  "tables": [],
+  "sql_generated": false,
+  "server_modified": false,
+  "notes": [
+    "La inspección solo lee ArcGIS y ejecuta SELECT; el SQL resultante no se ejecutó.",
+    "La verificación es una instantánea. No cambie registro, versionado o archivado entre esta comprobación y la ejecución SQL.",
+    "La vigencia temporal y coincidencia de servidor se verifican nuevamente en el SQL generado."
+  ],
+  "error": "No existe la plantilla SQL: C:\\Users\\CT6788\\Desktop\\InformaciónMapline\\InformaciónMapline\\03_agregar_PK_FK_SQLServer.sql",
+  "local_timestamp_utc": "2026-11-03T11:56:52.245381+00:00"
+}

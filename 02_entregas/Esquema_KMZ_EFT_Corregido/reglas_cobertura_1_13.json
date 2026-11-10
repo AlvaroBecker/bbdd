@@ -1,0 +1,44 @@
+{
+  "version": "1.13",
+  "modo": "PLAN_REVISABLE_SIN_CARGA",
+  "archivos_sha256": {
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "mapeo_capas_revision.csv": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439",
+    "campos_por_ruta.csv": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31",
+    "PERFIL_COMPLETO_KMZ_1_9.json": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0"
+  },
+  "esperados": {"rutas": 3638, "elementos": 279623, "fuentes": 13, "clases_actuales": 76},
+  "estados": ["MAPEO_ACTUAL", "PROPUESTA_SUSTENTADA", "REVISION", "TRATAMIENTO_ESPECIAL", "DESCARTE_POR_APROBAR"],
+  "geometrias": {"Punto": "POINT", "Línea": "POLYLINE", "Polígono": "POLYGON"},
+  "destinos": {
+    "vertices": "vertices",
+    "estructuras": "estructuras",
+    "alternativas_lt": "mline_td_proyecto_infraestructura",
+    "arqueologia_campo": "sitios_arqueologicos_poligono_recorte",
+    "bofedales": "bofedales_inaigem_recorte",
+    "vanos": "vanos"
+  },
+  "eft": {
+    "documento": "EFT - ENGIE Mapline ArcGIS Enterprise y ArcGIS Pro_v2.4.docx",
+    "indexacion": "Parrafos OOXML, incluyendo tablas, indice cero; no numeros de pagina.",
+    "recortes": {"parrafo": 767, "regla": "Recortes de consultores: Datos_Proyecto, proyecto, id_analisis e id_origen, sin deduplicar. Maestra oficial en Datos_Externos."},
+    "proyecto": {"parrafo": 770, "regla": "Capas de proyecto sin deduplicar, identificadas por proyecto, id_analisis y alternativa."},
+    "pls": {"parrafos": [771, 772, 773], "regla": "Procesar aparte exportaciones PLS-CADD para obtener Estructuras y Vanos con atributos. Conectividad en nombres: origen/destino, circuito, tension, conductor."},
+    "copias_cad": {"parrafos": [774, 775, 776], "regla": "Una sola copia; restantes copias, CAD sin tema, textos y modelos se revisan manualmente o se excluyen."},
+    "internos_complementarios": {"parrafo": 778, "regla": "Capas internas complementarias de consultores van Datos_Internos; prevalencia sobre externa por confirmar."}
+  },
+  "reutilizacion": {
+    "vertices": {"campo_fuente": "vertice", "geometria": "Punto"},
+    "estructuras": {"hoja_exacta": "Structure locations", "geometria": "Punto"},
+    "alternativas_lt": {"descripcion_normalizada": "linea de transmision del proyecto", "campos_fuente": ["alternativ", "alternativa"], "geometria": "Línea"},
+    "arqueologia_campo": {"descripcion_exacta": "SA_REGISTRADOS_PROSPECCION", "hoja_exacta": "Areas SA", "geometria": "Polígono"},
+    "bofedales": {"hoja_exacta": "BOFEDALES (INAIGEM)", "dominio_fuente": "inaigem.maps.arcgis.com", "campo_fuente": "desc_cober", "ejemplo_normalizado": "bofedal", "geometria": "Polígono"}
+  },
+  "limitaciones": [
+    "Este plan no autoriza cargar datos ni crear clases, campos o codigos.",
+    "Los SHA de KMZ son evidencias del perfil; la herramienta de preingesta debe reverificar los archivos actuales.",
+    "Coincidencia de descripcion o nombre no basta para aprobar una clase.",
+    "Conservar inventario completo no implica insertar todas las ocurrencias: aplicar cada categoria EFT.",
+    "Una carpeta Section o un Placemark no equivale automaticamente a un vano; el numero final de vanos sigue sin determinar."
+  ]
+}

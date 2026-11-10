@@ -1,0 +1,14 @@
+﻿archivo;n_capas;placemarks;Punto;Línea;Polígono;MultiPunto;MultiLínea;MultiPolígono;n_campos_distintos;overlays;kml_internos;prefijos_corregidos;error;Anillo+Línea;Sin geometría;Modelo3D;Anillo+Punto
+InformaciónMapline\CapasInternas\Proyecto CHANCHAMAYO.kmz;36;816;119;236;424;;1;36;117;GroundOverlay=4;1;xsi;;;;;
+InformaciónMapline\CapasInternas\Proyecto FELAM.kmz;178;65650;6750;58147;570;;118;65;708;;1;xsi;;;;;
+InformaciónMapline\CapasInternas\Proyecto HUARAZ.kmz;39;503;132;26;315;;;30;140;GroundOverlay=2;1;xsi;;;;;
+InformaciónMapline\CapasInternas\Proyecto JAENNORTE.kmz;227;7005;2444;2806;1131;;270;354;410;"GroundOverlay=1; ScreenOverlay=1";1;;;;;;
+InformaciónMapline\CapasInternas\Proyecto MUYURINA.kmz;133;8510;6278;2035;154;;24;18;463;GroundOverlay=1;1;xsi;;1;;;
+InformaciónMapline\CapasInternas\Proyecto PALIAN.kmz;577;119153;14712;67733;34876;;1099;733;735;ScreenOverlay=5;1;xsi;;;;;
+InformaciónMapline\CapasInternas\Proyecto PARIÑAS.kmz;536;21498;10467;7453;967;;1181;1430;853;ScreenOverlay=1;1;;;;;;
+InformaciónMapline\CapasInternas\Proyecto POROMA.kmz;559;47969;1713;43379;1103;;481;1278;266;"GroundOverlay=317; ScreenOverlay=1";1;;;;11;4;
+InformaciónMapline\CapasInternas\Proyecto PUCALLPA.kmz;50;3112;760;794;1499;;3;56;158;GroundOverlay=3;1;xsi;;;;;
+InformaciónMapline\Resultados de Mapline\G1 Enlace 500 kV Miguel Grau - Pariñas.kmz;31;2612;8;38;2541;;;25;218;GroundOverlay=3;1;;;;;;
+InformaciónMapline\Resultados de Mapline\G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz;42;1156;141;841;160;;;14;292;GroundOverlay=3;1;;;;;;
+InformaciónMapline\Resultados de Mapline\G1 LT 220 kV Muyurina – Mollepata.kmz;26;493;33;159;292;;1;4;184;GroundOverlay=2;1;;;;;;4
+InformaciónMapline\Resultados de Mapline\G1 Nueva SE Palián 22060 kV y LT.kmz;43;1146;137;511;491;;;7;182;GroundOverlay=6;1;;;;;;

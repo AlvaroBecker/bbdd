@@ -1,0 +1,45 @@
+{
+  "estado": "INICIADO",
+  "modo": "VALIDAR_CAMPOS",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+  "aprobacion_sha256": "1448240df7144fda63a9b161c21c82a36f8050843adad6c1e539832476615049",
+  "version_paquete": "1.5",
+  "inicio_utc": "2026-11-05T21:34:48.979287+00:00",
+  "completadas": [],
+  "clase_en_curso": null,
+  "campo_en_curso": null,
+  "clases": [
+    {
+      "nombre": "accesos",
+      "geometria": "POLYLINE",
+      "campos": 280,
+      "tipos_pendientes": 267,
+      "accion": "POR_VALIDAR"
+    },
+    {
+      "nombre": "limite_departamento_recorte",
+      "geometria": "POLYGON",
+      "campos": 34,
+      "tipos_pendientes": 18,
+      "accion": "POR_VALIDAR"
+    },
+    {
+      "nombre": "predios_inscritos_en_sunarp_recorte",
+      "geometria": "POLYGON",
+      "campos": 81,
+      "tipos_pendientes": 64,
+      "accion": "POR_VALIDAR"
+    }
+  ],
+  "advertencias": [
+    "Solo se alteran campos aprobados en clases existentes y vacias de Datos_Proyecto.",
+    "No carga datos, convierte valores o unidades, crea relaciones ni activa versionado.",
+    "DDL no es una transaccion atomica. Un error detiene el lote sin borrar ni recrear objetos; la siguiente ejecucion reconoce tipos y longitudes objetivo ya aplicados."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183448_e740139b\\estados\\20261105T213448_996711Z_ea171c86\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183448_e740139b\\estados\\20261105T213448_996711Z_ea171c86\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183448_e740139b\\campos.csv"
+}

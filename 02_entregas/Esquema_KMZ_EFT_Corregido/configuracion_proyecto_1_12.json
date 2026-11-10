@@ -1,0 +1,159 @@
+{
+  "version": "1.12",
+  "tabla": "mline_tc_proyecto",
+  "alcance": "Propuesta: configurar dos dominios y cuatro campos tecnicos nuevos para Editor Tracking; no alterar filas ni campos heredados. Aplicar requiere aprobacion expresa de esos cuatro campos.",
+  "dominios": [
+    {
+      "campo": "id_tipo_proyecto",
+      "nombre": "mline_proyecto_tipo",
+      "descripcion": "PROYECTO.TIPO",
+      "tipo_arcgis": "LONG",
+      "tipo_dominio": "CODED",
+      "grupo_parametro_original": "PROYECTO.TIPO",
+      "codigos": [
+        {
+          "codigo": 7,
+          "descripcion": "Central de Generación"
+        },
+        {
+          "codigo": 8,
+          "descripcion": "Línea de Transmisión"
+        }
+      ],
+      "permitir_null": true
+    },
+    {
+      "campo": "id_estado_proyecto",
+      "nombre": "mline_proyecto_estado",
+      "descripcion": "PROYECTO.ESTADO",
+      "tipo_arcgis": "LONG",
+      "tipo_dominio": "CODED",
+      "grupo_parametro_original": "PROYECTO.ESTADO",
+      "codigos": [
+        {
+          "codigo": 3,
+          "descripcion": "Registrado"
+        },
+        {
+          "codigo": 4,
+          "descripcion": "Con malla"
+        },
+        {
+          "codigo": 5,
+          "descripcion": "Finalizado"
+        },
+        {
+          "codigo": 6,
+          "descripcion": "Cancelado"
+        }
+      ],
+      "permitir_null": true
+    }
+  ],
+  "editor_tracking": {
+    "creator_field": "created_user",
+    "creation_date_field": "created_date",
+    "last_editor_field": "last_edited_user",
+    "last_edit_date_field": "last_edited_date",
+    "add_fields": "NO_ADD_FIELDS",
+    "campos_nuevos": [
+      {
+        "nombre": "created_user",
+        "tipo": "TEXT",
+        "longitud": 255,
+        "nullable": true
+      },
+      {
+        "nombre": "created_date",
+        "tipo": "DATE",
+        "precision": 0,
+        "nullable": true
+      },
+      {
+        "nombre": "last_edited_user",
+        "tipo": "TEXT",
+        "longitud": 255,
+        "nullable": true
+      },
+      {
+        "nombre": "last_edited_date",
+        "tipo": "DATE",
+        "precision": 0,
+        "nullable": true
+      }
+    ],
+    "secuencia": "AddField de los cuatro campos tecnicos, despues EnableEditorTracking con NO_ADD_FIELDS.",
+    "record_dates_in": "UTC",
+    "campos_heredados_conservados": [
+      "us_creacion",
+      "fe_creacion",
+      "us_actualizacion",
+      "fe_actualizacion"
+    ],
+    "origen_eleccion_utc": "Convencion tecnica para auditoria nativa nueva; no acredita zona horaria de fechas historicas.",
+    "zona_historica_acreditada": false,
+    "convertir_fechas_historicas": false,
+    "reutilizar_fechas_historicas_como_utc": false,
+    "nombres_prescritos_literalmente_por_eft": false,
+    "resultado_traza_historica": "ZONA_HORARIA_NO_ACREDITADA; conservar valores heredados intactos."
+  },
+  "reglas_preservacion": {
+    "conservar_todas_filas": true,
+    "conservar_todos_valores": true,
+    "conservar_campos": true,
+    "conservar_ids": true,
+    "no_reactivar_proyectos": true,
+    "no_reemplazar_dominio_incompatible": true,
+    "validar_valores_actuales_contra_catalogo_completo": true,
+    "reutilizar_dominio_asignado_solo_si_equivalente": true,
+    "campos_adicionales_limitados_a_auditoria_nativa": true
+  },
+  "respaldo_historico": {
+    "filas": 40,
+    "tipo_proyecto": [
+      7,
+      8
+    ],
+    "estado_proyecto": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "observacion": "Distribucion de la carga original, no consulta de los valores actuales del destino."
+  },
+  "fuentes": [
+    {
+      "ruta": "02_entregas/ArcGisAWS_Restricciones_EFT_MySQL/modelo_restricciones.json",
+      "sha256": "a8c6cde7d2b7be5682921bd6a591a135c192355b1e4a17a86a557083d5dfc695",
+      "funcion": "Catalogo completo extraido de parametros originales"
+    },
+    {
+      "ruta": "01_fuentes/Mapline_20261030.sql",
+      "sha256": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd",
+      "funcion": "Respaldo MySQL original; grupos5/6, IDs de parametro3..8"
+    },
+    {
+      "ruta": "99_historico/restricciones_anterior/ArcGisAWS_Restricciones/03_configurar_reglas_arcgis.py",
+      "sha256": "ba61028d96c86b4274ab11d6f7fa5e67bcca4aa7e95a591817cd69b6282ff0da",
+      "funcion": "Convencion previa de nombres de dominios y tipo LONG"
+    },
+    {
+      "ruta": "02_entregas/Mapline_una_tabla_mline_tc_proyecto_SQLServer.sql",
+      "sha256": "c7f501c93186558c7ee4b2bf8f1cffa5aea3b62eb92e7d2079cccd19b8f52f12",
+      "funcion": "Campos de auditoria existentes y distribucion historica de tipos/estados"
+    },
+    {
+      "ruta": "EFT - ENGIE Mapline ArcGIS Enterprise y ArcGIS Pro_v2.4.docx",
+      "sha256": "6d6c8575990b0fd3963ee71899c1c0461f09362eb9303ade1ff52b4aa48c9852",
+      "funcion": "Requisito de dominios y Editor Tracking"
+    },
+    {
+      "ruta": "resultado_registrar_proyectos.json",
+      "sha256": "66f62e403351b9a36248a51a8c63dd56f21153c4fcef4784c4af0a6391bc8f03",
+      "funcion": "Diagnostico real recibido: sin dominios asignados ni Editor Tracking"
+    }
+  ],
+  "requiere_aprobacion_campos_nativos": true,
+  "aprobacion_usuario_registrada": false
+}

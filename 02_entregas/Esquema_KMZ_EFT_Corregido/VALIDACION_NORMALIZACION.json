@@ -1,0 +1,108 @@
+{
+  "version_paquete": "1.7",
+  "version_modelo": 11,
+  "clases_revisadas": 76,
+  "clases_renombradas": 25,
+  "clases_nombre_conservado": 51,
+  "clases_sin_hashes": true,
+  "fuentes": {
+    "inventario_kmz_campos.csv": {
+      "filas": 9934,
+      "sha256": "e81c05ed81b35b998b6b10ee39911807ffeaa0eec740bf14dfaa40c1eb62af8c",
+      "procedencia": {
+        "nombre": "inventario_kmz_campos.csv",
+        "sha256": "e81c05ed81b35b998b6b10ee39911807ffeaa0eec740bf14dfaa40c1eb62af8c",
+        "ruta_actual": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\inventario_kmz_resumen\\inventario_kmz_campos.csv",
+        "sha256_actual": "e81c05ed81b35b998b6b10ee39911807ffeaa0eec740bf14dfaa40c1eb62af8c",
+        "archivo_actual_modificado": false,
+        "ruta_zip": null,
+        "miembro_zip": null,
+        "origen": "CSV_ACTUAL_VERIFICADO",
+        "bytes": 3000761
+      }
+    },
+    "inventario_kmz_capas.csv": {
+      "filas": 3638,
+      "sha256": "a17043bd8f500a6e05f95594abdaa6763c59da5f860b57c030f06d6f530dff14",
+      "procedencia": {
+        "nombre": "inventario_kmz_capas.csv",
+        "sha256": "a17043bd8f500a6e05f95594abdaa6763c59da5f860b57c030f06d6f530dff14",
+        "ruta_actual": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\inventario_kmz_resumen\\inventario_kmz_capas.csv",
+        "sha256_actual": "a17043bd8f500a6e05f95594abdaa6763c59da5f860b57c030f06d6f530dff14",
+        "archivo_actual_modificado": false,
+        "ruta_zip": null,
+        "miembro_zip": null,
+        "origen": "CSV_ACTUAL_VERIFICADO",
+        "bytes": 1789747
+      }
+    },
+    "inventario_kmz_matriz_campos.csv": {
+      "filas": 3507,
+      "sha256": "fcea4243bca9875ceb9a92ee8ef7e65b0f9b85fb54211c717c1a6ef5dd10d495",
+      "procedencia": {
+        "nombre": "inventario_kmz_matriz_campos.csv",
+        "sha256": "fcea4243bca9875ceb9a92ee8ef7e65b0f9b85fb54211c717c1a6ef5dd10d495",
+        "ruta_actual": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\inventario_kmz_resumen\\inventario_kmz_matriz_campos.csv",
+        "sha256_actual": "ba71d02ca3174adc858223a9bd4657a5ca5196a473c3f7290239ee9ce9e52680",
+        "archivo_actual_modificado": false,
+        "ruta_zip": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\inventario_kmz_resumen.zip",
+        "miembro_zip": "inventario_kmz_matriz_campos.csv",
+        "origen": "ZIP_ORIGINAL_VERIFICADO",
+        "bytes": 291721
+      }
+    },
+    "inventario_kmz_resumen.csv": {
+      "filas": 13,
+      "sha256": "42fa9466bc4b45184877719a6b895cda7a484f676505936bc29eb5b22ce85ae2",
+      "procedencia": {
+        "nombre": "inventario_kmz_resumen.csv",
+        "sha256": "42fa9466bc4b45184877719a6b895cda7a484f676505936bc29eb5b22ce85ae2",
+        "ruta_actual": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\inventario_kmz_resumen\\inventario_kmz_resumen.csv",
+        "sha256_actual": "42fa9466bc4b45184877719a6b895cda7a484f676505936bc29eb5b22ce85ae2",
+        "archivo_actual_modificado": false,
+        "ruta_zip": null,
+        "miembro_zip": null,
+        "origen": "CSV_ACTUAL_VERIFICADO",
+        "bytes": 1860
+      }
+    }
+  },
+  "ocurrencias_reconciliadas": 9934,
+  "filas_matriz_reconciliadas": 3507,
+  "todas_las_definiciones_en_snake_case": true,
+  "campos_modelo": 3340,
+  "campos_tipo_provisional": 730,
+  "reglas": {
+    "SISTEMA_OMITIDO": 1009,
+    "NOMBRE_NORMALIZADO": 6224,
+    "ALIAS_TENSION_EFT": 27,
+    "SIN_DESTINO": 1810,
+    "COLISION_CON_CAMPO_COMUN": 286,
+    "IDENTIFICADOR_EFT": 53,
+    "ALIAS_OBSERVACIONES": 52,
+    "NOMBRE_KML_100": 245,
+    "ALIAS_ALTERNATIVA": 218,
+    "DDL_EFT": 5,
+    "PALABRA_RESERVADA_SQLSERVER": 2,
+    "NOMBRE_RECHAZADO_ARCGIS_SDE": 3
+  },
+  "estados": {
+    "OMITIR_CAMPO_SISTEMA": 1009,
+    "MAPEADO_TIPO_CONFIRMADO": 4907,
+    "MAPEADO_REVISAR_TIPO": 1687,
+    "PENDIENTE_DESTINO": 1810,
+    "MAPEADO_COMUN_VALIDAR_VALORES": 516,
+    "MAPEADO_DDL_REVISAR_CONVERSION": 5
+  },
+  "casos_conservados_para_revision": 359,
+  "estructuras_campos_modelo": 32,
+  "estructuras_campos_fisicos": 39,
+  "estructuras_campos_tipo_provisional": 0,
+  "excepciones_nombres": [
+    "Datos_Proyecto y otros datasets EFT",
+    "Campos nativos ArcGIS",
+    "Nombres oficiales del DDL y las 13 capas externas cuando se implementen"
+  ],
+  "limites": "Los CSV no contienen todos los valores por entidad. Se conservan las decisiones de estructuras y del lote 1.5 y se confirman 1356 campos TEXT mediante el perfil completo y la decision 1.7. Quedan 730 tipos provisionales. No se certifican unidades, destinos pendientes ni igualdad de campos basada solo en ejemplos.",
+  "esquema_sha256": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626"
+}

@@ -1,0 +1,18 @@
+{
+  "arcgis": "3.7.1",
+  "clases": [
+    "canales_recorte",
+    "mline_td_proyecto_infraestructura",
+    "mline_td_proyecto_ltransmision",
+    "vertices"
+  ],
+  "relaciones_proyecto": 4,
+  "relaciones_negocio": 3,
+  "segunda_ejecucion_sin_duplicacion": true,
+  "vertice_huerfano_rechazado": true,
+  "prueba_sde": false,
+  "prueba_branch": false,
+  "observacion": "La primera ejecucion dio ERROR 999999 al reinspeccionar campos. Un proceso nuevo leyo las cuatro clases; la prueba libera cache antes de repetir operaciones.",
+  "pruebas_reglas": 8,
+  "esquema_sha256": "3272f5cd016a16982bbb5e2cdfcaaa862bc51614b0426ec01c50ae6d25b2ba66"
+}

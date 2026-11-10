@@ -1,0 +1,150 @@
+{
+  "version_paquete": "1.9",
+  "version_modelo": 12,
+  "estado": "TIPOS_CERRADOS_CON_PENDIENTES_DE_INGESTA",
+  "arcgis": "3.7.1",
+  "validacion_sde": false,
+  "geodatabase": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\ensayo.gdb",
+  "clases_ensayadas_total": 76,
+  "campos_ensayados": 3340,
+  "campos_pendientes_modelo": 0,
+  "cambios_pendientes_destino": 0,
+  "cierre_verificado": true,
+  "diferencias_destino": 0,
+  "confirmaciones_texto": 722,
+  "cambios_fisicos_aplicados": 8,
+  "cambios": [
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "alt_mode",
+      "tipo": "LONG"
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "base",
+      "tipo": "DOUBLE"
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "clamped",
+      "tipo": "LONG"
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "extruded",
+      "tipo": "LONG"
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "alt_mode",
+      "tipo": "LONG"
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "base",
+      "tipo": "DOUBLE"
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "has_label",
+      "tipo": "LONG"
+    },
+    {
+      "clase": "suelos_recorte",
+      "campo": "p_aui_suel",
+      "tipo": "LONG"
+    }
+  ],
+  "toolbox_ejecutada": true,
+  "herramienta": "CerrarTiposKMZ",
+  "herramientas_declaradas": [
+    "PrepararDatosProyecto",
+    "AjustarTiposEstructuras",
+    "ActualizarCamposAprobados",
+    "RepararTextoLargo",
+    "RenombrarClases",
+    "DiagnosticarRenombrado",
+    "ValidarTextosConfirmados",
+    "ValidarTodosTiposKMZ",
+    "CerrarTiposKMZ"
+  ],
+  "modo_validar_predeterminado": true,
+  "modo_validar_nativo_separado": false,
+  "prevalidacion_sin_mutaciones": true,
+  "otras_73_clases_preservadas": true,
+  "propiedades_3_clases_preservadas": true,
+  "clases_afectadas_vacias_antes_despues": true,
+  "indices_3_clases_preservados": true,
+  "fuente_1_8_inalterada": true,
+  "tabla_padre_sintetica_agregada": true,
+  "preparacion_padre": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\preparacion_padre.json",
+  "preparacion_padre_sha256": "76f18f1aa71150efd6fe3d0e8f6f3047d39bf4da8ea53b90165b407c7011b259",
+  "llamadas": {
+    "arcpy.AddMessage": 12,
+    "arcpy.AddWarning": 1,
+    "arcpy.Describe": 237,
+    "arcpy.EnvManager": 20,
+    "arcpy.Exists": 20,
+    "arcpy.GetInstallInfo": 3,
+    "arcpy.ListDatasets": 17,
+    "arcpy.ListFeatureClasses": 34,
+    "arcpy.ListFields": 217,
+    "arcpy.ListIndexes": 25,
+    "arcpy.ListTables": 17,
+    "arcpy.TestSchemaLock": 21,
+    "arcpy.ValidateFieldName": 289,
+    "arcpy.ValidateTableName": 9,
+    "arcpy.da.ListDomains": 10,
+    "arcpy.da.SearchCursor": 7,
+    "arcpy.management.AlterField": 8,
+    "arcpy.management.GetCount": 25
+  },
+  "mutaciones_autorizadas": 8,
+  "mutaciones_no_autorizadas": 0,
+  "informe_herramienta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\verificacion_4c66ed1963\\Cierre_Tipos_20261109_145806_ad01099fed\\estados\\20261109T180351_935983Z_abc8977e\\resultado.json",
+  "informe_herramienta_sha256": "f7207e2781dcc94be96c239a8d9ee2538a0812a7e694d14cafda4e6ccccb9fae",
+  "carpeta_evidencia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\verificacion_4c66ed1963",
+  "modelo_sha256": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+  "archivos_gdb_modificados": [
+    "a00000004.freelist",
+    "a00000004.gdbtable",
+    "a00000004.gdbtablx",
+    "a00000044.gdbtable",
+    "a00000045.gdbtable",
+    "a00000049.gdbtable",
+    "timestamps"
+  ],
+  "archivos_sha256": {
+    "Datos_Proyecto.pyt": "8f7f8bc01e9e477b0e756d17280dad42a6ac7650f522849a2dd2d200a5423f45",
+    "PERFIL_COMPLETO_KMZ_1_8.json": "28088388a8dbe1973568c0e5ba9eabc42c2abdfd912f66e3965142fffd8b25c4",
+    "PERFIL_COMPLETO_KMZ_1_8.sha256": "1ffdca648349a14a4c6743ed541ce3b45f5a52070cd333a3803b8f428dabfabf",
+    "PERFIL_COMPLETO_KMZ_1_9.json": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0",
+    "PERFIL_COMPLETO_KMZ_1_9.sha256": "127b8289faad7f2d9dded1fca26033adeb8bab9f294ab3ede195d6681cf69465",
+    "actualizar_campos_aprobados.py": "0fe170e665252e66ec7910bb4a7e414b79acff56011951b69187362857b88016",
+    "ajustar_tipos_estructuras.py": "24c6a1398d9831d288fb9674f127c91a5e87374765a1a87ac6aee562a93e772d",
+    "campos_aprobados_1_5.json": "153d13e6d456aff0ab9fd4846334b35769d16786b315b35e5068b53d13dba2cd",
+    "campos_por_ruta.csv": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31",
+    "cerrar_tipos_kmz.py": "be00933e80ee54bb33f4f80267d0f21a59643fae91975c969e235b41512ed50c",
+    "cierre_tipos_1_9.json": "dff1ea283aa806823627542df18762d4b2e0fa0cf894cafe10fb3dc4df3e72aa",
+    "crear_datos_proyecto.py": "a52e4925426df7a9b989f60b984f5733a2e8a8b6c5e602a69f8534bb4f145632",
+    "crear_esquema.py": "0f0cedc8d1970d63f14cb74185acd98146ef4a499d020c8d6c9e5a181333b4cf",
+    "datos_proyecto.py": "d4b8fd00528d9ecf001a9db02a636308494996cacf4bece8e1ea8b6a1870b9ff",
+    "diagnostico_renombrado.py": "826543a19e447b03d3109fbd63d93b8578af17aa4aed94ca77f8704df8622f9a",
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "esquema_anterior_1_8.json": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+    "inspeccion_kmz.py": "de960fd80e58a0c6d6d556d702e6c30e37f3e1a5070765653c7991feba427479",
+    "mapeo_capas_revision.csv": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439",
+    "nombres_clases_1_6.json": "9e8c6d1c3c74d3c366b055fb835aad2a873cccd0951f2c22c1e250bdd857e408",
+    "normalizacion_kmz.py": "f06c6d94d584ef431f509b26dbf24b7c92ea26602ebd83cab64179b1281c22c0",
+    "referencia_cierre_tipos.py": "1df43326a84118435daa0e55871e10492ef078c1b792556a41b0b8e01fa33397",
+    "reglas_revision.py": "7bc8347d2c74334610c35ff462ab3b718e9723a065efb3a988a006b24512ac07",
+    "relacionar_negocio.py": "4e49f2090d652bd3c035cb4e76427bb84b0d9bee8f1feb69a051cc4b63b1e5d2",
+    "renombrar_clases.py": "334123b8be79348d6a72c4ab9fbfe70f0cc82ad1a69f07f2cf371d0d20e3be27",
+    "reparar_texto_largo.py": "ea8a9bab549ea9a20deff5a7e068a01e7071dc34682b1fbf914e2a33f4809139",
+    "validacion_texto_sqlserver.py": "19c1a453a187755df8e97e07c8d693b18cbd4c747bd40faf958347431623c102",
+    "validar_tipos_kmz.py": "f79ebbcc4503d7b02936a9b1b8804721e1d389ee135ceb2803e288b61fdaa36c",
+    "verificar_textos_confirmados.py": "6bff5ae6346243b4e66dce1215b700f66b84e636bb59cdf92ee44c13f9695c28",
+    "03_scripts/probar_cierre_1_9_arcgis.py": "3a9c86caf3ef65dc175e6f4955660446028220c123b21a1da0c054ea55bcbf97"
+  },
+  "alcance": "Herramienta9 real en copia local sintetica con 76 clases. Ocho AlterField limitados por fachada a campos/tipos exactos. Validacion fisica global antes y despues de3340campos; fotografia minima sin cambios en73clases; propiedades, indices y recuentos vacios preservados en3clases. La fase previa al primer AlterField conserva todos los bytes GDB salvo locks. No acredita SDE, conversion de valores, ingesta, relaciones ni los otros datasets. La tabla padre sintetica se prepara antes del ensayo y sus operaciones se registran por separado. Idempotencia y fallos se cubren en pruebas unitarias."
+}

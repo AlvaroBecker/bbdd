@@ -1,0 +1,12 @@
+{
+  "informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183448_e740139b\\estados\\20261105T213520_734362Z_facae016\\resultado.json",
+  "validacion_sin_escritura": true,
+  "operaciones_escritura_gdb": [],
+  "herramienta": "Actualizar campos aprobados de Datos_Proyecto",
+  "label": "Datos Proyecto - esquema controlado 1.5",
+  "clases": [
+    "accesos",
+    "limite_departamento_recorte",
+    "predios_inscritos_en_sunarp_recorte"
+  ]
+}

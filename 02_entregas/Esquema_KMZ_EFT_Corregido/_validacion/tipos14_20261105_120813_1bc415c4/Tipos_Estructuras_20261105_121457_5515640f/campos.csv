@@ -1,0 +1,33 @@
+﻿clase;campo;tipo;longitud;permite_nulos;dominio;origen;revision_tipo_pendiente
+estructuras;proyecto;TEXT;12;False;;EFT 5.8.7;False
+estructuras;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+estructuras;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+estructuras;componente;TEXT;150;True;;EFT 5.8.7;False
+estructuras;alternativa;TEXT;100;True;;EFT 5.8.7;False
+estructuras;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+estructuras;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+estructuras;nombre;TEXT;1000;True;;EFT 5.8.7;False
+estructuras;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+estructuras;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+estructuras;fecha_carga;DATE;;True;;EFT 5.8.7;False
+estructuras;codigo_enti;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;name;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;descripcion;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;src_fuente;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;tipo;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;emp_consultora;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;este;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;norte;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;cod_vertice;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;src_nombre;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;position;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;zone;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;east;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;north;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;utm;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;lat_lon;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;torre;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;vertice;TEXT;4000;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;x;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;y;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False
+estructuras;vano;DOUBLE;;True;;"Atributo KMZ; tipo confirmado mediante perfil de valores y decision del usuario";False

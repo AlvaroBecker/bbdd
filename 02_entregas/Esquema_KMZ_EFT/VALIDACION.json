@@ -1,0 +1,114 @@
+{
+  "arcgis": "3.7.1",
+  "clases": [
+    {
+      "clase": "PredioSUNARP_Recorte",
+      "campos": 91,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "ViasNacional_Recorte",
+      "campos": 324,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "Estructuras",
+      "campos": 42,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "mline_td_proyecto_ltransmision",
+      "campos": 39,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    }
+  ],
+  "repeticion_sin_duplicacion": true,
+  "codigo_padre_duplicado_rechazado": true,
+  "prueba_sde": false,
+  "prueba_branch": false,
+  "pruebas_sin_arcgis": 6,
+  "inventario": {
+    "filas_matriz": 3507,
+    "grupos_matriz": 125,
+    "filas_capas": 3638,
+    "elementos_origen": 279623,
+    "clases": 100,
+    "relaciones": 59,
+    "campos_matriz_por_estado": {
+      "PENDIENTE_DESTINO": 1950,
+      "OMITIR_CAMPO_SISTEMA": 282,
+      "CAMPO_TEXTUAL": 1275
+    },
+    "elementos_con_destino_propuesto": 58523,
+    "elementos_pendientes": 221100,
+    "grupos_pendientes": 115
+  },
+  "scripts_sha256": {
+    "crear_esquema.py": "fefc8f340656c73f091c4b1076249defa295af457db95347a89b689b6ddf2971",
+    "esquema.json": "b11055e037d43cab248578a0e5f9624b569cf6aad2ac45ec828988d69e15ccc3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version_paquete": "1.4",
+  "version_modelo": 8,
+  "arcgis": "3.7.1",
+  "validacion_sin_escritura": true,
+  "siete_campos_double_verificados": true,
+  "catorce_text_sin_cambios": true,
+  "resto_campos_sin_cambios": true,
+  "repeticion_sin_cambios": true,
+  "validacion_sde": false,
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\ensayo.gdb",
+  "esquema_sha256": "5fc138d536e6661e5dd45af296d536a02e917d24215f39f771526dbb3fc04b55",
+  "informes": {
+    "validar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_120856_575ebfc2\\estados\\20261105T150914_296002Z_d59ef721\\resultado.json",
+    "aplicar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_120943_a4c670c0\\estados\\20261105T151422_509588Z_b546fe67\\resultado.json",
+    "repetir": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_121457_5515640f\\estados\\20261105T151523_790170Z_063faf5d\\resultado.json"
+  },
+  "alcance": "Copia aislada de una geodatabase de archivos; no conecta a SQL Server/SDE. Etapas en procesos separados.",
+  "validacion_sin_cambios": true,
+  "preservacion_restantes": true,
+  "toolbox_cargada_y_validada": true,
+  "informe_toolbox": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_121736_f82aaeaf\\estados\\20261105T151803_124408Z_65a29e90\\resultado.json"
+}

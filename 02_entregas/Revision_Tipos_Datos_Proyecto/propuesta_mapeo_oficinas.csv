@@ -1,0 +1,3 @@
+﻿clase;etiqueta_original;ocurrencia;campo_propuesto;requiere_nueva_columna;contexto;estado
+predios_inscritos_en_sunarp_recorte;OFICINA REGISTRAL;1;oficina_registral;NO;Entre PARTIDA REGISTRAL y ANTECEDENTE REGISTRAL;PROPUESTA_PENDIENTE_PARA_CARGA
+predios_inscritos_en_sunarp_recorte;OFICINA REGISTRAL;2;oficina_registral_2;SI;Entre PARTIDA JURIDICA y JUNTA DIRECTIVA;PROPUESTA_PENDIENTE_PARA_CARGA

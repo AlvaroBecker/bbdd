@@ -1,0 +1,5 @@
+﻿clase;campo;tipo_actual;longitud_actual;tipo_objetivo;longitud_objetivo;accion
+accesos;longitud;String;4000;DOUBLE;;ALTERAR_TIPO
+limite_departamento_recorte;poblacion;String;4000;LONG;;ALTERAR_TIPO
+predios_inscritos_en_sunarp_recorte;cargas_y_gravamenes;String;4000;TEXT;10000;AMPLIAR_LONGITUD
+predios_inscritos_en_sunarp_recorte;src_area_ha;String;4000;DOUBLE;;ALTERAR_TIPO

@@ -1,0 +1,13 @@
+{
+  "tabla": "02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\texto15_20261105_181133_114afa62\\ensayo.gdb\\texto_largo",
+  "arcgis": "3.7.1",
+  "tipo_antes": "String",
+  "longitud_antes": 4000,
+  "tipo_despues": "String",
+  "longitud_despues": 10000,
+  "alias_despues": "CARGAS Y GRAVAMENES",
+  "largo_valor": 8084,
+  "utf16_valor": 8084,
+  "igualdad": true,
+  "alcance": "GDB local nueva; no prueba SQL Server"
+}

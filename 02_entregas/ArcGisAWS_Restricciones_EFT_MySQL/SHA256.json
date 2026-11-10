@@ -1,0 +1,10 @@
+{
+  "LEEME.md": "f3fd0fe9ba6b807c3c4f74865751745ffd345095c0b113da1f02d4d1c4157b8b",
+  "00_verificar_estado_arcgis.py": "4ae712960262d7511118ca26837789106bb25ffcda0a71a03693b8f45be5ba38",
+  "01_diagnostico_sql.sql": "760063c36e64688f19b5b61b20684c034366209d15c6546db644fb30a894d1ae",
+  "02_restaurar_indices_no_unicos.sql": "4a9f7fca746018d46956f6680f7037f3caa2ab16e1fa73c0536b74a95e051a91",
+  "03_agregar_PK_FK_SQLServer.sql": "bd702fe7bc6756d0fcb5eef633fa138f572055e8c5e11ea51f6fc895e3d9ce5c",
+  "04_correspondencia_EFT_MySQL.md": "4cc4786e0bb7f9980c09dd97c5a043dc36994690dd84ce6e2bc48c7b61bd33b7",
+  "modelo_restricciones.json": "a8c6cde7d2b7be5682921bd6a591a135c192355b1e4a17a86a557083d5dfc695",
+  "05_verificacion_local.json": "8e31ee96c763943fb2c3d2a36e96584d673e631aa9f85d6efa6f3185f72607da"
+}

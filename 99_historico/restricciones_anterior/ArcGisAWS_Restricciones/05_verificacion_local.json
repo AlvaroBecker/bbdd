@@ -1,0 +1,17 @@
+{
+  "tables": 8,
+  "original_secondary_indexes": 27,
+  "logical_constraint_rules": 44,
+  "coded_domains": 8,
+  "domain_codes": 28,
+  "domain_fields": 10,
+  "active_references_between_tables": 11,
+  "deferred_outgoing_references": 5,
+  "deferred_incoming_references": 4,
+  "source_original_sha256_matches": true,
+  "python_compilation": "passed",
+  "local_unit_tests": 10,
+  "sql_server_execution_tested": false,
+  "arcgis_runtime_tested": false,
+  "physical_business_pk_fk_created": false
+}

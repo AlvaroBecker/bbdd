@@ -1,0 +1,132 @@
+{
+  "version_paquete": "1.8",
+  "version_modelo": 11,
+  "estado": "VALIDACION_TIPOS_COMPLETA_CON_PENDIENTES",
+  "lectura_fuentes_actuales": true,
+  "validacion_sde": false,
+  "validacion_arcgis_en_este_ensayo": false,
+  "cobertura_completa": true,
+  "conteos": {
+    "kmz_esperados": 13,
+    "kmz_leidos": 13,
+    "rutas_esperadas": 3638,
+    "rutas_observadas": 3638,
+    "rutas_coincidentes": 3638,
+    "elementos_esperados": 279623,
+    "elementos_observados": 279623,
+    "campos_fuente": 12171,
+    "campos_destino": 2242,
+    "vinculos_campos_esperados": 7110,
+    "vinculos_campos_sin_observar": 0,
+    "rutas_sin_destino": 2601,
+    "elementos_sin_destino": 140319
+  },
+  "campos_revisados": 3340,
+  "campos_tipo_pendiente": 730,
+  "campos_fuente_revisados": 12171,
+  "validacion_tipos_fuente": {
+    "SIN_TIPO_DECLARADO": 11981,
+    "DECLARACION_VERIFICADA": 179,
+    "DECLARACION_CON_INCIDENCIAS": 11
+  },
+  "campos_fuente_con_incidencias": 11,
+  "propuestas_pendientes": {
+    "CONSERVAR_TEXT_TIPO_ORIGEN_INCOMPLETO": 539,
+    "CONSERVAR_TEXT_SIN_VALORES_UTILES": 181,
+    "CONSERVAR_TEXT_TIPO_KML_NO_ESTANDAR": 1,
+    "RESOLVER_INCIDENCIAS_ANTES_DE_TIPIFICAR": 1,
+    "CANDIDATO_LONG_DECLARADO": 6,
+    "CANDIDATO_DOUBLE_DECLARADO": 2
+  },
+  "tipos_recomendados_pendientes": {
+    "TEXT": 722,
+    "LONG": 6,
+    "DOUBLE": 2
+  },
+  "compatibilidad_tipos": {
+    "NO_APLICA_TIPO_ORIGEN": 1098,
+    "COMPATIBLE_VALORES_OBSERVADOS": 2239,
+    "REQUIERE_REVISION": 3
+  },
+  "campos_con_incidencias": 7,
+  "incidencias_perfil": {
+    "ATRIBUTO_SIN_MAPEO": 641,
+    "CONTENEDOR_XML_SIN_DESTINO": 904,
+    "OBJETO_NO_PLACEMARK": 14,
+    "VALORES_CONFLICTIVOS": 10
+  },
+  "fuentes": [
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "sha256": "9e0a746b078fd925c33867b6fe1367de0d4756c091140f4c6505de3d97702d9c"
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "sha256": "5f3440301488126ee763137f6e02ccdfa48c6efc94fb73a20e50db40c078005e"
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "sha256": "77258db83b217ca2cad0237149e5a028692fdb726f6c1267a075176aed6a5796"
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "sha256": "4a0542c0d595884d9cd8694bc94dba0d82e856837ccccb2ac46e706a68a1d261"
+    },
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af"
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01"
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039"
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9"
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34"
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a"
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8"
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff"
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2"
+    }
+  ],
+  "perfil_sha256": "685a79f76aaa2d38773b0c284198494a29ae64f2859bcf961ef8c8739c56361c",
+  "modelo_sha256": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+  "informe_completo": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\Tipos_KMZ_20261109_093925_d089bbe73ca5\\resultado.json",
+  "informe_completo_sha256": "4d9b85a5796f8d34dd64390e68d44d0fa6e7c7dee267b080749706474a1adcaf",
+  "cambios_en_modelo": false,
+  "cambios_en_sde": false,
+  "cambios_en_fuentes": false,
+  "tipos_aprobados": 0,
+  "ingesta_autorizada": false,
+  "archivos_sha256": {
+    "esquema.json": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+    "mapeo_capas_revision.csv": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439",
+    "campos_por_ruta.csv": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31",
+    "inspeccion_kmz.py": "646575f21529f277c854f82614bb56bd5f361c73e6a0126f2d84509e72c29b31",
+    "validar_tipos_kmz.py": "d507ebcba6afa6ed50f5bcd8ed14e40ebe649b0a2a4a4ea89e6cadd98483a0f7",
+    "PERFIL_COMPLETO_KMZ_1_8.json": "685a79f76aaa2d38773b0c284198494a29ae64f2859bcf961ef8c8739c56361c",
+    "PERFIL_COMPLETO_KMZ_1_8.sha256": "a10fd9fb8f2b009721fa57f78828c4081707205cba6dc3616151c633ef16eb6b",
+    "REVISION_TIPOS_KMZ_1_8.csv": "278052a87412fa75d67fed473a47db970f3bfe5a05facf6c7877edc7043cf197",
+    "03_scripts/perfilar_todos_kmz_1_8.py": "634bf653f4d191b89c5bb1f55a81473e8bbb3f5c6aa0f00ff23ad48cd76732b9"
+  }
+}

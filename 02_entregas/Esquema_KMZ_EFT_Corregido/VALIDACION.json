@@ -1,0 +1,29 @@
+{
+  "version": 11,
+  "version_paquete": "1.7",
+  "clases_anteriores": 124,
+  "clases_corregidas": 76,
+  "textos_confirmados": 1356,
+  "campos_tipo_provisional": 730,
+  "clases_renombradas": 25,
+  "clases_nombre_conservado": 51,
+  "clases_por_rol": {
+    "proyecto": 10,
+    "recorte": 63,
+    "migrada": 3
+  },
+  "relaciones_proyecto": 76,
+  "relaciones_negocio": 4,
+  "filas_matriz": 3507,
+  "filas_matriz_representadas": 3507,
+  "ocurrencias_atributos": 9934,
+  "grupos_origen": 3638,
+  "elementos_origen": 279623,
+  "elementos_con_destino_propuesto": 139304,
+  "elementos_pendientes": 140319,
+  "rutas_pendientes": 2601,
+  "campos_para_revision_tipo": 2128,
+  "verificacion_estatica": "OK",
+  "ejecutado_en_sde": false,
+  "clasificacion_aprobada": false
+}

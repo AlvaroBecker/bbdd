@@ -1,0 +1,396 @@
+﻿clase;campo;tipo;longitud;permite_nulos;dominio;origen;revision_tipo_pendiente
+accesos;proyecto;TEXT;12;False;;EFT 5.8.7;False
+accesos;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+accesos;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+accesos;componente;TEXT;150;True;;EFT 5.8.7;False
+accesos;alternativa;TEXT;100;True;;EFT 5.8.7;False
+accesos;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+accesos;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+accesos;nombre;TEXT;1000;True;;EFT 5.8.7;False
+accesos;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+accesos;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+accesos;fecha_carga;DATE;;True;;EFT 5.8.7;False
+accesos;longitud_m;DOUBLE;;True;;EFT 5.8.7;False
+accesos;codruta;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;trayecto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;superfic_l;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;src_fuente;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;trayectori;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;longitud;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;iddpto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;departamen;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;provincia;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;jerarq;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;jerarq_l;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;superfic;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;estado;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;estado_l;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;corlog;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;corlog_l;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;id;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;dkm_inicio;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;dkm_final;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitud;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_nom_ruta;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_id_tramo;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_autopista;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_sentido;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_nro_carril;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_anc_calzad;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_anc_calz_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tipo_clase;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tipo_cla_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tipo_cla_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tipo_cla_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_clasifica;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_nro_res_min;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_reclasifi;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_depart;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_departame;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_provin;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_region;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_topografi;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_superfici;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_ju;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfici;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_jul;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red020;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_jul;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta20;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_dic;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitud_d;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitud_j;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_di;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_ruta_dic20;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_dic;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi12;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi13;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi14;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta12;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi15;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu12;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta13;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi16;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu13;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta14;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi17;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu14;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta15;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi18;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu15;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta16;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi19;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu16;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta17;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi20;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu17;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta18;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi21;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu18;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta19;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi22;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu19;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta21;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi23;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu20;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ano_sb_ant;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tip_inter_a;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_indicador;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tip_interv;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ano;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_indicad_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tip_inte_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ano_futur;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tip_inte_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ano_fut_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tip_inte_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ano_fut_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ipriv;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_obseracio;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_tra_con;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cor_log;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_logistico;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_unico;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_esp;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_mej;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_per;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_p_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_p_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ficha;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_fac;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_def;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_d_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_d_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_obra;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_obra_an;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_obra_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_obra_mejor;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_obra_mej_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_obra_mej_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tra_con_cns;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cns_ant;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsa_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsa_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cns;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cns_pro;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsp_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsmp;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_est_p_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_per;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_p_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_p_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_p_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_rut;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_3;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_4;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_5;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_6;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_7;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_otros;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_interv_ti;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_faltapavi;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_falta_mant;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_vraem;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_p_indigena;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_tra_codehu;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cul_coca;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_costa_sier;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_crema;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_zonales;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_zonal;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_valles;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_fenom_clim;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_operacion;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_peajes;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_fuente;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_ruta120;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_ds0112016;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_imd2010;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_imd2012;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_vel_pro_tra;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_iri_promed;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_iri_varian;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_zonalprov;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_conadif;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tours;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;eventid;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_derecho_vi;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_imd;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta22;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_8;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi24;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu21;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cor_l_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta23;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi25;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j12;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu22;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r10;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsmpa;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_cnsm_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta24;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_d_9;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi26;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_d12;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu23;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cnssb;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_ruta25;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_tip_red_j11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_superfi27;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_estado_j13;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;d_longitu24;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+accesos;c_cod_man_r11;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;proyecto;TEXT;12;False;;EFT 5.8.7;False
+limite_departamento_recorte;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+limite_departamento_recorte;tema;TEXT;40;True;dom_tema;EFT 5.8.7;False
+limite_departamento_recorte;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+limite_departamento_recorte;componente;TEXT;150;True;;EFT 5.8.7;False
+limite_departamento_recorte;alternativa;TEXT;100;True;;EFT 5.8.7;False
+limite_departamento_recorte;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+limite_departamento_recorte;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+limite_departamento_recorte;capa_origen;TEXT;150;True;;EFT 5.8.7;False
+limite_departamento_recorte;id_origen;TEXT;100;True;;EFT 5.8.7;False
+limite_departamento_recorte;nombre;TEXT;1000;True;;EFT 5.8.7;False
+limite_departamento_recorte;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+limite_departamento_recorte;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+limite_departamento_recorte;fecha_carga;DATE;;True;;EFT 5.8.7;False
+limite_departamento_recorte;area_ha;DOUBLE;;True;;EFT 5.8.7;False
+limite_departamento_recorte;coddpto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;nom_dpto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;iddpto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;capital;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;dpto;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;superficie;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;poblacion;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;densidad;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;region;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;zona;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;zonales;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;zonal;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;modular;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;definitivo;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;total;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;pobla21;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;amazonia;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;ambito_log;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+limite_departamento_recorte;src_nombre;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;proyecto;TEXT;12;False;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;tema;TEXT;40;True;dom_tema;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;componente;TEXT;150;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;alternativa;TEXT;100;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;capa_origen;TEXT;150;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;id_origen;TEXT;100;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;nombre;TEXT;1000;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;fecha_carga;DATE;;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;area_ha;DOUBLE;;True;;EFT 5.8.7;False
+predios_inscritos_en_sunarp_recorte;pe;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;no;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;titular;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;tipo_de_titular;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;condicion_de_titular;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;nombre_del_predio;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida_registral;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;oficina;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;como_se_origina;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;ano_de_inscripcion;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;area_inscrita_ha;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;num_predio;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;cargas_y_gravamenes;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;observaciones;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;dep;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;prov;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;distrito;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;superposicion_con_la_franja_de_estudio_ha;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;id;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;estatus_de_partida;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;unidad_catastral;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;oficina_registral;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;antecedente_registral;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;estatus_del_titular;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida_juridica;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;junta_directiva;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;periodo_de_vigencia;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;area_grafica_ha;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;superposicion_con_el_area_de_estudio_predial;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;departamento;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;provincia;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;src_fuente;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;part_reg;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;estatal;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida_re;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;m2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;estatus_de;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;unidad_cat;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;oficina_re;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;antecedent;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;ano_de_in;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;nombre_del;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;estatus_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;tipo_de_ti;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;src_condicion;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;partida_ju;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;oficina_1;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;junta_dire;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;periodo_de;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;area_insc;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;area_gr;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;superposic;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;cargas_y_g;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;departamen;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;orden;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;orden_no;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;part;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;src_area_ha;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;id_2;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;cus;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;nom_pred;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;cond_titul;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;cond_reg;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+predios_inscritos_en_sunarp_recorte;pendiente;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True

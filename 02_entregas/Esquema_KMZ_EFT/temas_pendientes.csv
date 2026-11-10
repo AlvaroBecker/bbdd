@@ -1,0 +1,116 @@
+﻿descripcion;geometria;motivo;campos_matriz
+;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Acceso existente – camino peatonal;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Acceso existente – carretera principal;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";269
+Acceso existente – trocha carrozable;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";15
+Acceso nuevo – camino peatonal;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Acceso nuevo – trocha carrozable;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Acreditación de disponibilidad hídrica (ANA);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";26
+Aerogeneradores / parque eólico;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";6
+Area Features;Polígono;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Autorización de ejecución de obras hidráulicas (ANA);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";19
+Caminos de herradura;Línea;Resolver Datos_Internos frente a recorte de proyecto: EFT 5.8.8 y ultimo parrafo de 5.8.9.;0
+Canteras;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";50
+Canteras;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";3
+Capacidad de uso mayor de suelos;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29
+Catastro rural (MIDAGRI / SICAR);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";98
+Clasificación climática;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";5
+Clasificación hidrogeológica;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";21
+Click on a structure to jump to it;Punto;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Cobertura agrícola (MIDAGRI);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";3
+Concesiones eléctricas (MINEM);Línea;"ConcesionElectrica admite POLIGONO; el grupo es LINEA. Requiere definir clase/geometria adicional con INDRA.";17
+Concesiones forestales (SERFOR);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";13
+Conflictos sociales (Defensoría del Pueblo);Mixta;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";19
+Construcciones / viviendas;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Construcciones / viviendas;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Created with SketchUp;Modelo3D;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";0
+Cuencas hidrográficas (ANA);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";22
+Distancias / buffers a áreas de interés;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";21
+Ecorregiones;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";12
+Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 17 s;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";15
+Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 18 L y 18 K;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";13
+Entidades CAD exportadas (AutoCAD / Civil 3D);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";10
+Entidades CAD exportadas sin capa temática;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Estaciones de bombeo (ANA);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";64
+Estación de muestreo – componente biológico;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";8
+Estructuras/vanos exportados de PLS-CADD (diseño de la LT);Línea;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Estructuras/vanos exportados de PLS-CADD (diseño de la LT);Polígono;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Estructuras/vanos exportados de PLS-CADD (diseño de la LT);Punto;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Estructuras/vanos exportados de PLS-CADD (diseño de la LT);Sin geometría;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";0
+Fajas marginales de cuerpos de agua (ANA);Polígono;"FajasMarginales admite PUNTO; el grupo es POLIGONO. Requiere definir clase/geometria adicional con INDRA.";7
+Fisiografía;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";15
+Formalización de derechos de uso de agua (ANA);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";23
+Franja de servidumbre de la LT;Punto;"FranjaServidumbre admite POLIGONO; el grupo es PUNTO. Requiere definir clase/geometria adicional con INDRA.";0
+Hidrocarburos (lotes, ductos, pozos);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";15
+Hidrocarburos (lotes, ductos, pozos);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";19
+Hábitats críticos;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29
+Información del Catastro Minero. La información que se muestra tiene carácter referencia y es solo de consulta. La actualización de derechos mineros es diaria según se registra, consolida y valida la información por los especialistas del Sistema Cata…;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";48
+Instrumentos de gestión ambiental (SENACE);Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";11
+Instrumentos de gestión ambiental (SENACE);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";12
+Instrumentos de gestión ambiental (SENACE);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";40
+Line Features;Línea;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Lugares más importantes para la conservación basada en el hábitat de las aves;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";3
+Límites político-administrativos (INEI);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";41
+Línea de transmisión del proyecto;Línea;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;44
+Línea de transmisión del proyecto;Polígono;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;8
+Línea de transmisión del proyecto;Punto;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;13
+Líneas de transmisión existentes (OSINERGMIN);Punto;"LT_Existente admite LINEA; el grupo es PUNTO. Requiere definir clase/geometria adicional con INDRA.";6
+Líneas y geoglifos de Nasca – Patrimonio UNESCO;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Líneas y geoglifos de Nasca – Patrimonio UNESCO;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";3
+Mapa de Capacidad de Uso Mayor de la Región Piura, suministra información de carácter práctico, netamente interpretativa, basada en la aptitud natural que poseen las Tierras para soportar sosteniblemente un determinado uso, sea agrícola, pastoreo, fo…;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";11
+Mapa nacional de ecosistemas (MINAM);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";31
+PLS-CADD Project;Línea;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Paleontología;Polígono;"Paleontologia admite PUNTO; el grupo es POLIGONO. Requiere definir clase/geometria adicional con INDRA.";3
+"Para identificar las Unidades de Uso actual del suelo, se tuvo en cuenta la interpretación visual de imágenes de satélite ASTER VNIR de 15 m.; selección y análisis de información secundaria cartográfica y bibliográfica; recolección de información en…";Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";6
+Patrimonio arqueológico;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";72
+Patrimonio arqueológico;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";31
+Patrimonio arqueológico;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";27
+Plantaciones forestales en predios privados (SERFOR);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";33
+Point Features;Punto;"Procesamiento PLS-CADD/contexto de carpeta requerido; cada grafico no equivale a un vano o estructura.";0
+Poseedores / posesionarios (sin título inscrito);Polígono;Resolver Datos_Internos frente a recorte de proyecto: EFT 5.8.8 y ultimo parrafo de 5.8.9.;22
+Poseedores / posesionarios (sin título inscrito);Punto;Resolver Datos_Internos frente a recorte de proyecto: EFT 5.8.8 y ultimo parrafo de 5.8.9.;8
+Predios;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";80
+Puentes;Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";116
+Puntos de homologación de valores de terreno (tasación);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";19
+Recorridos y registros de campo (GPS);Polígono;"RegistroCampo admite PUNTO/LINEA; el grupo es POLIGONO. Requiere definir clase/geometria adicional con INDRA.";0
+Recorridos y registros de campo (GPS);Sin geometría;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";0
+Red de sitios que son importantes para la viabilidad a largo plazo de las poblaciones de aves presentes en la naturaleza;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";8
+Red vial (MTC);Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";31
+Red vial (MTC);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";17
+Redes de distribución en media tensión;Punto;"RedesMT admite LINEA; el grupo es PUNTO. Requiere definir clase/geometria adicional con INDRA.";27
+Reservas de biósfera (UNESCO);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";16
+Restricciones aeronáuticas (pistas, conos de vuelo);Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";8
+Restricciones aeronáuticas (pistas, conos de vuelo);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";9
+Restricciones aeronáuticas (pistas, conos de vuelo);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";14
+Ríos / red hidrográfica;Polígono;"Rios admite LINEA; el grupo es POLIGONO. Requiere definir clase/geometria adicional con INDRA.";14
+Ríos – secciones transversales (ANA);Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";16
+SA_REGISTRADOS_PROSPECCION;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Sitios Ramsar (humedales);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";10
+Subestaciones proyectadas (OSINERGMIN);Punto;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";18
+Subestación del proyecto;Línea;"Subestacion admite POLIGONO/PUNTO; el grupo es LINEA. Requiere definir clase/geometria adicional con INDRA.";32
+Subestación del proyecto;Mixta;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";0
+Subestación del proyecto;Modelo3D;"Separar geometria mixta o revisar objeto no vectorial; no crear clase mixta.";0
+Suelos;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";14
+Susceptibilidad a movimientos en masa;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";20
+Textos / anotaciones del plano;Línea;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Textos / anotaciones del plano;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";0
+Torres / estructuras de la LT del proyecto;Línea;"Estructuras admite PUNTO; el grupo es LINEA. Requiere definir clase/geometria adicional con INDRA.";0
+Trazo / alternativas de ruta de la LT;Línea;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;21
+Trazo / alternativas de ruta de la LT;Polígono;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;17
+Trazo / alternativas de ruta de la LT;Punto;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;9
+Uso actual;Polígono;Resolver Datos_Internos frente a recorte de proyecto: EFT 5.8.8 y ultimo parrafo de 5.8.9.;7
+Uso actual de la tierra;Polígono;Resolver Datos_Internos frente a recorte de proyecto: EFT 5.8.8 y ultimo parrafo de 5.8.9.;22
+Vértices del trazo de la LT del proyecto;Línea;"Vertices admite PUNTO; el grupo es LINEA. Requiere definir clase/geometria adicional con INDRA.";1
+Zonas de vida (Holdridge);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";33
+Zonas reservadas (SERNANP);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";15
+Zonas restringidas;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29
+https://inaigem.maps.arcgis.com/home/item.html?id=43ebe1757ec84d39aa3ed20a96586049El INAIGEM como organismo técnico especializado de investigación, adscrito al MINAM, tiene como principal función en la ley de su creación: la realización del Inventari…;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";2
+Área de estudio;Línea;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;2
+Área de estudio;Polígono;Distinguir componente, alternativa, area general y campo por ruta. Usar las clases mline_* del DDL cuando corresponda.;19
+Área urbana;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";40
+Áreas de promoción (PROINVERSIÓN);Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";12
+Áreas reservadas – defensa nacional;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29
+Áreas reservadas – proyectos especiales;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29
+Áreas reservadas – zonas urbanas;Polígono;"Tema sin equivalencia univoca en la lista EFT; revisar rutas y atributos.";29

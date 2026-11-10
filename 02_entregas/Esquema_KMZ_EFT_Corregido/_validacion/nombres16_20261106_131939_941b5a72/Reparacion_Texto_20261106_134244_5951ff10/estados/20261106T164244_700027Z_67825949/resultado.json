@@ -1,0 +1,35 @@
+{
+  "estado": "INICIADO",
+  "modo": "REPARAR_TEXTO",
+  "procedimiento": "reparacion_texto_largo_1.6",
+  "version_paquete": "1.6",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "2f2a1348d6d5d45379a75f5fd857f215fce3873829261119b8185916b7a4217c",
+  "aprobacion_sha256": "1ee95c66de434366da24eac78eb37c94fa0c5d502a2c22dae20376732dbb4163",
+  "inicio_utc": "2026-11-06T16:42:44.693455+00:00",
+  "etapa": null,
+  "operacion_pendiente": null,
+  "completadas": [],
+  "recuperacion_origen": null,
+  "clases": [
+    {
+      "nombre": "predios_inscritos_sunarp_recorte",
+      "geometria": "POLYGON",
+      "campos": 81,
+      "tipos_pendientes": 64,
+      "accion": "POR_VALIDAR"
+    }
+  ],
+  "advertencias": [
+    "Solo sustituye cargas_y_gravamenes en predios SUNARP vacia. No carga datos ni cambia tipos numericos.",
+    "Crea una columna temporal, conserva el original hasta verificar el sustituto y elimina el respaldo vacio.",
+    "El orden fisico de las columnas puede cambiar. No modifica SQL directamente.",
+    "Cerrar uso de la clase e impedir cargas concurrentes durante toda la reparacion.",
+    "Si falla, use el ultimo resultado.json como informe de recuperacion; no borre columnas manualmente."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Reparacion_Texto_20261106_134244_5951ff10\\estados\\20261106T164244_700027Z_67825949\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Reparacion_Texto_20261106_134244_5951ff10\\estados\\20261106T164244_700027Z_67825949\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Reparacion_Texto_20261106_134244_5951ff10\\campos.csv"
+}

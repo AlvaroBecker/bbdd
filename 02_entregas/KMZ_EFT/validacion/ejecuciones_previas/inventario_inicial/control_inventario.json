@@ -1,0 +1,508 @@
+{
+  "fecha_utc": "2026-11-03T14:12:01.832309+00:00",
+  "version_inventario": 1,
+  "entradas": [
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz",
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline"
+  ],
+  "archivos_fisicos": 22,
+  "fuentes_unicas": 13,
+  "copias_identicas": [
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto CHANCHAMAYO.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto FELAM.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto HUARAZ.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto JAENNORTE.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto MUYURINA.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto PALIAN.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto PARIÑAS.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto POROMA.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff"
+    },
+    {
+      "copia": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\CapasInternas\\Proyecto PUCALLPA.kmz",
+      "original_inventariado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2"
+    }
+  ],
+  "archivos": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "bytes": 1070598,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 13,
+        "Style": 220,
+        "StyleMap": 81,
+        "Folder": 53,
+        "Placemark": 816,
+        "Asignaciones_geometria": 816,
+        "partes_LINEA": 240,
+        "partes_PUNTO": 119,
+        "Placemark_con_description": 701,
+        "Placemark_con_tabla_HTML": 647,
+        "Placemark_MultiGeometry": 625,
+        "partes_POLIGONO": 538,
+        "GroundOverlay": 4,
+        "Placemark_con_ExtendedData": 36
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 2846288
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 2
+      }
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01",
+      "bytes": 34260344,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 19,
+        "Style": 888,
+        "StyleMap": 70,
+        "Folder": 229,
+        "Placemark": 65650,
+        "Asignaciones_geometria": 65650,
+        "partes_LINEA": 58655,
+        "partes_PUNTO": 6750,
+        "Placemark_con_description": 64636,
+        "partes_POLIGONO": 1100,
+        "Placemark_MultiGeometry": 11395,
+        "Placemark_con_tabla_HTML": 17159
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 161554948
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 23
+      }
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039",
+      "bytes": 1178757,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 17,
+        "Style": 192,
+        "StyleMap": 60,
+        "Folder": 54,
+        "Placemark": 503,
+        "Asignaciones_geometria": 503,
+        "partes_LINEA": 26,
+        "Placemark_con_description": 341,
+        "Placemark_con_tabla_HTML": 333,
+        "partes_POLIGONO": 435,
+        "partes_PUNTO": 132,
+        "Placemark_MultiGeometry": 306,
+        "GroundOverlay": 2,
+        "Placemark_con_ExtendedData": 42
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 3441072
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".jpg": 1
+      }
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto JAENNORTE.kmz",
+      "sha256": "7f10fb94451fe808fab76069015ef07277926086ad2135b7f4dcfc4e954e74f9",
+      "bytes": 23554004,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 39,
+        "StyleMap": 235,
+        "Style": 1785,
+        "Folder": 235,
+        "Placemark": 7005,
+        "Asignaciones_geometria": 7005,
+        "partes_PUNTO": 2444,
+        "Placemark_con_description": 5036,
+        "Placemark_con_ExtendedData": 352,
+        "Placemark_con_tabla_HTML": 4219,
+        "Placemark_MultiGeometry": 4509,
+        "partes_LINEA": 6349,
+        "partes_POLIGONO": 6085,
+        "GroundOverlay": 1,
+        "ScreenOverlay": 1
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 73135640
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 13,
+        ".jpg": 1,
+        ".gif": 1
+      }
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto MUYURINA.kmz",
+      "sha256": "33dadd62351c7dbc130517346d250a34a7fa47d68480a05c79a8b8f01ed13f34",
+      "bytes": 7808798,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 10,
+        "Style": 208,
+        "StyleMap": 9,
+        "Folder": 186,
+        "Placemark": 8510,
+        "Asignaciones_geometria": 8510,
+        "partes_LINEA": 43769,
+        "Placemark_MultiGeometry": 2227,
+        "partes_PUNTO": 6278,
+        "GroundOverlay": 1,
+        "Placemark_con_description": 8493,
+        "Placemark_con_tabla_HTML": 8493,
+        "partes_POLIGONO": 215
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 47033770
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 25
+      }
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a",
+      "bytes": 97961698,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 122,
+        "Style": 3445,
+        "StyleMap": 51,
+        "Folder": 632,
+        "Placemark": 119153,
+        "Asignaciones_geometria": 119153,
+        "partes_POLIGONO": 217516,
+        "Placemark_con_description": 116415,
+        "Placemark_con_tabla_HTML": 116167,
+        "Placemark_MultiGeometry": 104022,
+        "partes_LINEA": 76839,
+        "Placemark_con_ExtendedData": 257,
+        "partes_PUNTO": 14712,
+        "ScreenOverlay": 5
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 514936617
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 30,
+        ".gif": 5
+      }
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8",
+      "bytes": 29156241,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 3,
+        "Style": 5323,
+        "StyleMap": 34,
+        "Folder": 591,
+        "Placemark": 21498,
+        "Placemark_MultiGeometry": 10541,
+        "Asignaciones_geometria": 21498,
+        "partes_LINEA": 20372,
+        "Placemark_con_description": 16805,
+        "Placemark_con_tabla_HTML": 16614,
+        "partes_PUNTO": 10467,
+        "partes_POLIGONO": 397887,
+        "ScreenOverlay": 1,
+        "Placemark_con_ExtendedData": 151
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 284094151
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 31,
+        ".gif": 1
+      }
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto POROMA.kmz",
+      "sha256": "702581bcc649f2a74ec73135b52d3cc4563b2b9ad40f5ba14882bf4f809d2dff",
+      "bytes": 37923886,
+      "estado": "ERROR",
+      "estadisticas": {},
+      "kml_members": [],
+      "reparacion_namespace_solo_lectura": false,
+      "recursos": {
+        ".jpg": 417,
+        ".dae": 4,
+        ".png": 7,
+        ".gif": 1
+      },
+      "error": "'NoneType' object has no attribute 'append'"
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "bytes": 10160807,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 15,
+        "Style": 1591,
+        "StyleMap": 724,
+        "Folder": 75,
+        "Placemark": 3112,
+        "Asignaciones_geometria": 3112,
+        "partes_PUNTO": 760,
+        "partes_LINEA": 883,
+        "Placemark_con_description": 2399,
+        "Placemark_con_tabla_HTML": 1849,
+        "Placemark_MultiGeometry": 1553,
+        "partes_POLIGONO": 1757,
+        "GroundOverlay": 3,
+        "Placemark_con_ExtendedData": 57
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 20783486
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 3
+      }
+    },
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\Resultados de Mapline\\G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "sha256": "9e0a746b078fd925c33867b6fe1367de0d4756c091140f4c6505de3d97702d9c",
+      "bytes": 10676463,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 1,
+        "Style": 40,
+        "StyleMap": 5,
+        "Folder": 38,
+        "Placemark": 2612,
+        "Placemark_con_description": 2608,
+        "Placemark_con_tabla_HTML": 2608,
+        "Placemark_MultiGeometry": 25,
+        "Asignaciones_geometria": 2612,
+        "partes_POLIGONO": 3120,
+        "partes_PUNTO": 8,
+        "partes_LINEA": 38,
+        "GroundOverlay": 3
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 32047970
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 8
+      }
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\Resultados de Mapline\\G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "sha256": "5f3440301488126ee763137f6e02ccdfa48c6efc94fb73a20e50db40c078005e",
+      "bytes": 13164969,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 1,
+        "Style": 61,
+        "StyleMap": 13,
+        "Folder": 49,
+        "Placemark": 1156,
+        "Placemark_con_description": 1119,
+        "Placemark_con_tabla_HTML": 1119,
+        "Asignaciones_geometria": 1156,
+        "partes_POLIGONO": 413,
+        "partes_PUNTO": 141,
+        "partes_LINEA": 841,
+        "Placemark_con_ExtendedData": 32,
+        "Placemark_MultiGeometry": 14,
+        "GroundOverlay": 3
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 35786933
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 17
+      }
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\Resultados de Mapline\\G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "sha256": "77258db83b217ca2cad0237149e5a028692fdb726f6c1267a075176aed6a5796",
+      "bytes": 2155057,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 1,
+        "Style": 32,
+        "StyleMap": 6,
+        "Folder": 31,
+        "Placemark": 493,
+        "Placemark_con_description": 491,
+        "Placemark_con_tabla_HTML": 487,
+        "Asignaciones_geometria": 493,
+        "partes_POLIGONO": 303,
+        "Placemark_MultiGeometry": 9,
+        "partes_LINEA": 161,
+        "Placemark_con_ExtendedData": 4,
+        "partes_PUNTO": 37,
+        "GroundOverlay": 2
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 5663205
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 4
+      }
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\InformaciónMapline\\Resultados de Mapline\\G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "sha256": "4a0542c0d595884d9cd8694bc94dba0d82e856837ccccb2ac46e706a68a1d261",
+      "bytes": 10840301,
+      "estado": "OK",
+      "estadisticas": {
+        "Document": 1,
+        "Style": 64,
+        "StyleMap": 17,
+        "Folder": 49,
+        "Placemark": 1146,
+        "Placemark_con_description": 1099,
+        "Placemark_con_tabla_HTML": 1099,
+        "Asignaciones_geometria": 1146,
+        "partes_LINEA": 511,
+        "partes_POLIGONO": 3801,
+        "partes_PUNTO": 137,
+        "Placemark_con_ExtendedData": 41,
+        "Placemark_MultiGeometry": 7,
+        "GroundOverlay": 6
+      },
+      "kml_members": [
+        {
+          "nombre": "doc.kml",
+          "bytes": 28936579
+        }
+      ],
+      "reparacion_namespace_solo_lectura": true,
+      "recursos": {
+        ".png": 17
+      }
+    }
+  ],
+  "totales": {
+    "Document": 242,
+    "Style": 13849,
+    "StyleMap": 1305,
+    "Folder": 2222,
+    "Placemark": 231654,
+    "Asignaciones_geometria": 231654,
+    "partes_LINEA": 208684,
+    "partes_PUNTO": 41985,
+    "Placemark_con_description": 220143,
+    "Placemark_con_tabla_HTML": 170794,
+    "Placemark_MultiGeometry": 135233,
+    "partes_POLIGONO": 633170,
+    "GroundOverlay": 25,
+    "Placemark_con_ExtendedData": 972,
+    "ScreenOverlay": 7
+  },
+  "grupos_mapeo": 2555,
+  "filas_aprobadas_para_carga": 0,
+  "errores": [
+    {
+      "archivo": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\kmz\\Proyecto POROMA.kmz",
+      "error": "'NoneType' object has no attribute 'append'"
+    }
+  ],
+  "diferencia_placemarks_vs_279623_eft": -47969,
+  "advertencias": [
+    "No se valida geometria GIS ni se cargan datos; el inventario es XML.",
+    "Un Placemark mixto aparece en varias filas de geometria; no sumar esas filas como entidades unicas.",
+    "Campos HTML son etiquetas candidatas: revisar equivalencias y tipos antes de convertirlos en atributos.",
+    "Dataset y clase candidatos no son asignaciones aprobadas; revisar excepciones del EFT para Datos_Internos.",
+    "No se asignan codigos de proyecto, componentes, alternativas ni analisis automaticamente.",
+    "NetworkLinks y referencias externas se inventarian sin descargar su contenido.",
+    "La deduplicacion es exclusivamente de archivos KMZ con SHA256 identico, no de entidades entre proyectos."
+  ]
+}

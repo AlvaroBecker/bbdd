@@ -1,0 +1,101 @@
+﻿dataset;clase;geometria;tipo;campos;relacion;elementos_propuestos;G1 Enlace 500 kV Miguel Grau - Pariñas;G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1);G1 LT 220 kV Muyurina – Mollepata;G1 Nueva SE Palián 22060 kV y LT;Proyecto CHANCHAMAYO;Proyecto FELAM;Proyecto HUARAZ;Proyecto JAENNORTE;Proyecto MUYURINA;Proyecto PALIAN;Proyecto PARIÑAS;Proyecto POROMA;Proyecto PUCALLPA
+Datos_Externos;ANPNacional;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;AreaConservacion;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Canales;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;CatastroMinero;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;CentroPoblado;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;CoberturaVegetal;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ComunidadCampesina;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ConcesionElectrica;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;DerechosAgua;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Ductos_Pozos_Lin;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Ductos_Pozos_Pto;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;EcosistemasFragiles;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;FajasMarginales;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Geologia_Lin;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Geologia_Pol;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Geomorfologia;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;IBA_EBA_KBA;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;LT_Existente;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Lagunas;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;LimiteDepartamento;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;LimiteDistrito;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;LimiteProvincia;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;LotesHidrocarburos;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Paleontologia;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;PredioSUNARP;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;QhapaqNan;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;RedesMT;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;Rios;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;SE_Existente;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;SitioArqueologico_Pol;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;SitioArqueologico_Pto;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ViasNacional;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ViasRegional;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ViasVecinal;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ZEE;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Externos;ZonaAmortiguamiento;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Internos;CaminosHerradura;POLYLINE;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Internos;Poseedores_Pol;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Internos;Poseedores_Pto;POINT;nueva;7;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Internos;PredioRural;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Internos;UsoActual;POLYGON;nueva;8;;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;ANPNacional_Recorte;POLYGON;nueva;31;co_proyecto -> proyecto;51;0;0;0;0;0;5;0;10;1;3;15;17;0
+Datos_Proyecto;Accesos;POLYLINE;nueva;17;co_proyecto -> proyecto;85;0;0;0;0;0;2;0;11;0;72;0;0;0
+Datos_Proyecto;AreaConservacion_Recorte;POLYGON;nueva;45;co_proyecto -> proyecto;63;0;0;0;0;0;3;0;31;0;0;27;2;0
+Datos_Proyecto;AreaEstudioCampo;POLYGON;nueva;14;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Calicatas;POINT;nueva;12;co_proyecto -> proyecto;83;0;0;0;0;0;0;0;0;0;0;0;83;0
+Datos_Proyecto;CaminosHerradura_Recorte;POLYLINE;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Canales_Recorte;POLYLINE;nueva;104;co_proyecto -> proyecto;5087;0;0;0;0;0;649;0;0;624;2221;1593;0;0
+Datos_Proyecto;CatastroMinero_Recorte;POLYGON;nueva;51;co_proyecto -> proyecto;249;65;1;8;23;0;2;0;6;7;52;79;6;0
+Datos_Proyecto;CentroPoblado_Recorte;POINT;nueva;39;co_proyecto -> proyecto;878;0;0;0;0;0;189;0;111;17;0;411;77;73
+Datos_Proyecto;CoberturaVegetal_Recorte;POLYGON;nueva;30;co_proyecto -> proyecto;267;16;11;4;22;0;0;0;0;4;122;56;32;0
+Datos_Proyecto;ComunidadCampesina_Recorte;POLYGON;nueva;41;co_proyecto -> proyecto;202;4;12;3;13;0;24;19;10;16;68;33;0;0
+Datos_Proyecto;ConcesionElectrica_Recorte;POLYGON;nueva;82;co_proyecto -> proyecto;456;0;2;1;5;307;0;10;83;0;0;0;40;8
+Datos_Proyecto;DerechosAgua_Recorte;POINT;nueva;14;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Ductos_Pozos_Lin_Recorte;POLYLINE;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Ductos_Pozos_Pto_Recorte;POINT;nueva;14;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;EcosistemasFragiles_Recorte;POLYGON;nueva;37;co_proyecto -> proyecto;31;0;0;0;0;0;5;0;14;1;7;1;3;0
+Datos_Proyecto;Estructuras;POINT;nueva;35;co_proyecto -> proyecto;11560;0;0;0;0;53;1773;79;0;0;4263;4884;0;508
+Datos_Proyecto;FajasMarginales_Recorte;POINT;nueva;44;co_proyecto -> proyecto;23781;0;0;0;0;0;4031;0;237;5506;9903;3985;119;0
+Datos_Proyecto;FranjaServidumbre;POLYGON;nueva;20;co_proyecto -> proyecto;10;0;0;0;0;0;0;0;5;0;0;0;5;0
+Datos_Proyecto;Geologia_Lin_Recorte;POLYLINE;nueva;18;co_proyecto -> proyecto;545;4;0;2;16;0;89;0;0;24;410;0;0;0
+Datos_Proyecto;Geologia_Pol_Recorte;POLYGON;nueva;19;co_proyecto -> proyecto;30;0;0;0;0;10;0;6;8;0;0;0;0;6
+Datos_Proyecto;Geomorfologia_Recorte;POLYGON;nueva;23;co_proyecto -> proyecto;274;67;21;3;18;4;2;6;0;3;90;51;0;9
+Datos_Proyecto;IBA_EBA_KBA_Recorte;POLYGON;nueva;34;co_proyecto -> proyecto;25;0;0;0;0;0;9;0;0;2;7;7;0;0
+Datos_Proyecto;LT_Existente_Recorte;POLYLINE;nueva;66;co_proyecto -> proyecto;2071;9;9;7;8;10;28;9;0;640;1276;72;0;3
+Datos_Proyecto;Lagunas_Recorte;POLYGON;nueva;18;co_proyecto -> proyecto;15;0;0;0;0;0;15;0;0;0;0;0;0;0
+Datos_Proyecto;LimiteDepartamento_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;LimiteDistrito_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;LimiteProvincia_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;LotesHidrocarburos_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Muestreo;POINT;nueva;13;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Paleontologia_Recorte;POINT;nueva;28;co_proyecto -> proyecto;433;0;0;0;1;0;0;0;386;0;0;0;46;0
+Datos_Proyecto;Poseedores_Pol_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Poseedores_Pto_Recorte;POINT;nueva;14;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;PredioRural_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;PredioSUNARP_Recorte;POLYGON;nueva;82;co_proyecto -> proyecto;1019;0;0;0;0;22;41;117;0;22;49;247;35;486
+Datos_Proyecto;QhapaqNan_Recorte;POLYLINE;nueva;65;co_proyecto -> proyecto;172;0;6;9;6;0;100;0;0;33;0;18;0;0
+Datos_Proyecto;RedesMT_Recorte;POLYLINE;nueva;22;co_proyecto -> proyecto;1401;0;802;139;458;0;0;2;0;0;0;0;0;0
+Datos_Proyecto;RegistroCampo_Lin;POLYLINE;nueva;13;co_proyecto -> proyecto;101;0;0;0;0;0;32;0;4;0;0;0;0;65
+Datos_Proyecto;RegistroCampo_Pto;POINT;nueva;12;co_proyecto -> proyecto;1020;0;0;0;0;0;0;0;907;0;0;0;113;0
+Datos_Proyecto;Rios_Recorte;POLYLINE;nueva;30;co_proyecto -> proyecto;108;0;0;0;0;0;9;0;0;29;3;67;0;0
+Datos_Proyecto;SE_Existente_Recorte;POINT;nueva;47;co_proyecto -> proyecto;557;1;0;0;0;0;17;0;0;494;10;35;0;0
+Datos_Proyecto;SitioArqueologico_Pol_Recorte;POLYGON;nueva;23;co_proyecto -> proyecto;320;2;2;1;0;0;132;0;0;7;0;176;0;0
+Datos_Proyecto;SitioArqueologico_Pto_Recorte;POINT;nueva;20;co_proyecto -> proyecto;217;1;1;0;0;0;78;0;0;0;0;137;0;0
+Datos_Proyecto;Subestacion_Pol;POLYGON;nueva;28;co_proyecto -> proyecto;230;4;5;2;6;0;18;2;4;20;140;25;2;2
+Datos_Proyecto;Subestacion_Pto;POINT;nueva;26;co_proyecto -> proyecto;103;0;0;0;0;0;0;4;74;5;0;1;17;2
+Datos_Proyecto;UsoActual_Recorte;POLYGON;nueva;15;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Vanos;POLYLINE;nueva;13;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;Vertices;POINT;nueva;30;co_proyecto -> proyecto;793;0;77;14;87;0;84;24;124;238;30;37;74;4
+Datos_Proyecto;ViasNacional_Recorte;POLYLINE;nueva;316;co_proyecto -> proyecto;847;12;4;1;7;0;99;0;233;33;171;121;166;0
+Datos_Proyecto;ViasRegional_Recorte;POLYLINE;nueva;62;co_proyecto -> proyecto;444;2;0;0;1;0;106;0;96;0;26;74;139;0
+Datos_Proyecto;ViasVecinal_Recorte;POLYLINE;nueva;39;co_proyecto -> proyecto;4897;6;10;1;7;0;738;0;1939;128;973;419;676;0
+Datos_Proyecto;ZEE_Recorte;POLYGON;nueva;26;co_proyecto -> proyecto;64;0;0;0;0;0;9;0;0;5;35;0;0;15
+Datos_Proyecto;ZonaAmortiguamiento_Recorte;POLYGON;nueva;29;co_proyecto -> proyecto;34;0;0;0;0;0;5;0;9;1;3;10;6;0
+Datos_Proyecto;mline_td_proyecto_area_interes;POLYGON;migrada;27;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;mline_td_proyecto_celda;POLYGON;migrada;28;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;mline_td_proyecto_cgeneracion;POLYGON;migrada;29;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;mline_td_proyecto_envelope;POLYGON;migrada;27;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;mline_td_proyecto_infraestructura;POLYLINE;migrada;28;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Datos_Proyecto;mline_td_proyecto_ltransmision;POLYLINE;migrada;31;co_proyecto -> proyecto;0;0;0;0;0;0;0;0;0;0;0;0;0;0

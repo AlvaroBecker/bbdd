@@ -1,0 +1,52 @@
+{
+  "estado": "PREVALIDADO",
+  "modo": "CREAR",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "5fc138d536e6661e5dd45af296d536a02e917d24215f39f771526dbb3fc04b55",
+  "inicio_utc": "2026-11-05T21:20:45.167081+00:00",
+  "completadas": [
+    "accesos",
+    "limite_departamento_recorte"
+  ],
+  "clase_en_curso": "predios_inscritos_en_sunarp_recorte",
+  "clases": [
+    {
+      "nombre": "accesos",
+      "geometria": "POLYLINE",
+      "campos": 280,
+      "tipos_pendientes": 268,
+      "accion": "CREADA_VERIFICADA"
+    },
+    {
+      "nombre": "limite_departamento_recorte",
+      "geometria": "POLYGON",
+      "campos": 34,
+      "tipos_pendientes": 19,
+      "accion": "CREADA_VERIFICADA"
+    },
+    {
+      "nombre": "predios_inscritos_en_sunarp_recorte",
+      "geometria": "POLYGON",
+      "campos": 81,
+      "tipos_pendientes": 66,
+      "accion": "CREAR"
+    }
+  ],
+  "advertencias": [
+    "El catalogo de 76 clases sigue siendo una propuesta funcional, no una aprobacion de INDRA.",
+    "Los atributos marcados pendientes mantienen texto conservador; requieren perfil de valores y unidades antes de cargar.",
+    "Los campos propios no se eliminan por tener nombres parecidos. El informe no certifica la equivalencia de sus valores.",
+    "Esta fase crea clases vacias con GlobalID y auditoria UTC. No carga KMZ, no crea relaciones y no activa branch.",
+    "Las relaciones con proyecto y las relaciones de negocio se validan y crean en una fase posterior.",
+    "DDL ArcGIS no es una transaccion atomica: un fallo puede dejar una clase parcial. Se informa y se detiene, sin borrado automatico.",
+    "TestSchemaLock del contenedor devolvio False; esta comprobacion no es concluyente en el ensayo local. ArcGIS verificara los bloqueos reales durante cada creacion."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\20261105_182045_a8ec38a8\\estados\\20261105T212320_449213Z_34770937\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\20261105_182045_a8ec38a8\\estados\\20261105T212320_449213Z_34770937\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\20261105_182045_a8ec38a8\\campos.csv",
+  "arcgis": "3.7.1",
+  "proyectos_en_padre": 1,
+  "test_schema_lock_dataset_informativo": false
+}

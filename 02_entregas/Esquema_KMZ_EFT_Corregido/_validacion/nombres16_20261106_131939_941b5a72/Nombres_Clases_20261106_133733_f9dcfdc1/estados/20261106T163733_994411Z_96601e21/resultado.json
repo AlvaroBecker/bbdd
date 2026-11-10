@@ -1,0 +1,47 @@
+{
+  "estado": "INICIADO",
+  "modo": "APLICAR_NOMBRES",
+  "version_paquete": "1.6",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "2f2a1348d6d5d45379a75f5fd857f215fce3873829261119b8185916b7a4217c",
+  "mapeo_sha256": "2d10e23f2c418c01aa6b99cc80af093101ff50f6b00763a261229aa90ddb498a",
+  "aprobacion_tipos_sha256": "1ee95c66de434366da24eac78eb37c94fa0c5d502a2c22dae20376732dbb4163",
+  "inicio_utc": "2026-11-06T16:37:33.987449+00:00",
+  "completadas": [],
+  "clase_en_curso": null,
+  "operacion_en_curso": null,
+  "clases": [
+    {
+      "nombre": "accesos",
+      "geometria": "POLYLINE",
+      "campos": 280,
+      "tipos_pendientes": 267,
+      "accion": "POR_VALIDAR"
+    },
+    {
+      "nombre": "limite_departamento_recorte",
+      "geometria": "POLYGON",
+      "campos": 34,
+      "tipos_pendientes": 18,
+      "accion": "POR_VALIDAR"
+    },
+    {
+      "nombre": "predios_inscritos_sunarp_recorte",
+      "geometria": "POLYGON",
+      "campos": 81,
+      "tipos_pendientes": 64,
+      "accion": "POR_VALIDAR"
+    }
+  ],
+  "advertencias": [
+    "Solo renombra clases existentes y ajusta aliases aprobados; no cambia columnas ni carga datos.",
+    "Cerrar el uso de las clases e impedir cargas concurrentes durante el procedimiento.",
+    "Un error detiene el lote sin deshacer nombres ya aplicados; reejecutar reconoce el estado actual.",
+    "El renombrado no actualiza automaticamente referencias de mapas, servicios o consultas externas."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Nombres_Clases_20261106_133733_f9dcfdc1\\estados\\20261106T163733_994411Z_96601e21\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Nombres_Clases_20261106_133733_f9dcfdc1\\estados\\20261106T163733_994411Z_96601e21\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Nombres_Clases_20261106_133733_f9dcfdc1\\campos.csv"
+}

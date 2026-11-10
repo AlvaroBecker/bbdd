@@ -1,0 +1,2285 @@
+{
+  "sourceSHA256": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd",
+  "output": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd/Mapline_20261030_SQLServer.sql",
+  "tables": [
+    {
+      "table": "mline_ta_proyecto_estado",
+      "columns": [
+        {
+          "name": "id_proyecto_estado",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_estado_proyecto_inicial",
+          "type": "int"
+        },
+        {
+          "name": "id_estado_proyecto_final",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 50,
+      "batches": 1
+    },
+    {
+      "table": "mline_tc_fuente_gis_importacion",
+      "columns": [
+        {
+          "name": "id_fuente_gis_importacion",
+          "type": "int"
+        },
+        {
+          "name": "id_fuente_gis",
+          "type": "int"
+        },
+        {
+          "name": "fe_datos_origen",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "no_archivo_importado",
+          "type": "nvarchar(1024)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 124,
+      "batches": 1
+    },
+    {
+      "table": "mline_tc_proceso",
+      "columns": [
+        {
+          "name": "id_proceso",
+          "type": "int"
+        },
+        {
+          "name": "co_proceso",
+          "type": "nvarchar(100)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 3,
+      "batches": 1
+    },
+    {
+      "table": "mline_tc_proceso_arcgis",
+      "columns": [
+        {
+          "name": "id_proceso_arcgis",
+          "type": "int"
+        },
+        {
+          "name": "id_fuente_gis",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_regla_cfg",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_proceso",
+          "type": "int"
+        },
+        {
+          "name": "fe_inicio",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "id_estado_proceso",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 0,
+      "batches": 0
+    },
+    {
+      "table": "mline_tc_proyecto",
+      "columns": [
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_estado_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "co_proyecto",
+          "type": "nchar(12)"
+        },
+        {
+          "name": "no_proyecto",
+          "type": "nvarchar(128)"
+        },
+        {
+          "name": "de_proyecto",
+          "type": "nvarchar(128)"
+        },
+        {
+          "name": "co_alternativa_reciente",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "no_archivo_reporte_celda",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "no_archivo_reporte_alternativa",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "es_proceso_reporte_celda",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc_reporte_celda",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc_reporte_celda",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc_reporte_celda",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario_reporte_celda",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "es_proceso_reporte_alternativa",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc_reporte_alternativa",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc_reporte_alternativa",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc_reporte_alternativa",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario_reporte_alternativa",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 40,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_capa_importacion",
+      "columns": [
+        {
+          "name": "id_capa_importacion",
+          "type": "int"
+        },
+        {
+          "name": "id_fuente_gis_importacion",
+          "type": "int"
+        },
+        {
+          "name": "no_capa",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "ca_registros",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 0,
+      "batches": 0
+    },
+    {
+      "table": "mline_td_celda_capa",
+      "columns": [
+        {
+          "name": "id_celda_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_celda",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa",
+          "type": "int"
+        },
+        {
+          "name": "mo_ponderacion",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 589015,
+      "batches": 1254
+    },
+    {
+      "table": "mline_td_infraestructura_celda",
+      "columns": [
+        {
+          "name": "id_infraestructura_celda",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_infraestructura",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_celda",
+          "type": "int"
+        },
+        {
+          "name": "ca_celdas",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 2767,
+      "batches": 6
+    },
+    {
+      "table": "mline_td_proceso_log",
+      "columns": [
+        {
+          "name": "nombre_tabla_mline",
+          "type": "nvarchar(200)"
+        },
+        {
+          "name": "id_registro_mline",
+          "type": "int"
+        },
+        {
+          "name": "fe_evento",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "co_tipo_notificacion",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "de_mensaje",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 9839,
+      "batches": 20
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "columns": [
+        {
+          "name": "id_proyecto_alternativa",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_alternativa",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_vertices",
+          "type": "int"
+        },
+        {
+          "name": "id_alternativa_origen",
+          "type": "int"
+        },
+        {
+          "name": "id_estado_alternativa",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_fuente_infraestructura",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_resultante",
+          "type": "int"
+        },
+        {
+          "name": "co_alternativa",
+          "type": "nvarchar(20)"
+        },
+        {
+          "name": "nu_alternativa",
+          "type": "int"
+        },
+        {
+          "name": "mo_calificacion",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "de_comentario",
+          "type": "nvarchar(500)"
+        },
+        {
+          "name": "de_comentario_aprobacion",
+          "type": "nvarchar(500)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 8,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_area_interes",
+      "columns": [
+        {
+          "name": "id_proyecto_area_interes",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_area_interes",
+          "type": "int"
+        },
+        {
+          "name": "me_buffer_usado",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 96,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_capa",
+      "columns": [
+        {
+          "name": "id_proyecto_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "fl_copiado",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 2311,
+      "batches": 5
+    },
+    {
+      "table": "mline_td_proyecto_celda",
+      "columns": [
+        {
+          "name": "id_proyecto_celda",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_envelope",
+          "type": "int"
+        },
+        {
+          "name": "nu_secuencia",
+          "type": "int"
+        },
+        {
+          "name": "fl_es_celda_proyecto",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "mo_calificacion",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 496066,
+      "batches": 1017
+    },
+    {
+      "table": "mline_td_proyecto_cgeneracion",
+      "columns": [
+        {
+          "name": "id_proyecto_cgeneracion",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "no_central_generacion",
+          "type": "nvarchar(64)"
+        },
+        {
+          "name": "no_tipo",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "me_potencia",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "me_area",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 6,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_componente",
+      "columns": [
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_componente",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_vertices",
+          "type": "int"
+        },
+        {
+          "name": "no_componente",
+          "type": "nvarchar(64)"
+        },
+        {
+          "name": "no_zona_geografica",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "no_departamento",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "me_buffer",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "me_tamanio_celda",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "nu_alternativa_reciente",
+          "type": "int"
+        },
+        {
+          "name": "id_estado_componente",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 120,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_envelope",
+      "columns": [
+        {
+          "name": "id_proyecto_envelope",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_area_interes",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_envelope",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_celda",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 96,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_infraestructura",
+      "columns": [
+        {
+          "name": "id_proyecto_infraestructura",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_alternativa",
+          "type": "int"
+        },
+        {
+          "name": "co_infraestructura",
+          "type": "nvarchar(32)"
+        },
+        {
+          "name": "mo_calificacion",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "ca_celdas",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 6,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_ltransmision",
+      "columns": [
+        {
+          "name": "id_proyecto_ltransmision",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_componente",
+          "type": "int"
+        },
+        {
+          "name": "no_linea_transmision",
+          "type": "nvarchar(64)"
+        },
+        {
+          "name": "no_subestacion_salida",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "no_subestacion_llegada",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "me_nivel_tension",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "me_capacidad",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "me_longitud",
+          "type": "decimal(12,4)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 114,
+      "batches": 1
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "columns": [
+        {
+          "name": "id_proyecto_regla_cfg",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_origen",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_regla_cfg_origen",
+          "type": "int"
+        },
+        {
+          "name": "id_capa_propiedad",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_funcion_espacial",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_capa_resultante",
+          "type": "int"
+        },
+        {
+          "name": "id_valor_ponderacion",
+          "type": "int"
+        },
+        {
+          "name": "me_ancho_inicial",
+          "type": "int"
+        },
+        {
+          "name": "me_ancho_final",
+          "type": "int"
+        },
+        {
+          "name": "co_capa_propiedad_filtro",
+          "type": "nvarchar(64)"
+        },
+        {
+          "name": "de_capa_valor_filtro",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "fl_tiene_restriccion",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "id_estado_regla_cfg",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(max)"
+        }
+      ],
+      "rows": 1578,
+      "batches": 4
+    },
+    {
+      "table": "mline_td_proyecto_tematico",
+      "columns": [
+        {
+          "name": "id_proyecto_tematico",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "nu_calificacion_desde",
+          "type": "decimal(12,2)"
+        },
+        {
+          "name": "nu_calificacion_hasta",
+          "type": "decimal(12,2)"
+        },
+        {
+          "name": "co_color",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "de_accion",
+          "type": "nvarchar(1024)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 30,
+      "batches": 1
+    },
+    {
+      "table": "mline_tm_capa",
+      "columns": [
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_categoria_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_geometria",
+          "type": "int"
+        },
+        {
+          "name": "id_feature_service",
+          "type": "nvarchar(128)"
+        },
+        {
+          "name": "url_capa_arcgis",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "no_capa",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "de_capa",
+          "type": "nvarchar(200)"
+        },
+        {
+          "name": "de_comentario",
+          "type": "nvarchar(2048)"
+        },
+        {
+          "name": "fl_activo",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fl_visible",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "id_fuente_gis",
+          "type": "int"
+        },
+        {
+          "name": "es_proceso",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fe_inicio_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_avance_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_fin_proc",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "type": "nvarchar(1000)"
+        },
+        {
+          "name": "id_item_arcgis_exportado",
+          "type": "nvarchar(1000)"
+        }
+      ],
+      "rows": 984,
+      "batches": 2
+    },
+    {
+      "table": "mline_tm_capa_aspecto_etiqueta",
+      "columns": [
+        {
+          "name": "id_capa_aspecto_etiqueta",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_capa_propiedad",
+          "type": "int"
+        },
+        {
+          "name": "id_tamanio_etiqueta",
+          "type": "int"
+        },
+        {
+          "name": "id_estilo_etiqueta",
+          "type": "int"
+        },
+        {
+          "name": "id_peso_etiqueta",
+          "type": "int"
+        },
+        {
+          "name": "co_color",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "co_color_halo",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "nu_escala_minima",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 34,
+      "batches": 1
+    },
+    {
+      "table": "mline_tm_capa_aspecto_poligono",
+      "columns": [
+        {
+          "name": "id_capa_aspecto_poligono",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_estilo_relleno_poligono",
+          "type": "int"
+        },
+        {
+          "name": "id_ancho_borde_poligono",
+          "type": "int"
+        },
+        {
+          "name": "co_color_relleno",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "co_color_borde",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 21,
+      "batches": 1
+    },
+    {
+      "table": "mline_tm_capa_aspecto_polilinea",
+      "columns": [
+        {
+          "name": "id_capa_aspecto_polilinea",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_estilo_polilinea",
+          "type": "int"
+        },
+        {
+          "name": "id_ancho_polilinea",
+          "type": "int"
+        },
+        {
+          "name": "co_color",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 35,
+      "batches": 1
+    },
+    {
+      "table": "mline_tm_capa_aspecto_punto",
+      "columns": [
+        {
+          "name": "id_capa_aspecto_punto",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_estilo_punto",
+          "type": "int"
+        },
+        {
+          "name": "id_tamanio_punto",
+          "type": "int"
+        },
+        {
+          "name": "id_ancho_borde_punto",
+          "type": "int"
+        },
+        {
+          "name": "co_color",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "co_color_borde",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 5,
+      "batches": 1
+    },
+    {
+      "table": "mline_tm_capa_propiedad",
+      "columns": [
+        {
+          "name": "id_capa_propiedad",
+          "type": "int"
+        },
+        {
+          "name": "id_capa",
+          "type": "int"
+        },
+        {
+          "name": "no_propiedad",
+          "type": "nvarchar(128)"
+        },
+        {
+          "name": "de_etiqueta",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 6926,
+      "batches": 14
+    },
+    {
+      "table": "mline_tm_fuente_gis",
+      "columns": [
+        {
+          "name": "id_fuente_gis",
+          "type": "int"
+        },
+        {
+          "name": "id_categoria_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_fuente",
+          "type": "int"
+        },
+        {
+          "name": "no_fuente_gis",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "no_entidad_origen",
+          "type": "nvarchar(512)"
+        },
+        {
+          "name": "de_ruta_descarga",
+          "type": "nvarchar(2048)"
+        },
+        {
+          "name": "nu_frecuencia_actualizacion",
+          "type": "int"
+        },
+        {
+          "name": "fe_actualizado_el",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "fe_vigente_hasta",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "de_comentario",
+          "type": "nvarchar(2048)"
+        },
+        {
+          "name": "fl_activo",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "fl_visible",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "id_proyecto",
+          "type": "int"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 80,
+      "batches": 1
+    },
+    {
+      "table": "mline_tp_parametro",
+      "columns": [
+        {
+          "name": "id_parametro",
+          "type": "int"
+        },
+        {
+          "name": "id_tipo_parametro",
+          "type": "int"
+        },
+        {
+          "name": "co_clave",
+          "type": "nvarchar(64)"
+        },
+        {
+          "name": "no_valor_parametro",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "de_valor_alfanum",
+          "type": "nvarchar(200)"
+        },
+        {
+          "name": "nu_valor_numerico",
+          "type": "decimal(10,4)"
+        },
+        {
+          "name": "nu_orden",
+          "type": "decimal(5,0)"
+        },
+        {
+          "name": "fl_activo",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 201,
+      "batches": 1
+    },
+    {
+      "table": "mline_tp_tipoparametro",
+      "columns": [
+        {
+          "name": "id_tipo_parametro",
+          "type": "int"
+        },
+        {
+          "name": "co_tipo_parametro",
+          "type": "nvarchar(256)"
+        },
+        {
+          "name": "de_tipo_parametro",
+          "type": "nvarchar(1024)"
+        },
+        {
+          "name": "nu_orden",
+          "type": "decimal(8,0)"
+        },
+        {
+          "name": "fl_sistema",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "es_registro",
+          "type": "nchar(1)"
+        },
+        {
+          "name": "us_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_creacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_creacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_actualizacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_actualizacion",
+          "type": "datetime2(0)"
+        },
+        {
+          "name": "us_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "ip_eliminacion",
+          "type": "nvarchar(38)"
+        },
+        {
+          "name": "fe_eliminacion",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 30,
+      "batches": 1
+    },
+    {
+      "table": "net_log",
+      "columns": [
+        {
+          "name": "id_proyecto_capa",
+          "type": "int"
+        },
+        {
+          "name": "id_proyecto_envelope",
+          "type": "int"
+        },
+        {
+          "name": "lst_secuencia_celdas",
+          "type": "nvarchar(max)"
+        },
+        {
+          "name": "fec_insert",
+          "type": "datetime2(0)"
+        }
+      ],
+      "rows": 0,
+      "batches": 0
+    }
+  ],
+  "indexes": 62,
+  "foreignKeys": 62,
+  "totalRows": 1110585,
+  "notes": [
+    "Base relacional de prueba, no geodatabase final",
+    "Rutinas MySQL separadas, pendientes de adaptación",
+    "Comentarios DDL preservados en respaldo original",
+    "nvarchar y nchar para preservar Unicode; varchar mayor de 4000 y longtext a nvarchar(max)",
+    "datetime a datetime2(0); CURRENT_TIMESTAMP a SYSUTCDATETIME",
+    "Sin IDENTITY: origen no declara AUTO_INCREMENT",
+    "Collation de prueba CI_AI, no equivalencia exacta con utf8mb4_0900_ai_ci",
+    "No ejecutado contra SQL Server"
+  ]
+}

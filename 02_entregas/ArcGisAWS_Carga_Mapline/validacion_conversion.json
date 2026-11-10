@@ -1,0 +1,224 @@
+{
+  "allDecodedValuesMatch": true,
+  "totalRows": 1110585,
+  "populatedTables": 27,
+  "tables": [
+    {
+      "table": "mline_ta_proyecto_estado",
+      "rows": 50,
+      "columns": 14,
+      "decodedValuesSHA256": "143dd812455e42b348ff56b3be25530f8fac8984c5e5ac82342818ef0868ad0a",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tc_fuente_gis_importacion",
+      "rows": 124,
+      "columns": 19,
+      "decodedValuesSHA256": "95059a1ccd6517ce635b46d31dfaca2e604c7818d9d1222276847146bd8c2fb6",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tc_proceso",
+      "rows": 3,
+      "columns": 7,
+      "decodedValuesSHA256": "78fc6291645351abc86a4e02e822c0c3c5a28d0c82876477a1a2b8081c457139",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tc_proyecto",
+      "rows": 40,
+      "columns": 34,
+      "decodedValuesSHA256": "88dfca96c179d5ba973b27676d9b2ab060dc07d655745ea5b4405e93b9afadc0",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_celda_capa",
+      "rows": 589015,
+      "columns": 14,
+      "decodedValuesSHA256": "15bd991fddb4b2cbe02e13f6e982a1ac244b655c32a0a8e0dc53818957e44fec",
+      "batches": 1254,
+      "match": true
+    },
+    {
+      "table": "mline_td_infraestructura_celda",
+      "rows": 2767,
+      "columns": 14,
+      "decodedValuesSHA256": "0b409d58f14144c06977a143e146b174526aafc22cfb78c60f2a34c4e9a44b54",
+      "batches": 6,
+      "match": true
+    },
+    {
+      "table": "mline_td_proceso_log",
+      "rows": 9839,
+      "columns": 5,
+      "decodedValuesSHA256": "527f975f17dc3ce6f9143b6673beeda98490e0166fb29bb769c3c0296ddb5f81",
+      "batches": 20,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "rows": 8,
+      "columns": 28,
+      "decodedValuesSHA256": "92212f79db58dccfebe9f4e9cdb10218608e83c0c970b8a0a483703da59e55be",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_area_interes",
+      "rows": 96,
+      "columns": 14,
+      "decodedValuesSHA256": "927273ae8bc3f244de347a5a28795213af83ea6cc94f9dbadfc5cf3ea50a9833",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_capa",
+      "rows": 2311,
+      "columns": 14,
+      "decodedValuesSHA256": "4343257becdd816588e80c4f8b591979be652749e7601c4de86c60f8ffbb141c",
+      "batches": 5,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_celda",
+      "rows": 496066,
+      "columns": 15,
+      "decodedValuesSHA256": "9af737e17059785ae844d0cc7c5bdba4dddb7c27da01b99dacc8fd31d41ed42f",
+      "batches": 1017,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_cgeneracion",
+      "rows": 6,
+      "columns": 16,
+      "decodedValuesSHA256": "a93a48873861e559512467f8573efd31687d17e8e696622bfdd51087bb6cfdbb",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_componente",
+      "rows": 120,
+      "columns": 26,
+      "decodedValuesSHA256": "84d05d51105063024943c124e418758050dd44ddd0586ddc0855a8188c61faf3",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_envelope",
+      "rows": 96,
+      "columns": 14,
+      "decodedValuesSHA256": "6d0cc6cd3cd3fa24880c7b7def3ae6b0e80b72b4e72464d2a9c08db3ba08b0f4",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_infraestructura",
+      "rows": 6,
+      "columns": 15,
+      "decodedValuesSHA256": "a92c90a1c4fa55f72af2f7e05e3a380dbd150da3297bec93709396982e7840bd",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_ltransmision",
+      "rows": 114,
+      "columns": 18,
+      "decodedValuesSHA256": "b9a84cb3477ef2e30a1bf344e11b7a15a4d6e88e0af9dbd9f574d14a03f456f7",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "rows": 1578,
+      "columns": 29,
+      "decodedValuesSHA256": "53dac3fd31c2d540dff43cbf59e0c4f3f3d4dfb2424c14f45cd2743dcf58d74a",
+      "batches": 4,
+      "match": true
+    },
+    {
+      "table": "mline_td_proyecto_tematico",
+      "rows": 30,
+      "columns": 16,
+      "decodedValuesSHA256": "3ade63f48b34278fd99705c0804852bfe22a3108f16c5bba1fb1169cc43d0120",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa",
+      "rows": 984,
+      "columns": 28,
+      "decodedValuesSHA256": "e685c30803246b0e137dec3489f2e9d739df6b914f263d29708bcf7a05dc0b46",
+      "batches": 2,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa_aspecto_etiqueta",
+      "rows": 34,
+      "columns": 19,
+      "decodedValuesSHA256": "9cb907c296069e9dc025ed5b63b4939a0c2b0132ee9b2dde355efcf7afc21e90",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa_aspecto_poligono",
+      "rows": 21,
+      "columns": 16,
+      "decodedValuesSHA256": "213adfb71b16a99bc910d0071871f40a7b0aeb259e6b56118ef0fb03cc03f511",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa_aspecto_polilinea",
+      "rows": 35,
+      "columns": 15,
+      "decodedValuesSHA256": "3cc985e578cf8babf9e2b3a52092702adcce5a9b3553c8fe451db8c80128ec25",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa_aspecto_punto",
+      "rows": 5,
+      "columns": 17,
+      "decodedValuesSHA256": "a6f7827891c45bdaa8105b1c0c3ff98c8cc66798e6173b3e21174ead10976c3e",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tm_capa_propiedad",
+      "rows": 6926,
+      "columns": 14,
+      "decodedValuesSHA256": "421fc9717774231986bbb3738e716e5f69f08f35ccb89a18ff9a506f8de5a27f",
+      "batches": 14,
+      "match": true
+    },
+    {
+      "table": "mline_tm_fuente_gis",
+      "rows": 80,
+      "columns": 23,
+      "decodedValuesSHA256": "d44016f9e9ac1eb1fd1ab603ad1aa41e3fc0afb61f2b7bf71c61f16f8e68a621",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tp_parametro",
+      "rows": 201,
+      "columns": 18,
+      "decodedValuesSHA256": "e2e806b14455a31f690d34ae47a842d4c1d33baff2887a4ce87b75d4e394af98",
+      "batches": 1,
+      "match": true
+    },
+    {
+      "table": "mline_tp_tipoparametro",
+      "rows": 30,
+      "columns": 15,
+      "decodedValuesSHA256": "2e03472f83290649d69f96938f4e278ef24ef3198a563540b118e11e8fd51421",
+      "batches": 1,
+      "match": true
+    }
+  ],
+  "sqlServerExecutionTested": false
+}

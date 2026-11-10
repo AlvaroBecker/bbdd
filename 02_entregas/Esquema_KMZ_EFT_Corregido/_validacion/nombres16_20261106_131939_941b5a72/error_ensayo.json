@@ -1,0 +1,7 @@
+{
+  "error": "module 'arcpy.management' has no attribute 'AlterAliasName'",
+  "informes": {
+    "validar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\nombres16_20261106_131939_941b5a72\\Nombres_Clases_20261106_132902_e4b5f76d\\estados\\20261106T162936_467618Z_b670a869\\resultado.json"
+  },
+  "operaciones_escritura_gdb": []
+}

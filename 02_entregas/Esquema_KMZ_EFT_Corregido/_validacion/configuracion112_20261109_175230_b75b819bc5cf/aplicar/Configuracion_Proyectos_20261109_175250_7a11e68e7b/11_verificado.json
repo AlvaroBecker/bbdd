@@ -1,0 +1,6 @@
+{
+  "accion": "AGREGAR_CAMPO",
+  "campo": "created_user",
+  "tipo": "TEXT",
+  "longitud": 255
+}

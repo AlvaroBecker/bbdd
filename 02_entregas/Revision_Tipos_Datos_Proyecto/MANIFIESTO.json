@@ -1,0 +1,15 @@
+{
+  "pruebas_perfil_aprobadas": 8,
+  "fuentes_completas": 13,
+  "cambios_en_modelo": false,
+  "cambios_en_sde": false,
+  "archivos": {
+    "cambios_tipos_candidatos.csv": "20a699e3f9ebed500b69451f98fd50aafbcfe3edc55c84fdb8edb33b5c011f9d",
+    "cobertura_rutas.csv": "6bd061a58fa98425defb4248e4c325ea2d7122d731765d704042d1cb0a9a00c3",
+    "incidencias.csv": "7697a138fda7d2db6decf02b20f83d3955134580fa85fc4d0b876507891fa437",
+    "LEEME.md": "d9df3fb9dd9d39ff1a2462ee9834020dfa16deb782bd031c32363e0e3418ceb7",
+    "resultado.json": "649763fe759f514524bb30ad5af1407a045d23639fd58b24fd795e5ad4437a83",
+    "resumen_75_clases.csv": "00c79055128c43117ac23a32ff7ddb3ad143cf88195ed59e228efa0ea71d3e7f",
+    "revision_2185_campos.csv": "d2b9afd9b541f8fc51597dedc200a66a9e38c5e15236786468cf5076fa3752e5"
+  }
+}

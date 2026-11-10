@@ -1,0 +1,91 @@
+{
+  "version": "1.12",
+  "estado": "INICIADO",
+  "pasos_ejecutados": [],
+  "cambios_intentados": 0,
+  "aprobacion_auditoria_separada": true,
+  "aplicacion_solicitada": true,
+  "proyectos_insertados": 0,
+  "registros_kmz_insertados": 0,
+  "rollback_automatico": false,
+  "configuracion_sha256": "d64a38b2f30915089cd9074c1f50decfd26d4a319019c4baa4142f895104d044",
+  "plan": {
+    "tabla": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\configuracion112_20261109_175230_b75b819bc5cf\\ensayo.gdb\\mline_tc_proyecto",
+    "registros": 40,
+    "operaciones": [],
+    "dominios": [
+      {
+        "campo": "id_tipo_proyecto",
+        "nombre": "mline_proyecto_tipo",
+        "codigos": {
+          "7": "Central de Generación",
+          "8": "Línea de Transmisión"
+        }
+      },
+      {
+        "campo": "id_estado_proyecto",
+        "nombre": "mline_proyecto_estado",
+        "codigos": {
+          "3": "Registrado",
+          "4": "Con malla",
+          "5": "Finalizado",
+          "6": "Cancelado"
+        }
+      }
+    ],
+    "tracking_previamente_activo": true,
+    "campos_auditoria_propuestos": [
+      {
+        "nombre": "created_user",
+        "tipo": "TEXT",
+        "longitud": 255
+      },
+      {
+        "nombre": "created_date",
+        "tipo": "DATE",
+        "longitud": null
+      },
+      {
+        "nombre": "last_edited_user",
+        "tipo": "TEXT",
+        "longitud": 255
+      },
+      {
+        "nombre": "last_edited_date",
+        "tipo": "DATE",
+        "longitud": null
+      }
+    ],
+    "requiere_aprobacion_auditoria": false,
+    "zona_historica_acreditada": false,
+    "conversion_fechas_historicas": false,
+    "metadata_destino": {
+      "tabla": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\configuracion112_20261109_175230_b75b819bc5cf\\ensayo.gdb\\mline_tc_proyecto",
+      "geodatabase_remota": false,
+      "versionada": false,
+      "editor_tracking": true,
+      "campos_auditoria": {
+        "creatorFieldName": "created_user",
+        "createdAtFieldName": "created_date",
+        "editorFieldName": "last_edited_user",
+        "editedAtFieldName": "last_edited_date"
+      },
+      "dominios": [
+        {
+          "campo": "id_tipo_proyecto",
+          "dominio": "mline_proyecto_tipo",
+          "codigo": 8,
+          "etiqueta": "Línea de Transmisión"
+        },
+        {
+          "campo": "id_estado_proyecto",
+          "dominio": "mline_proyecto_estado",
+          "codigo": 3,
+          "etiqueta": "Registrado"
+        }
+      ],
+      "relaciones_observadas": [],
+      "incidencias": []
+    }
+  }
+}

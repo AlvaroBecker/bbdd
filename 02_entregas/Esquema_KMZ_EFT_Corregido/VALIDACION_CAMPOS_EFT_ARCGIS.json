@@ -1,0 +1,17 @@
+{
+  "version_paquete": "1.2",
+  "arcgis": "3.7.1",
+  "clases_creadas": [
+    "estructuras",
+    "area_estudio_campo"
+  ],
+  "estructuras_campos_modelo": 34,
+  "estructuras_campos_fisicos": 41,
+  "codigo_estacion_en_area_estudio": true,
+  "segunda_ejecucion_sin_duplicados": true,
+  "extension_existente_bloquea_lote": true,
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_233344_fb9d813b\\ensayo.gdb",
+  "validacion_sde": false,
+  "preparacion_en_proceso_separado": true,
+  "alcance": "Campos y estructura; tipos y mapeos de carga siguen pendientes"
+}

@@ -1,0 +1,35 @@
+{
+  "estado": "PREVALIDADO",
+  "modo": "CREAR",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "4a59ddab285a4cf142185aeff8a93137b4ac3bbae08b1d3bf20340782bf33dba",
+  "inicio_utc": "2026-11-05T03:20:26.476673+00:00",
+  "completadas": [],
+  "clase_en_curso": null,
+  "clases": [
+    {
+      "nombre": "estructuras",
+      "geometria": "POINT",
+      "campos": 32,
+      "tipos_pendientes": 21,
+      "accion": "VALIDADA_EXISTENTE"
+    }
+  ],
+  "advertencias": [
+    "El catalogo de 76 clases sigue siendo una propuesta funcional, no una aprobacion de INDRA.",
+    "Los atributos marcados pendientes mantienen texto conservador; requieren perfil de valores y unidades antes de cargar.",
+    "Los campos propios no se eliminan por tener nombres parecidos. El informe no certifica la equivalencia de sus valores.",
+    "Esta fase crea clases vacias con GlobalID y auditoria UTC. No carga KMZ, no crea relaciones y no activa branch.",
+    "Las relaciones con proyecto y las relaciones de negocio se validan y crean en una fase posterior.",
+    "DDL ArcGIS no es una transaccion atomica: un fallo puede dejar una clase parcial. Se informa y se detiene, sin borrado automatico.",
+    "TestSchemaLock del contenedor devolvio False; esta comprobacion no es concluyente en el ensayo local. ArcGIS verificara los bloqueos reales durante cada creacion."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\20261105_002026_ba3de2a2\\estados\\20261105T032038_272144Z_9071ff6b\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\20261105_002026_ba3de2a2\\estados\\20261105T032038_272144Z_9071ff6b\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\20261105_002026_ba3de2a2\\campos.csv",
+  "arcgis": "3.7.1",
+  "proyectos_en_padre": 1,
+  "test_schema_lock_dataset_informativo": false
+}

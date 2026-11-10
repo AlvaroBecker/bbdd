@@ -1,0 +1,77 @@
+﻿archivo;ruta;esperados;observados;coincide
+Proyecto CHANCHAMAYO.kmz;CHANCHAMAYO Final 12.02 / CHANCHAMAYO / 1. Líneas de Transmisión / 2. Estructuras / 138 kV;22;22;True
+Proyecto CHANCHAMAYO.kmz;CHANCHAMAYO Final 12.02 / CHANCHAMAYO / 1. Líneas de Transmisión / 2. Estructuras / 220 kV;5;5;True
+Proyecto CHANCHAMAYO.kmz;CHANCHAMAYO Final 12.02 / CHANCHAMAYO / 1. Líneas de Transmisión / 2. Estructuras / 60 kV;26;26;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 220kV / Felam - Nueva Felam;7;7;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 220kV / Nueva Felam - Tierras Nuevas;70;70;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 220kV / Seccionamiento - Nueva Felam;3;3;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 220kV / Tierras Nuevas -Salitral;140;140;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 60kV / Olmos - Nueva Olmos;6;6;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 60kV / Salitral - La Viña;70;70;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 60kV / Salitral - Nueva Olmos;64;64;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 60kV / Seccionamiento - Nueva Olmos;2;2;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 1. Ingenieria / Plantillado / Estructuras 60kV / Seccionamiento - Salitral;5;5;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 5. Consultor Ambiental / Biologico / EBI01A / TORRES;354;354;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 5. Consultor Ambiental / Biologico / EBI01B / TORRES;354;354;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 5. Consultor Ambiental / Fisico / F01 / TORRES;354;354;True
+Proyecto FELAM.kmz;Proyecto FELAM.kmz / Felam / 5. Consultor Ambiental / Social / SOC02 / SOC02 / TORRES;354;354;True
+Proyecto HUARAZ.kmz;HUARAZ Final 22.02.kmz / HUARAZ Final 12.02 / Caso base (ALT4).kmz / ALT 4A Ubicación de Estructuras - Huaraz / 138 kV / Estructuras;44;44;True
+Proyecto HUARAZ.kmz;HUARAZ Final 22.02.kmz / HUARAZ Final 12.02 / Caso base (ALT4).kmz / ALT 4A Ubicación de Estructuras - Huaraz / 220 kV / Estructuras;14;14;True
+Proyecto HUARAZ.kmz;HUARAZ Final 22.02.kmz / HUARAZ Final 12.02 / Caso base (ALT4).kmz / ALT 4A Ubicación de Estructuras - Huaraz / 66 kV / Estructuras;21;21;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI01A / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI01B / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI02A / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI02B / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI03 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI04 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI05 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI06 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI07 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI08 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI09 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Biologico / EBI10 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL01 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL02 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL03 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL04 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL05 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL06 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL07 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL08 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL09 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL10 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL11 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL12 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Fisico / PL13 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Social / SOC01 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Social / SOC02 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Social / SOC03 / TORRES;147;147;True
+Proyecto PALIAN.kmz;Proyecto PALIAN.kmz / Palian / 5. Consultor Ambiental / Social / SOC04 / TORRES;147;147;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI01A / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI01B / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI02A / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI02B / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI03 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI04 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI05 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI06 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI07 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI08 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI09 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Biologico / EBI10 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR01 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR02 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR03 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR04 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR05 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Fisico / PR06 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Social / SOC01 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Social / SOC02 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Social / SOC03 / TORRES;222;222;True
+Proyecto PARIÑAS.kmz;Proyecto PARIÑAS.kmz / Pariñas / 5. Consultor Ambiental / Social / SOC04 / TORRES;222;222;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 2. Estructuras / 220 kV;293;293;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 2. Estructuras / Der LT 138 kV - 1125;6;6;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 2. Estructuras / Der LT 138 kV - 1156;3;3;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 2. Estructuras / Porticos y Seccionamientos;6;6;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 4. Líneas Existentes / Linea Existente L1156 / Planilla de LT Ag.Pu 28.11.18 1 de 2 / Torres;148;148;True
+Proyecto PUCALLPA.kmz;PUCALLPA Final 12.02 / PUCALLPA / 1. Líneas de Transmisión / 4. Líneas Existentes / Linea Existente L1156 / Torres_ITS;61;61;True

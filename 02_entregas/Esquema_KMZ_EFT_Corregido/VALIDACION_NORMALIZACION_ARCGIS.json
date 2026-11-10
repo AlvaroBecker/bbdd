@@ -1,0 +1,17 @@
+{
+  "version_paquete": "1.3",
+  "arcgis": "3.7.1",
+  "estructuras_campos_modelo": 32,
+  "estructuras_campos_fisicos": 39,
+  "nombres_fisicos_verificados": true,
+  "repeticion_sin_duplicados": true,
+  "validacion_sde": false,
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\ensayo.gdb",
+  "alcance": "Nombres y campos de estructuras; dominios existentes preparados en el fixture local.",
+  "incidencia_previa": "Primer ensayo detenido por ERROR 000112 al poblar dom_fuente; no creo la clase. Dominio del fixture completado en proceso separado. Las repeticiones fallaron en una segunda prevalidacion redundante tras validar el lote existente (999999/read only y Describe no existe). Se retiro esa segunda lectura solo para lotes sin cambios.",
+  "repeticion_en_proceso_separado": true,
+  "informe_repeticion": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\20261105_002221_31add247\\estados\\20261105T032235_182808Z_277cff42\\resultado.json",
+  "datos_proyecto_sha256": "0e0aded961121314fb45368d0ad62628c4d18dbb99f2c0db2e58daed8a791ecf",
+  "esquema_sha256": "4a59ddab285a4cf142185aeff8a93137b4ac3bbae08b1d3bf20340782bf33dba",
+  "informe_creacion": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\norm13_20261105_000852_426b10ef\\20261105_001739_d0938322\\estados\\20261105T031904_092697Z_5f9f3234\\resultado.json"
+}

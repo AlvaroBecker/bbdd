@@ -1,0 +1,7 @@
+"""Creacion de la clase cobertura_vegetal_minam."""
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from crear_esquema import main
+if __name__ == "__main__":
+    main(["--clase",'cobertura_vegetal_minam']+sys.argv[1:])

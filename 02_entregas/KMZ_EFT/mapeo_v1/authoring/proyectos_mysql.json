@@ -1,0 +1,1451 @@
+{
+  "fuente_mysql": {
+    "archivo": "Mapline_20261030.sql",
+    "sha256": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd",
+    "schema": "SCH_EEP_INONE_MAPLINE",
+    "dump_completed_raw": "2026-10-30 13:34:58"
+  },
+  "alcance": {
+    "proyectos": 40,
+    "componentes": 120,
+    "projectCandidates": 13,
+    "filtrado_por_estado": false,
+    "nuevos_identificadores_generados": 0,
+    "correspondencias_validadas": 0,
+    "ejecucion_sql": false
+  },
+  "campos_fuente": {
+    "proyectos": {
+      "id": "id_proyecto",
+      "co": "co_proyecto",
+      "no": "no_proyecto",
+      "de": "de_proyecto",
+      "es_registro": "es_registro"
+    },
+    "componentes": {
+      "id": "id_proyecto_componente",
+      "id_proyecto": "id_proyecto",
+      "no": "no_componente",
+      "de": null,
+      "es_registro": "es_registro",
+      "zona_geografica": "no_zona_geografica",
+      "departamento": "no_departamento"
+    }
+  },
+  "observaciones": [
+    "Se conservan todos los estados de registro y componentes con nombres repetidos.",
+    "Los candidatos se basan en nombres completos y carpetas inventariadas; no son aprobaciones ni demuestran correspondencia de geometria.",
+    "Un codigo de proyecto candidato no valida el identificador de componente.",
+    "El origen no contiene un campo de descripcion de componente."
+  ],
+  "estados_registro_fuente": {
+    "proyectos": {
+      "0": 34,
+      "1": 6
+    },
+    "componentes": {
+      "0": 33,
+      "1": 87
+    }
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "co": "PRY-00000001",
+      "no": "Aguaytía",
+      "de": "LT 220 kV Aguaytía - Pucallpa",
+      "es_registro": "0"
+    },
+    {
+      "id": 2,
+      "co": "PRY-00000002",
+      "no": "Prueba LT ",
+      "de": "Prueba LT",
+      "es_registro": "0"
+    },
+    {
+      "id": 3,
+      "co": "PRY-00000003",
+      "no": "LT KON",
+      "de": "LT DE LA CENTRAL KON",
+      "es_registro": "0"
+    },
+    {
+      "id": 4,
+      "co": "PRY-00000004",
+      "no": "Huaraz",
+      "de": "LT 138 kV Huaraz - Huaylas Oeste y derivaciones",
+      "es_registro": "0"
+    },
+    {
+      "id": 5,
+      "co": "PRY-00000005",
+      "no": "Chanchamayo",
+      "de": "LT 138 kV La Virgen - Nueva Campas, LT 60 kV Nueva Campas - Chanchamayo",
+      "es_registro": "1"
+    },
+    {
+      "id": 6,
+      "co": "PRY-00000006",
+      "no": "Chiclayo",
+      "de": "Terreno para un potencial parque eólico",
+      "es_registro": "0"
+    },
+    {
+      "id": 7,
+      "co": "PRY-00000007",
+      "no": "LT Quercus",
+      "de": "Definición de LT Quercus",
+      "es_registro": "0"
+    },
+    {
+      "id": 8,
+      "co": "PRY-00000008",
+      "no": "G2 Enlace 138 kV San Román – Yocara – Maravillas (Juliaca)",
+      "de": "LT 138 kV en Juliaca",
+      "es_registro": "0"
+    },
+    {
+      "id": 9,
+      "co": "PRY-00000009",
+      "no": "G1 Enlace 500 kV Miguel Grau - Pariñas",
+      "de": "LT 500 kV y 220 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 10,
+      "co": "PRY-00000010",
+      "no": "G1 Enlaces 220 kV Felam – Tierras Nuevas – Salitral",
+      "de": "TL 220 kV ",
+      "es_registro": "0"
+    },
+    {
+      "id": 11,
+      "co": "PRY-00000011",
+      "no": "G2 NUEVA SAN GABÁN - NUEVA PUERTO MALDONADO",
+      "de": "ITC - Mejora Conf Sist Eléctrico Puerto Maldonado\n",
+      "es_registro": "0"
+    },
+    {
+      "id": 12,
+      "co": "PRY-00000012",
+      "no": "G2  Enlace 220 kV Tintaya Nueva - Nueva San Gabán",
+      "de": "LT 220 KV",
+      "es_registro": "0"
+    },
+    {
+      "id": 13,
+      "co": "PRY-00000013",
+      "no": "G2 'LT 500 kV Colectora-Bicentenario-Chilca",
+      "de": "LT 500 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 14,
+      "co": "PRY-00000014",
+      "no": "G2 LT 138 kV San Román – Yocara – Maravilla",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 15,
+      "co": "PRY-00000015",
+      "no": "G3 LT138 kV Nueva Virú – Trujillo Sur",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 16,
+      "co": "PRY-00000016",
+      "no": "G3 LT 138 kV Nueva Moche y Trujillo Sur",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 17,
+      "co": "PRY-00000017",
+      "no": "G3 LT 220 kV Miguel Grau – Sullana",
+      "de": "LT 220 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 18,
+      "co": "PRY-00000018",
+      "no": "G3 LT 220 kV Miguel Grau – Chulucanas",
+      "de": "LT 220 KV",
+      "es_registro": "0"
+    },
+    {
+      "id": 19,
+      "co": "PRY-00000019",
+      "no": "G3 Nueva SE Antuquito Este 220/50 kV y LT 220/50 kV ",
+      "de": "LT 220/50 KV",
+      "es_registro": "0"
+    },
+    {
+      "id": 20,
+      "co": "PRY-00000020",
+      "no": "G4 LT138 kV Belaunde Terry – Valle Grande",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 21,
+      "co": "PRY-00000021",
+      "no": "G4 LT 138 kV Campas – Yurinaki",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 22,
+      "co": "PRY-00000022",
+      "no": "G4 LT 138 kV Shipibo – Manantay",
+      "de": "LT 138 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 23,
+      "co": "PRY-00000023",
+      "no": "G4 Nueva SE Viñedos 220/60 kV y LT",
+      "de": "LT 220 y 60 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 24,
+      "co": "PRY-00000024",
+      "no": "G4 LT 220 kV Los Héroes – Garita",
+      "de": "LT 220 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 25,
+      "co": "PRY-00000025",
+      "no": "G1 LT 220 kV Muyurina – Mollepata",
+      "de": "LT 220 KV",
+      "es_registro": "0"
+    },
+    {
+      "id": 26,
+      "co": "PRY-00000026",
+      "no": "G1 Nueva SE Palián 220/60 kV y LT",
+      "de": "LT 220 y 60 kV",
+      "es_registro": "0"
+    },
+    {
+      "id": 27,
+      "co": "PRY-00000027",
+      "no": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral",
+      "de": "LT 220 Kv",
+      "es_registro": "0"
+    },
+    {
+      "id": 28,
+      "co": "PRY-00000028",
+      "no": "Prueba Componentes",
+      "de": "Prueba Componentes",
+      "es_registro": "0"
+    },
+    {
+      "id": 29,
+      "co": "PRY-00000029",
+      "no": "Prueba NETC-PR",
+      "de": "Prueba NETC-PR",
+      "es_registro": "0"
+    },
+    {
+      "id": 30,
+      "co": "PRY-00000030",
+      "no": "Prueba Reporte",
+      "de": "Prueba Reporte",
+      "es_registro": "0"
+    },
+    {
+      "id": 31,
+      "co": "PRY-00000031",
+      "no": "NET - CONSULTORES",
+      "de": "CONSULTORES",
+      "es_registro": "0"
+    },
+    {
+      "id": 32,
+      "co": "PRY-00000032",
+      "no": "NET - CONSULTORES",
+      "de": "NET - CONSULTORES",
+      "es_registro": "1"
+    },
+    {
+      "id": 33,
+      "co": "PRY-00000033",
+      "no": "NET CONSULTORES 2",
+      "de": "NET CONSULTORES 2",
+      "es_registro": "0"
+    },
+    {
+      "id": 34,
+      "co": "PRY-00000034",
+      "no": "NET CONSULTORES 3",
+      "de": "NET CONSULTORES 3 1",
+      "es_registro": "0"
+    },
+    {
+      "id": 35,
+      "co": "PRY-00000035",
+      "no": "Prueba1",
+      "de": "3342dq dwqdwrfg3r",
+      "es_registro": "0"
+    },
+    {
+      "id": 36,
+      "co": "PRY-00000036",
+      "no": "LTINDRA",
+      "de": "INDRA",
+      "es_registro": "1"
+    },
+    {
+      "id": 37,
+      "co": "PRY-00000037",
+      "no": "NuevoTrujillo",
+      "de": "TL",
+      "es_registro": "0"
+    },
+    {
+      "id": 38,
+      "co": "PRY-00000038",
+      "no": "NuevaTrujillo",
+      "de": "Proyecto ubicado en la region de trujillo",
+      "es_registro": "1"
+    },
+    {
+      "id": 39,
+      "co": "PRY-00000039",
+      "no": "Trujillonuevo",
+      "de": "TL",
+      "es_registro": "1"
+    },
+    {
+      "id": 40,
+      "co": "PRY-00000040",
+      "no": "Prueba21",
+      "de": "Linea de transmisión 138 kV",
+      "es_registro": "1"
+    }
+  ],
+  "componentes": [
+    {
+      "id": 1,
+      "id_proyecto": 2,
+      "no": "Prueba LT",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "ICA"
+    },
+    {
+      "id": 2,
+      "id_proyecto": 1,
+      "no": "LT 220 kV Aguaytía - Shipibo",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Ucayali"
+    },
+    {
+      "id": 3,
+      "id_proyecto": 3,
+      "no": "LT KON",
+      "es_registro": "1",
+      "zona_geografica": "COSTA",
+      "departamento": "AREQUIPA"
+    },
+    {
+      "id": 4,
+      "id_proyecto": 4,
+      "no": "LT 220 kV Huaylas - Huaraz Oeste",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Anchash"
+    },
+    {
+      "id": 5,
+      "id_proyecto": 4,
+      "no": "LT 66  kV Derivación D1",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Anchash"
+    },
+    {
+      "id": 6,
+      "id_proyecto": 4,
+      "no": "LT 220 kV Derivación D2",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Ancash"
+    },
+    {
+      "id": 7,
+      "id_proyecto": 4,
+      "no": "LT 220 kV Derivación D3",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Anchash"
+    },
+    {
+      "id": 8,
+      "id_proyecto": 2,
+      "no": "Zona Alternativa 5 SE Huaylas",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Anchas"
+    },
+    {
+      "id": 9,
+      "id_proyecto": 6,
+      "no": "Chiclayo",
+      "es_registro": "1",
+      "zona_geografica": "Chiclayo",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 10,
+      "id_proyecto": 7,
+      "no": "LT QUERCUS",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 11,
+      "id_proyecto": 7,
+      "no": "LT Quercus",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 12,
+      "id_proyecto": 5,
+      "no": "LT Campas - Nueva Campas",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 13,
+      "id_proyecto": 5,
+      "no": "LT La Virgen - Nueva Campas",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 14,
+      "id_proyecto": 5,
+      "no": "LT Nueva Campas - Chanchamayo",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 15,
+      "id_proyecto": 8,
+      "no": "LT 138 kV Yocara - Maravilla",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Juliaca"
+    },
+    {
+      "id": 16,
+      "id_proyecto": 8,
+      "no": "LT 138 kV San Román – Yocara",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Juliaca"
+    },
+    {
+      "id": 17,
+      "id_proyecto": 9,
+      "no": "ENLACE 220 KV S.E. NUEVA PARIÑAS 500-220KV - S.E. PARIÑAS 220KV",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 18,
+      "id_proyecto": 9,
+      "no": " L.T 500kV S.E. Miguel Grau – S.E. Nueva Pariñas.",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 19,
+      "id_proyecto": 9,
+      "no": " L.T 500kV S.E. Miguel Grau – S.E. Nueva Pariñas.",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 20,
+      "id_proyecto": 9,
+      "no": " L.T 500kV S.E. Miguel Grau – S.E. Nueva Pariñas.",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 21,
+      "id_proyecto": 9,
+      "no": "LT 220 KV S.E. NUEVA PARIÑAS 500/220KV – SE PARIÑAS",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 22,
+      "id_proyecto": 10,
+      "no": "ENLACE DE BARRAS SE FELAM - SE NUEVA FELAM",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 23,
+      "id_proyecto": 10,
+      "no": "LT 60 kV NUEVA OLMOS - OLMOS (HDNA)",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 24,
+      "id_proyecto": 10,
+      "no": "LT 60 kV SALITRAL - LA VIÑA",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 25,
+      "id_proyecto": 10,
+      "no": "LT 60 kV SALITRAL - NUEVA OLMOS",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 26,
+      "id_proyecto": 10,
+      "no": "LT 220 kV LAMBAYEQUE OESTE - LA NIÑA ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 27,
+      "id_proyecto": 10,
+      "no": "LT 220 KV NUEVA FELAM - TIERRAS NUEVAS",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 28,
+      "id_proyecto": 10,
+      "no": "LT 220 KV TIERRAS NUEVAS - SALITRAL",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 29,
+      "id_proyecto": 10,
+      "no": "SECCIONAMIENTO LT 60 kV PAMPA PAÑALA - NUEVA MOTUPE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lambayeque"
+    },
+    {
+      "id": 30,
+      "id_proyecto": 11,
+      "no": "138 kV NUEVA PUERTO MALDONADO - PUERTO",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Madre de Dios"
+    },
+    {
+      "id": 31,
+      "id_proyecto": 11,
+      "no": "LT 220 kV NUEVA SAN GABÁN - NUEVA PUERTO MALDONADO",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": "Madre de Dios"
+    },
+    {
+      "id": 32,
+      "id_proyecto": 12,
+      "no": "LT 220 kV NUEVA SAN GABÁN - TINTAYA NUEVA",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Puno"
+    },
+    {
+      "id": 33,
+      "id_proyecto": 12,
+      "no": "LT 220 kV NUEVA SAN GABÁN - PAQUILLUSI ",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Puno"
+    },
+    {
+      "id": 34,
+      "id_proyecto": 12,
+      "no": "LT 138 kV NUEVA SAN GABÁN - SAN GABÁN II",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Puno"
+    },
+    {
+      "id": 35,
+      "id_proyecto": 13,
+      "no": "LT 500 kV BICENTENARIO - CHILCA",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lima"
+    },
+    {
+      "id": 36,
+      "id_proyecto": 13,
+      "no": "LT 500 kV COLECTORA - BICENTENARIO",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Lima"
+    },
+    {
+      "id": 37,
+      "id_proyecto": 16,
+      "no": "LT 138 KV MOCHE - TRUJILLO SUR",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 38,
+      "id_proyecto": 16,
+      "no": "SECCIONAMIENTO A LT 220 KV CHIMBOTE - TRUJILLO NORTE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 39,
+      "id_proyecto": 16,
+      "no": "SECCIONAMIENTO B LT 220 KV CHIMBOTE - TRUJILLO NORTE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 40,
+      "id_proyecto": 16,
+      "no": "SECCIONAMIENTO A LT 220 KV NUEVA VIRU - TRUJILLO NORTE ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 41,
+      "id_proyecto": 16,
+      "no": "SECCIONAMIENTO B LT 220 KV NUEVA VIRU - TRUJILLO NORTE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 42,
+      "id_proyecto": 24,
+      "no": "LT 66 kV Garita - Hospicio",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 43,
+      "id_proyecto": 24,
+      "no": "LT 66 kV Garita - Yarada",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 44,
+      "id_proyecto": 24,
+      "no": "LT 220 kV Los Héroes – Garita ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 45,
+      "id_proyecto": 23,
+      "no": "LT 60 kV VIÑEDOS - COELVISAC",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Ica"
+    },
+    {
+      "id": 46,
+      "id_proyecto": 23,
+      "no": "SECCIONAMIENTO A LT 220 kV INDEPENDENCIA - ICA ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 47,
+      "id_proyecto": 23,
+      "no": "SECCIONAMIENTO B LT 220 kV INDEPENDENCIA - ICA ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 48,
+      "id_proyecto": 23,
+      "no": "SECCIONAMIENTO C LT 220 kV INDEPENDENCIA - ICA ",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Tacna"
+    },
+    {
+      "id": 49,
+      "id_proyecto": 22,
+      "no": "LT 138 kV S.E. Shipibo - SE Nueva Manantay",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Ucayali"
+    },
+    {
+      "id": 50,
+      "id_proyecto": 22,
+      "no": "LT 60 kV Seccionamiento S.E. Pucallpa – S.E. Pucallpa EUC ",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Ucayali"
+    },
+    {
+      "id": 51,
+      "id_proyecto": 21,
+      "no": "LT 138 kV Nueva Campas - Yuranaki",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Junin"
+    },
+    {
+      "id": 52,
+      "id_proyecto": 21,
+      "no": "LT 60 kV Seccionamiento Villarica - Pichanaki",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "Junin"
+    },
+    {
+      "id": 53,
+      "id_proyecto": 20,
+      "no": "LT 60 kV Valle Grande – Nueva Cajamarca ",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "San Martin"
+    },
+    {
+      "id": 54,
+      "id_proyecto": 20,
+      "no": "LT 60 kV Valle Grande - Rioja ",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "San Martin"
+    },
+    {
+      "id": 55,
+      "id_proyecto": 20,
+      "no": "LT 138 kV Belaunde Terry – Valle Grande ",
+      "es_registro": "1",
+      "zona_geografica": "Selva",
+      "departamento": "San Martin"
+    },
+    {
+      "id": 56,
+      "id_proyecto": 19,
+      "no": "LT 50 kV ANTUQUITO ESTE - CARLOS FRANCISCO",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Lima"
+    },
+    {
+      "id": 57,
+      "id_proyecto": 19,
+      "no": "Seccionamiento LT 50 kV Antuquito - Rosaura",
+      "es_registro": "1",
+      "zona_geografica": "Sierrra",
+      "departamento": "Lima"
+    },
+    {
+      "id": 58,
+      "id_proyecto": 19,
+      "no": "Seccionamiento LT 220 kV Orcotuna - Huanza",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Lima"
+    },
+    {
+      "id": 59,
+      "id_proyecto": 18,
+      "no": "LT 220 KV S.E. MIGUEL GRAU – CRUZ VERDE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 60,
+      "id_proyecto": 18,
+      "no": "LT 60 KV (DERIVACION) S.E. NUEVA CRUZ VERDE",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 61,
+      "id_proyecto": 17,
+      "no": "LT 220 kV Miguel Grau - Nueva Huangala",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 62,
+      "id_proyecto": 17,
+      "no": "LT 60 kV Nueva Huangala - Sullana",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 63,
+      "id_proyecto": 25,
+      "no": "LT 220 kV Muyurina – Mollepata",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Ayacucho"
+    },
+    {
+      "id": 64,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Huancayo Este",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 65,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Salesianos ",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 66,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Parque Industrial",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 67,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Parque Industrial - Salesianos",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 68,
+      "id_proyecto": 26,
+      "no": "LT 220 kV Palián – Orcotuna ",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 69,
+      "id_proyecto": 26,
+      "no": "LT 220 kV Pucará Palián",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 70,
+      "id_proyecto": 26,
+      "no": "Línea de seccionamiento L-2218 hacia SE Pucará",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 71,
+      "id_proyecto": 26,
+      "no": "Línea de seccionamiento L-2219 hacia SE Pucará",
+      "es_registro": "0",
+      "zona_geografica": "Sierra",
+      "departamento": "Huancayo"
+    },
+    {
+      "id": 72,
+      "id_proyecto": 15,
+      "no": "LT 138kV Nueva Virú-Trujillo Sur",
+      "es_registro": "1",
+      "zona_geografica": "Costa",
+      "departamento": "La Libertad"
+    },
+    {
+      "id": 73,
+      "id_proyecto": 14,
+      "no": "LT 138 kV San Román – Yocara",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Juliaca"
+    },
+    {
+      "id": 74,
+      "id_proyecto": 14,
+      "no": "LT 138 kV Yocara - Maravilla",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "Juliaca"
+    },
+    {
+      "id": 75,
+      "id_proyecto": 9,
+      "no": "L.T 500kV S.E. Miguel Grau – S.E. Nueva Pariñas",
+      "es_registro": "0",
+      "zona_geografica": "Costa",
+      "departamento": "Piura"
+    },
+    {
+      "id": 76,
+      "id_proyecto": 27,
+      "no": "ENLACE DE BARRAS SE FELAM - SE NUEVA FELAM",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 77,
+      "id_proyecto": 27,
+      "no": "LT 60 kV SALITRAL - LA VIÑA",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 78,
+      "id_proyecto": 27,
+      "no": "LT 60 kV SALITRAL - NUEVA OLMOS",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 79,
+      "id_proyecto": 27,
+      "no": "LT 220 kV LAMBAYEQUE OESTE - LA NIÑA PARA CONEXIÓN A SE NUEVA FE",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 80,
+      "id_proyecto": 27,
+      "no": "LT 220 KV NUEVA FELAM - TIERRAS NUEVAS",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 81,
+      "id_proyecto": 27,
+      "no": "LT 220 KV TIERRAS NUEVAS - SALITRAL",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 82,
+      "id_proyecto": 27,
+      "no": "SECCIONAMIENTO LINEA DE TRANSMISION 60 kV PAMPA PAÑALA - NUEVA M",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 83,
+      "id_proyecto": 28,
+      "no": "LT palian Huancayo Este",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 84,
+      "id_proyecto": 28,
+      "no": "Palian Parque industrial salesianos",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 85,
+      "id_proyecto": 28,
+      "no": "Palian Parque industriales",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 86,
+      "id_proyecto": 28,
+      "no": "Línea de seccionamiento L-2218 hacia SE Pucará",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 87,
+      "id_proyecto": 28,
+      "no": "Línea de seccionamiento L-2219 hacia SE Pucará",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 88,
+      "id_proyecto": 28,
+      "no": "LT 60 kV Palián – Salesianos",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 89,
+      "id_proyecto": 28,
+      "no": "LT 220 kV Palián – Orcotuna",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 90,
+      "id_proyecto": 26,
+      "no": "LT 220 kV Pucará Palián",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 91,
+      "id_proyecto": 26,
+      "no": "LT 220 kV Palián – Orcotuna",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 92,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Huancayo Este",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 93,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Parque Industrial - Salesianos",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 94,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Parque Industrial",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 95,
+      "id_proyecto": 26,
+      "no": "LT 60 kV Palián – Salesianos",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 96,
+      "id_proyecto": 29,
+      "no": "LT 220 kV Pucará Palián",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 97,
+      "id_proyecto": 29,
+      "no": "LT 60 kV Palián – Huancayo Este",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 98,
+      "id_proyecto": 29,
+      "no": "LT 60 kV Palián – Salesianos",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 99,
+      "id_proyecto": 30,
+      "no": "LP Prueba",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 100,
+      "id_proyecto": 9,
+      "no": "L.T 500kV S.E. Miguel Grau – S.E. Nueva Pariñas",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 101,
+      "id_proyecto": 9,
+      "no": "LT  220 KV S.E. NUEVA PARIÑAS - S.E. PARIÑAS",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 102,
+      "id_proyecto": 32,
+      "no": "Prueba 1",
+      "es_registro": "1",
+      "zona_geografica": "ICA",
+      "departamento": "ICA"
+    },
+    {
+      "id": 103,
+      "id_proyecto": 32,
+      "no": "Prueba 2",
+      "es_registro": "0",
+      "zona_geografica": "Ica",
+      "departamento": "Ica"
+    },
+    {
+      "id": 104,
+      "id_proyecto": 32,
+      "no": "Prueba 3",
+      "es_registro": "1",
+      "zona_geografica": "Ica",
+      "departamento": "Ica"
+    },
+    {
+      "id": 105,
+      "id_proyecto": 32,
+      "no": "Prueba 4",
+      "es_registro": "0",
+      "zona_geografica": "Ica",
+      "departamento": "Ica"
+    },
+    {
+      "id": 106,
+      "id_proyecto": 32,
+      "no": "Prueba 5",
+      "es_registro": "0",
+      "zona_geografica": "ICA",
+      "departamento": "ICA"
+    },
+    {
+      "id": 107,
+      "id_proyecto": 32,
+      "no": "Prueba 2",
+      "es_registro": "0",
+      "zona_geografica": "Ica",
+      "departamento": "Ica"
+    },
+    {
+      "id": 108,
+      "id_proyecto": 32,
+      "no": "Prueba 4",
+      "es_registro": "1",
+      "zona_geografica": "Ica",
+      "departamento": "Ica"
+    },
+    {
+      "id": 109,
+      "id_proyecto": 36,
+      "no": "INDRA",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 110,
+      "id_proyecto": 36,
+      "no": "LTINDRA",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 111,
+      "id_proyecto": 36,
+      "no": "INDRA",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 112,
+      "id_proyecto": 36,
+      "no": "INDRA123456",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 113,
+      "id_proyecto": 36,
+      "no": "prueba",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 114,
+      "id_proyecto": 36,
+      "no": "prueba 2",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 115,
+      "id_proyecto": 36,
+      "no": "INDRA0303",
+      "es_registro": "0",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 116,
+      "id_proyecto": 36,
+      "no": "PRUEBA 2809",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 117,
+      "id_proyecto": 38,
+      "no": "Trujillo",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 118,
+      "id_proyecto": 36,
+      "no": "PRUEBA V2 2809",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 119,
+      "id_proyecto": 39,
+      "no": "Trujillo12",
+      "es_registro": "1",
+      "zona_geografica": null,
+      "departamento": null
+    },
+    {
+      "id": 120,
+      "id_proyecto": 40,
+      "no": "LT Antuquito - Antuquito Este",
+      "es_registro": "1",
+      "zona_geografica": "Sierra",
+      "departamento": "LIMA"
+    }
+  ],
+  "projectCandidates": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "codigos_candidatos": [
+        "PRY-00000005"
+      ],
+      "evidencia": [
+        "Proyecto Chanchamayo y componentes Campas/Nueva Campas/La Virgen/Chanchamayo.",
+        "Las carpetas del KMZ incluyen LT 138 kV Campas - La Virgen y LT 60 KV Campas - Chanchamayo.",
+        "PRY-00000021 tambien menciona Campas, pero su ruta es Yurinaki; compartir localidad no prueba identidad."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "codigos_candidatos": [
+        "PRY-00000010",
+        "PRY-00000027"
+      ],
+      "evidencia": [
+        "Existen dos proyectos con Felam - Tierras Nuevas - Salitral y componentes comunes.",
+        "El KMZ contiene rutas Felam/Tierras Nuevas/Salitral y Nueva Olmos. No se elige automaticamente un proyecto por estado o por ciudad."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "codigos_candidatos": [
+        "PRY-00000004"
+      ],
+      "evidencia": [
+        "Coinciden Huaraz, Huaylas y derivaciones; el KMZ tiene trazos 220/138/66 kV.",
+        "PRY-00000002 contiene un componente de prueba relacionado con Huaylas; no se usa como equivalencia por localidad."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto JAENNORTE.kmz",
+      "codigos_candidatos": [],
+      "evidencia": [
+        "El KMZ menciona Caclic - Jaen Norte, Jaen y Bagua Chica; no se encontro correspondencia nominal en los 40 proyectos o 120 componentes.",
+        "Se requiere decision de ENGIE; no se asigno ni genero un codigo nuevo."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto MUYURINA.kmz",
+      "codigos_candidatos": [
+        "PRY-00000025"
+      ],
+      "evidencia": [
+        "Coinciden Muyurina - Mollepata y componente 63; la carpeta del KMZ dice LT 220 KV MUYURINA_MOLLEPATA."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "codigos_candidatos": [
+        "PRY-00000026"
+      ],
+      "evidencia": [
+        "Coinciden Palián, Huancayo Este, Pucara y sus circuitos.",
+        "PRY-00000028 y PRY-00000029 son proyectos de prueba con componentes similares; no se eliminan del historico ni se eligen automaticamente.",
+        "PRY-00000026 contiene varios componentes con nombres repetidos; el nombre no determina id_componente."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "codigos_candidatos": [
+        "PRY-00000009"
+      ],
+      "evidencia": [
+        "Coinciden Miguel Grau - Nueva Pariñas 500 kV y Nueva Pariñas - Pariñas 220 kV.",
+        "Hay varios IDs de componente con nombres equivalentes en el mismo proyecto; falta corroborar geometria e identificadores."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto POROMA.kmz",
+      "codigos_candidatos": [],
+      "evidencia": [
+        "El KMZ menciona Ica - Poroma e Ica - Intermedia - Poroma; no se encontro correspondencia nominal en los 40 proyectos o 120 componentes.",
+        "Otros componentes mencionan Ica, pero eso no acredita identidad. No se genero un codigo nuevo."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "codigos_candidatos": [
+        "PRY-00000001",
+        "PRY-00000022"
+      ],
+      "evidencia": [
+        "El candidato principal por descripcion es Aguaytia - Pucallpa (PRY-00000001); el KMZ incluye planillas LT Ag.Pu.",
+        "PRY-00000022 es Shipibo - Manantay y tiene un seccionamiento Pucallpa; es una coincidencia secundaria que requiere revision, no validacion."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+      "codigos_candidatos": [
+        "PRY-00000009"
+      ],
+      "evidencia": [
+        "Coincidencia del nombre completo del resultado con el proyecto. Falta validar vinculos y geometria."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+      "codigos_candidatos": [
+        "PRY-00000027",
+        "PRY-00000010"
+      ],
+      "evidencia": [
+        "El titulo completo del resultado coincide con PRY-00000027; PRY-00000010 usa Enlaces en su nombre y comparte circuitos.",
+        "Se conservan ambos candidatos para revision; no se decide por vigencia ni similitud parcial."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "G1 LT 220 kV Muyurina – Mollepata.kmz",
+      "codigos_candidatos": [
+        "PRY-00000025"
+      ],
+      "evidencia": [
+        "Coincidencia del nombre completo con el proyecto y su componente 63. No se considera validacion geométrica."
+      ],
+      "pendiente": true,
+      "validado": false
+    },
+    {
+      "archivo": "G1 Nueva SE Palián 22060 kV y LT.kmz",
+      "codigos_candidatos": [
+        "PRY-00000026"
+      ],
+      "evidencia": [
+        "La carpeta del resultado conserva Nueva SE Palián 220/60 kV y LT, coincidente con el proyecto.",
+        "No se usan los componentes semejantes de proyectos de prueba como aprobacion de este mapeo."
+      ],
+      "pendiente": true,
+      "validado": false
+    }
+  ]
+}

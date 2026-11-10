@@ -1,0 +1,94 @@
+{
+  "version_paquete": "1.5.1",
+  "version_modelo": 9,
+  "arcgis": "3.7.1",
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb",
+  "validacion_sde": false,
+  "clase_reparada": "predios_inscritos_en_sunarp_recorte",
+  "campo_reparado": "cargas_y_gravamenes",
+  "validacion_sin_cambios": true,
+  "reparacion_4000_a_10000": true,
+  "addfield_nativo_verificado": true,
+  "dos_renombres_nativos_verificados": true,
+  "retirada_respaldo_vacio_verificada": true,
+  "temporales_ausentes": true,
+  "preservacion_restantes": true,
+  "clases_permanecen_vacias": true,
+  "metadatos_globalid_auditoria_geometria_indices_sin_cambios": true,
+  "fuente_original_sin_cambios": true,
+  "repeticion_sin_cambios": true,
+  "toolbox_cargada_y_validada": true,
+  "toolbox_validacion_sin_cambios": true,
+  "roundtrip_8084_caracteres_con_tildes": true,
+  "roundtrip": {
+    "tabla": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb\\ensayo_roundtrip_texto151",
+    "caracteres": 8084,
+    "unidades_utf16": 8084,
+    "sha256_utf8": "503c5beb64259db11edf39d912d4ec8b759e6f05152ebd01960e188adc8c76ea",
+    "texto_identico": true,
+    "predios_permanece_vacio": true,
+    "fuente_sin_cambios": true
+  },
+  "lote_general_reanudado_sin_cambios": true,
+  "informe_reanudacion": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Campos_Aprobados_20261106_114208_21e2ca92\\estados\\20261106T144330_161582Z_e40d9beb\\resultado.json",
+  "esquema_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+  "aprobacion_sha256": "1448240df7144fda63a9b161c21c82a36f8050843adad6c1e539832476615049",
+  "modulo_sha256": "e7dd3eb2d6ab0d63f85576fbf4e5d54ca33684d933d9d8dd333f1092de580aba",
+  "modulo_general_sha256": "d4cd55462d167f9ecc04eff7ee47afbc1f7080524c6b38fad9b57fca8084971a",
+  "verificador_sql_sha256": "7a85e79a2b05eecb721523e1ce4ff924be62475b68a2620b59bb798db628602c",
+  "toolbox_sha256": "b5e1ef3691c2220ed259047e8e6bb56f2b985fd6940d205d243876207185cca0",
+  "script_sha256": "0eea17d3f8c943a7cf214ddd9907aa873a742ec4bf347383a9e88834c1b2125a",
+  "informes": {
+    "validar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Reparacion_Texto_20261106_113036_7a767045\\estados\\20261106T143053_080169Z_ef49c302\\resultado.json",
+    "aplicar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Reparacion_Texto_20261106_113258_30377338\\estados\\20261106T143709_985515Z_656fc86d\\resultado.json",
+    "repetir": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Reparacion_Texto_20261106_113838_50c7e512\\estados\\20261106T143920_996899Z_c77e6d47\\resultado.json"
+  },
+  "informe_toolbox": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Reparacion_Texto_20261106_114448_5362aec3\\estados\\20261106T144508_002717Z_d5ec66f2\\resultado.json",
+  "operaciones_escritura_gdb": [
+    {
+      "herramienta": "AddField",
+      "argumentos": [
+        "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb\\Datos_Proyecto\\predios_inscritos_en_sunarp_recorte",
+        "tmp_cargas_y_gravamenes_151",
+        "TEXT"
+      ],
+      "parametros": {
+        "field_length": 10000,
+        "field_alias": "cargas_y_gravamenes",
+        "field_is_nullable": "NULLABLE",
+        "field_is_required": "NON_REQUIRED"
+      }
+    },
+    {
+      "herramienta": "AlterField",
+      "argumentos": [
+        "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb\\Datos_Proyecto\\predios_inscritos_en_sunarp_recorte",
+        "cargas_y_gravamenes"
+      ],
+      "parametros": {
+        "new_field_name": "bak_cargas_y_gravamenes_151",
+        "new_field_alias": "cargas_y_gravamenes"
+      }
+    },
+    {
+      "herramienta": "AlterField",
+      "argumentos": [
+        "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb\\Datos_Proyecto\\predios_inscritos_en_sunarp_recorte",
+        "tmp_cargas_y_gravamenes_151"
+      ],
+      "parametros": {
+        "new_field_name": "cargas_y_gravamenes",
+        "new_field_alias": "cargas_y_gravamenes"
+      }
+    },
+    {
+      "herramienta": "DeleteField",
+      "argumentos": [
+        "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\ensayo.gdb\\Datos_Proyecto\\predios_inscritos_en_sunarp_recorte",
+        "['bak_cargas_y_gravamenes_151']"
+      ],
+      "parametros": {}
+    }
+  ],
+  "alcance": "Copia aislada de GDB de archivos, una reparacion de campo vacio; no conecta a SQL Server y no demuestra NVARCHAR(MAX) en SDE. Roundtrip de 8084 caracteres en tabla separada, no en predios."
+}

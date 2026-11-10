@@ -1,0 +1,30 @@
+{
+  "version_paquete": "1.6",
+  "pruebas": 127,
+  "fallos": 0,
+  "errores": 0,
+  "omitidas": 0,
+  "validacion_sde": false,
+  "archivos_sha256": {
+    "test_actualizar_campos_aprobados.py": "07a5644ade9aad382128f55ed723bffbd7244864afac8b3b66b3e94cf5f70198",
+    "test_ajustar_tipos.py": "418cd9c85d01acddb1f9f377757fd9728202d81db42fd613de3747d33f4331b0",
+    "test_campos_calificados.py": "71e795854998a685e51b705f7e5e7f405250a2646147f6c6a85de4bfa54abc57",
+    "test_datos_proyecto.py": "f92812962b6d12149fd7022932cc16acc9e1544dfdfc944e85b92d215a4d5c3b",
+    "test_longitudes_aprobadas.py": "79d46b75ec1959ff3f32e27fb18523cce3820ec675da7fc5a3f4259d85dc9246",
+    "test_nombres_integracion.py": "e6644574dc91fb6b191592f928b3794987d902159e4546e1cf864572bee61504",
+    "test_normalizacion_kmz.py": "a7ac6927dc6b319d2d369c394e69ef2525e4e4ef0667edcd0d2f9c30299eeead",
+    "test_renombrar_clases.py": "f0f779bf26ab9ce96e9ede17cdd17f85b21403e31a32cf898660f759ac9e2884",
+    "test_reparar_texto_largo.py": "86cfd79a42c06e6d9bb90610abbff11754acd9a75ca46b94df87389da358683f",
+    "test_texto_sqlserver.py": "521e25c4de88aac310685e118d58698640ae8806040c23cf9ac8467f6b6743df",
+    "renombrar_clases.py": "48d47c2fb62beb9d14e77f2fa37c169cb9868e8c6afd858c0b6c2afb77116d30",
+    "reparar_texto_largo.py": "ea8a9bab549ea9a20deff5a7e068a01e7071dc34682b1fbf914e2a33f4809139",
+    "actualizar_campos_aprobados.py": "0fe170e665252e66ec7910bb4a7e414b79acff56011951b69187362857b88016",
+    "validacion_texto_sqlserver.py": "19c1a453a187755df8e97e07c8d693b18cbd4c747bd40faf958347431623c102",
+    "Datos_Proyecto.pyt": "43de2ec1b9babf969c1a7e64d9409cbff2d8177c12a5575915f031e657cf7915",
+    "datos_proyecto.py": "d4b8fd00528d9ecf001a9db02a636308494996cacf4bece8e1ea8b6a1870b9ff",
+    "crear_esquema.py": "0f0cedc8d1970d63f14cb74185acd98146ef4a499d020c8d6c9e5a181333b4cf",
+    "esquema.json": "2f2a1348d6d5d45379a75f5fd857f215fce3873829261119b8185916b7a4217c",
+    "campos_aprobados_1_5.json": "1ee95c66de434366da24eac78eb37c94fa0c5d502a2c22dae20376732dbb4163",
+    "nombres_clases_1_6.json": "2d10e23f2c418c01aa6b99cc80af093101ff50f6b00763a261229aa90ddb498a"
+  }
+}

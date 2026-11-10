@@ -1,0 +1,86 @@
+{
+  "version_paquete": "1.9",
+  "estado": "MODELO_CIERRE_PREPARADO",
+  "modelo_origen_sha256": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+  "modelo_objetivo_sha256": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+  "campos_confirmados": 730,
+  "textos_sin_cambio_fisico": 722,
+  "cambios_fisicos": [
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "alt_mode",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "base",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "DOUBLE",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "clamped",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "extruded",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "alt_mode",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "base",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "DOUBLE",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "has_label",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    },
+    {
+      "clase": "suelos_recorte",
+      "campo": "p_aui_suel",
+      "tipo_anterior": "TEXT",
+      "longitud_anterior": 4000,
+      "tipo_objetivo": "LONG",
+      "longitud_objetivo": null
+    }
+  ],
+  "campos_provisionales_objetivo": 0,
+  "cambios_en_sde": false,
+  "ingesta_autorizada": false,
+  "archivos_sha256": {
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "esquema_anterior_1_8.json": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+    "cierre_tipos_1_9.json": "dff1ea283aa806823627542df18762d4b2e0fa0cf894cafe10fb3dc4df3e72aa",
+    "campos_aprobados_1_5.json": "153d13e6d456aff0ab9fd4846334b35769d16786b315b35e5068b53d13dba2cd",
+    "nombres_clases_1_6.json": "9e8c6d1c3c74d3c366b055fb835aad2a873cccd0951f2c22c1e250bdd857e408",
+    "campos_matriz_a_esquema.csv": "6931e464d301fff75fe2646f41c241adac4703573dd0eaa444a63db8e57d9e91",
+    "revision_tipos.csv": "0759702a23c5517bf8399ca53da72c3e8c09754f2a711a25489c319e4685914b"
+  }
+}

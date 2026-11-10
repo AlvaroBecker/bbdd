@@ -1,0 +1,17 @@
+{
+  "filas_matriz": 3507,
+  "descripciones": 100,
+  "grupos": 125,
+  "clases_generadas": 124,
+  "relaciones": 124,
+  "grupos_geometria_mixta": 1,
+  "nombres_abreviados": 15,
+  "campos_por_estado": {
+    "CAMPO_TEXTUAL": 3206,
+    "OMITIR_CAMPO_SISTEMA": 282,
+    "PENDIENTE_GEOMETRIA": 19
+  },
+  "comprobaciones_estaticas": "OK",
+  "ejecutado_en_geodatabase": false,
+  "observacion": "Las pruebas ArcGIS del paquete anterior validan el motor, no este nuevo catalogo."
+}

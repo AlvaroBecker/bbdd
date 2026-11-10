@@ -1,0 +1,23 @@
+{
+  "arcgis": "3.7.1",
+  "pruebas": [
+    "Rechaza dataset ausente sin crearlo",
+    "Rechaza padre ausente sin crear clases",
+    "Conflicto tardio bloquea todo el lote antes de crear dominios o clases",
+    "Diagnostico no modifica la geodatabase",
+    "Crea y verifica punto, linea y poligono; incluye clase de 319 campos",
+    "No crea Datos_Externos ni Datos_Internos",
+    "Repeticion valida sin duplicar ni recrear",
+    "Toolbox abre parametros y ejecuta validacion con salida JSON"
+  ],
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\controlado_20261104_220815_37c2fd\\ensayo.gdb",
+  "clases": [
+    "estructuras",
+    "accesos",
+    "red_vial_nacional_mtc_recorte",
+    "subestacion_poligono"
+  ],
+  "validacion_sde": false,
+  "validacion_branch": false,
+  "alcance": "Creacion de clases vacias; no valida semantica ni tipos definitivos de los KMZ"
+}

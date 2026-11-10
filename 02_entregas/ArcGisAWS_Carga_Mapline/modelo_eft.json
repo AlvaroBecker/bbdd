@@ -1,0 +1,1991 @@
+{
+  "database": "ArcGisAWS",
+  "server_eft": "EEPAWSDBP01",
+  "staging_schema": "mapline_carga_20261030",
+  "spatial_reference": 4326,
+  "tables": [
+    {
+      "name": "mline_ta_proyecto_estado",
+      "geometry_type": null,
+      "rows": 50,
+      "primary_key": [
+        "id_proyecto_estado"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_estado",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_estado_proyecto_inicial",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_estado_proyecto_final",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_tc_proyecto",
+      "geometry_type": null,
+      "rows": 40,
+      "primary_key": [
+        "id_proyecto"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_tipo_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_estado_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "co_proyecto",
+          "sql_type": "char(12)",
+          "nullable": true,
+          "length": 12
+        },
+        {
+          "name": "no_proyecto",
+          "sql_type": "varchar(128)",
+          "nullable": true,
+          "length": 128
+        },
+        {
+          "name": "de_proyecto",
+          "sql_type": "varchar(128)",
+          "nullable": true,
+          "length": 128
+        },
+        {
+          "name": "co_alternativa_reciente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "es_proceso",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        },
+        {
+          "name": "no_archivo_reporte_celda",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        },
+        {
+          "name": "no_archivo_reporte_alternativa",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        },
+        {
+          "name": "es_proceso_reporte_celda",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc_reporte_celda",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc_reporte_celda",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc_reporte_celda",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario_reporte_celda",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        },
+        {
+          "name": "es_proceso_reporte_alternativa",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc_reporte_alternativa",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc_reporte_alternativa",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc_reporte_alternativa",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario_reporte_alternativa",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        }
+      ]
+    },
+    {
+      "name": "mline_td_celda_capa",
+      "geometry_type": null,
+      "rows": 589015,
+      "primary_key": [
+        "id_celda_capa"
+      ],
+      "fields": [
+        {
+          "name": "id_celda_capa",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_celda",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "mo_ponderacion",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_infraestructura_celda",
+      "geometry_type": null,
+      "rows": 2767,
+      "primary_key": [
+        "id_infraestructura_celda"
+      ],
+      "fields": [
+        {
+          "name": "id_infraestructura_celda",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_infraestructura",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_celda",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "ca_celdas",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_alternativa",
+      "geometry_type": null,
+      "rows": 8,
+      "primary_key": [
+        "id_proyecto_alternativa"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_alternativa",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_alternativa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_vertices",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_alternativa_origen",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_estado_alternativa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_tipo_fuente_infraestructura",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_resultante",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "co_alternativa",
+          "sql_type": "varchar(20)",
+          "nullable": true,
+          "length": 20
+        },
+        {
+          "name": "nu_alternativa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "mo_calificacion",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "de_comentario",
+          "sql_type": "varchar(500)",
+          "nullable": true,
+          "length": 500
+        },
+        {
+          "name": "de_comentario_aprobacion",
+          "sql_type": "varchar(500)",
+          "nullable": true,
+          "length": 500
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "es_proceso",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_area_interes",
+      "geometry_type": "POLYGON",
+      "rows": 96,
+      "primary_key": [
+        "id_proyecto_area_interes"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_area_interes",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_area_interes",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "me_buffer_usado",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_capa",
+      "geometry_type": null,
+      "rows": 2311,
+      "primary_key": [
+        "id_proyecto_capa"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_capa",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_capa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "fl_copiado",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_celda",
+      "geometry_type": "POLYGON",
+      "rows": 496066,
+      "primary_key": [
+        "id_proyecto_celda"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_celda",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_envelope",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "nu_secuencia",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "fl_es_celda_proyecto",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "mo_calificacion",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_cgeneracion",
+      "geometry_type": "POLYGON",
+      "rows": 6,
+      "primary_key": [
+        "id_proyecto_cgeneracion"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_cgeneracion",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "no_central_generacion",
+          "sql_type": "varchar(64)",
+          "nullable": true,
+          "length": 64
+        },
+        {
+          "name": "no_tipo",
+          "sql_type": "varchar(512)",
+          "nullable": true,
+          "length": 512
+        },
+        {
+          "name": "me_potencia",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "me_area",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_componente",
+      "geometry_type": null,
+      "rows": 120,
+      "primary_key": [
+        "id_proyecto_componente"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_componente",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_vertices",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "no_componente",
+          "sql_type": "varchar(64)",
+          "nullable": true,
+          "length": 64
+        },
+        {
+          "name": "no_zona_geografica",
+          "sql_type": "varchar(512)",
+          "nullable": true,
+          "length": 512
+        },
+        {
+          "name": "no_departamento",
+          "sql_type": "varchar(512)",
+          "nullable": true,
+          "length": 512
+        },
+        {
+          "name": "me_buffer",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "me_tamanio_celda",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "nu_alternativa_reciente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_estado_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "es_proceso",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "sql_type": "varchar(1000)",
+          "nullable": true,
+          "length": 1000
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_envelope",
+      "geometry_type": "POLYGON",
+      "rows": 96,
+      "primary_key": [
+        "id_proyecto_envelope"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_envelope",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_area_interes",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_envelope",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_celda",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_infraestructura",
+      "geometry_type": "POLYLINE",
+      "rows": 6,
+      "primary_key": [
+        "id_proyecto_infraestructura"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_infraestructura",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_alternativa",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "co_infraestructura",
+          "sql_type": "varchar(32)",
+          "nullable": true,
+          "length": 32
+        },
+        {
+          "name": "mo_calificacion",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "ca_celdas",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_ltransmision",
+      "geometry_type": "POLYLINE",
+      "rows": 114,
+      "primary_key": [
+        "id_proyecto_ltransmision"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_ltransmision",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto_componente",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "no_linea_transmision",
+          "sql_type": "varchar(64)",
+          "nullable": true,
+          "length": 64
+        },
+        {
+          "name": "no_subestacion_salida",
+          "sql_type": "varchar(512)",
+          "nullable": true,
+          "length": 512
+        },
+        {
+          "name": "no_subestacion_llegada",
+          "sql_type": "varchar(512)",
+          "nullable": true,
+          "length": 512
+        },
+        {
+          "name": "me_nivel_tension",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "me_capacidad",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "me_longitud",
+          "sql_type": "decimal(12,4)",
+          "nullable": true,
+          "precision": 12,
+          "scale": 4
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "name": "mline_td_proyecto_regla_cfg",
+      "geometry_type": null,
+      "rows": 1578,
+      "primary_key": [
+        "id_proyecto_regla_cfg"
+      ],
+      "fields": [
+        {
+          "name": "id_proyecto_regla_cfg",
+          "sql_type": "int",
+          "nullable": false
+        },
+        {
+          "name": "id_proyecto",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_origen",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_regla_cfg_origen",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_capa_propiedad",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_tipo_funcion_espacial",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_proyecto_capa_resultante",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "id_valor_ponderacion",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "me_ancho_inicial",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "me_ancho_final",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "co_capa_propiedad_filtro",
+          "sql_type": "varchar(64)",
+          "nullable": true,
+          "length": 64
+        },
+        {
+          "name": "de_capa_valor_filtro",
+          "sql_type": "varchar(256)",
+          "nullable": true,
+          "length": 256
+        },
+        {
+          "name": "fl_tiene_restriccion",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "id_estado_regla_cfg",
+          "sql_type": "int",
+          "nullable": true
+        },
+        {
+          "name": "es_registro",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "us_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_creacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_creacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_actualizacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_actualizacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "us_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "ip_eliminacion",
+          "sql_type": "varchar(38)",
+          "nullable": true,
+          "length": 38
+        },
+        {
+          "name": "fe_eliminacion",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "es_proceso",
+          "sql_type": "char(1)",
+          "nullable": true,
+          "length": 1
+        },
+        {
+          "name": "fe_inicio_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_avance_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "fe_fin_proc",
+          "sql_type": "datetime",
+          "nullable": true
+        },
+        {
+          "name": "de_mensaje_usuario",
+          "sql_type": "varchar(10000)",
+          "nullable": true,
+          "length": 10000
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "mline_pryctoestdo_prycto01_fk",
+      "parent": "mline_tc_proyecto",
+      "child": "mline_ta_proyecto_estado",
+      "parent_key": "id_proyecto",
+      "child_key": "id_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocldacpa_pryctoclda01_fk",
+      "parent": "mline_td_proyecto_celda",
+      "child": "mline_td_celda_capa",
+      "parent_key": "id_proyecto_celda",
+      "child_key": "id_proyecto_celda",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocldacpa_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_celda_capa",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa",
+      "obsolete": false
+    },
+    {
+      "name": "mline_infracapa_pryctoaltrntiva01_fk",
+      "parent": "mline_td_proyecto_infraestructura",
+      "child": "mline_td_infraestructura_celda",
+      "parent_key": "id_proyecto_infraestructura",
+      "child_key": "id_proyecto_infraestructura",
+      "obsolete": false
+    },
+    {
+      "name": "mline_infracapa_pryctocel02_fk",
+      "parent": "mline_td_proyecto_celda",
+      "child": "mline_td_infraestructura_celda",
+      "parent_key": "id_proyecto_celda",
+      "child_key": "id_proyecto_celda",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaltrntiva_pryctoaltrntiva03_fk",
+      "parent": "mline_td_proyecto_alternativa",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_proyecto_alternativa",
+      "child_key": "id_alternativa_origen",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaltrntiva_pryctocmpnnte01_fk",
+      "parent": "mline_td_proyecto_componente",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_proyecto_componente",
+      "child_key": "id_proyecto_componente",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaltrntiva_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_alternativa",
+      "obsolete": true
+    },
+    {
+      "name": "mline_pryctoaltrntiva_pryctocpa06_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_resultante",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaintres_pryctocmpnnte01_fk",
+      "parent": "mline_td_proyecto_componente",
+      "child": "mline_td_proyecto_area_interes",
+      "parent_key": "id_proyecto_componente",
+      "child_key": "id_proyecto_componente",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaintres_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_area_interes",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_area_interes",
+      "obsolete": true
+    },
+    {
+      "name": "mline_pryctocpa_prycto01_fk",
+      "parent": "mline_tc_proyecto",
+      "child": "mline_td_proyecto_capa",
+      "parent_key": "id_proyecto",
+      "child_key": "id_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoclda_pryctoenvlope01_fk",
+      "parent": "mline_td_proyecto_envelope",
+      "child": "mline_td_proyecto_celda",
+      "parent_key": "id_proyecto_envelope",
+      "child_key": "id_proyecto_envelope",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocgnercion_pryctocmpnnte01_fk",
+      "parent": "mline_td_proyecto_componente",
+      "child": "mline_td_proyecto_cgeneracion",
+      "parent_key": "id_proyecto_componente",
+      "child_key": "id_proyecto_componente",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocmpnnte_prycto01_fk",
+      "parent": "mline_tc_proyecto",
+      "child": "mline_td_proyecto_componente",
+      "parent_key": "id_proyecto",
+      "child_key": "id_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocmpnnte_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_componente",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_componente",
+      "obsolete": true
+    },
+    {
+      "name": "mline_td_proyecto_componente_ibfk_1",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_componente",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_vertices",
+      "obsolete": true
+    },
+    {
+      "name": "mline_pryctoenvlope_pryctoaintres01_fk",
+      "parent": "mline_td_proyecto_area_interes",
+      "child": "mline_td_proyecto_envelope",
+      "parent_key": "id_proyecto_area_interes",
+      "child_key": "id_proyecto_area_interes",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoenvlope_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_envelope",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_envelope",
+      "obsolete": true
+    },
+    {
+      "name": "mline_pryctoenvlope_pryctocpa03_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_envelope",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_celda",
+      "obsolete": true
+    },
+    {
+      "name": "mline_pryctoaltrntiva_pryctoaltrntiva01_fk",
+      "parent": "mline_td_proyecto_alternativa",
+      "child": "mline_td_proyecto_infraestructura",
+      "parent_key": "id_proyecto_alternativa",
+      "child_key": "id_proyecto_alternativa",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoltrnsmsion_pryctocmpnnte01_fk",
+      "parent": "mline_td_proyecto_componente",
+      "child": "mline_td_proyecto_ltransmision",
+      "parent_key": "id_proyecto_componente",
+      "child_key": "id_proyecto_componente",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_prycto01_fk",
+      "parent": "mline_tc_proyecto",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_proyecto",
+      "child_key": "id_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_pryctocpa02_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_origen",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_pryctocpa06_fk",
+      "parent": "mline_td_proyecto_capa",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_proyecto_capa",
+      "child_key": "id_proyecto_capa_resultante",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_pryctorglacfg03_fk",
+      "parent": "mline_td_proyecto_regla_cfg",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_proyecto_regla_cfg",
+      "child_key": "id_proyecto_regla_cfg_origen",
+      "obsolete": false
+    }
+  ],
+  "external_relations": [
+    {
+      "name": "mline_pryctoestdo_prmtro02_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_ta_proyecto_estado",
+      "parent_key": "id_parametro",
+      "child_key": "id_estado_proyecto_inicial",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoestdo_prmtro03_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_ta_proyecto_estado",
+      "parent_key": "id_parametro",
+      "child_key": "id_estado_proyecto_final",
+      "obsolete": false
+    },
+    {
+      "name": "mline_prycto_prmtro01_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_tc_proyecto",
+      "parent_key": "id_parametro",
+      "child_key": "id_tipo_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_prycto_prmtro02_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_tc_proyecto",
+      "parent_key": "id_parametro",
+      "child_key": "id_estado_proyecto",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaltrntiva_prmtro04_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_parametro",
+      "child_key": "id_estado_alternativa",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctoaltrntiva_prmtro05_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_td_proyecto_alternativa",
+      "parent_key": "id_parametro",
+      "child_key": "id_tipo_fuente_infraestructura",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctocpa_cpa02_fk",
+      "parent": "mline_tm_capa",
+      "child": "mline_td_proyecto_capa",
+      "parent_key": "id_capa",
+      "child_key": "id_capa",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_cpaprpiedad04_fk",
+      "parent": "mline_tm_capa_propiedad",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_capa_propiedad",
+      "child_key": "id_capa_propiedad",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_prmtro05_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_parametro",
+      "child_key": "id_tipo_funcion_espacial",
+      "obsolete": false
+    },
+    {
+      "name": "mline_pryctorglacfg_prmtro07_fk",
+      "parent": "mline_tp_parametro",
+      "child": "mline_td_proyecto_regla_cfg",
+      "parent_key": "id_parametro",
+      "child_key": "id_valor_ponderacion",
+      "obsolete": false
+    }
+  ],
+  "domain_fields": [
+    {
+      "table": "mline_tc_proyecto",
+      "field": "id_tipo_proyecto",
+      "parameter_type": "PROYECTO.TIPO"
+    },
+    {
+      "table": "mline_tc_proyecto",
+      "field": "id_estado_proyecto",
+      "parameter_type": "PROYECTO.ESTADO"
+    },
+    {
+      "table": "mline_ta_proyecto_estado",
+      "field": "id_estado_proyecto_inicial",
+      "parameter_type": "PROYECTO.ESTADO"
+    },
+    {
+      "table": "mline_ta_proyecto_estado",
+      "field": "id_estado_proyecto_final",
+      "parameter_type": "PROYECTO.ESTADO"
+    },
+    {
+      "table": "mline_td_proyecto_componente",
+      "field": "id_estado_componente",
+      "parameter_type": "PROYECTO.COMPONENTE.ESTADO"
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "field": "id_estado_alternativa",
+      "parameter_type": "PROYECTO.ALTERNATIVA.ESTADO"
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "field": "id_tipo_fuente_infraestructura",
+      "parameter_type": "PROYECTO.ALTERNATIVA.FUENTE"
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "field": "id_estado_regla_cfg",
+      "parameter_type": "PROYECTO.REGLA_CFG.ESTADO"
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "field": "id_tipo_funcion_espacial",
+      "parameter_type": "PROYECTO.REGLA_CFG.FUNCION_ESPACIAL"
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "field": "id_valor_ponderacion",
+      "parameter_type": "PROYECTO.REGLA_CFG.PONDERACION"
+    }
+  ],
+  "obsolete_fields": {
+    "mline_td_proyecto_componente": [
+      "id_proyecto_capa_componente",
+      "id_proyecto_capa_vertices"
+    ],
+    "mline_td_proyecto_area_interes": [
+      "id_proyecto_capa_area_interes"
+    ],
+    "mline_td_proyecto_envelope": [
+      "id_proyecto_capa_envelope",
+      "id_proyecto_capa_celda"
+    ],
+    "mline_td_proyecto_alternativa": [
+      "id_proyecto_capa_alternativa",
+      "id_proyecto_capa_vertices"
+    ]
+  },
+  "source_hash": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd"
+}

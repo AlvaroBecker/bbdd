@@ -1,0 +1,26 @@
+{
+  "version_paquete": "1.5.1",
+  "pruebas": 102,
+  "fallos": 0,
+  "errores": 0,
+  "omitidas": 0,
+  "validacion_sde": false,
+  "archivos_sha256": {
+    "test_actualizar_campos_aprobados.py": "07a5644ade9aad382128f55ed723bffbd7244864afac8b3b66b3e94cf5f70198",
+    "test_ajustar_tipos.py": "418cd9c85d01acddb1f9f377757fd9728202d81db42fd613de3747d33f4331b0",
+    "test_campos_calificados.py": "71e795854998a685e51b705f7e5e7f405250a2646147f6c6a85de4bfa54abc57",
+    "test_datos_proyecto.py": "f92812962b6d12149fd7022932cc16acc9e1544dfdfc944e85b92d215a4d5c3b",
+    "test_longitudes_aprobadas.py": "19e721499e5eb9c843ef35103701f8c30f73927561ca653a069abd79f62a67c6",
+    "test_normalizacion_kmz.py": "d660eee5e161b5696dca00feec86bb0ada18fe6e232c33ef5b9a5823bd7f6aa2",
+    "test_reparar_texto_largo.py": "5db2f2dad1d3211ca0648ba91e8d4d2738e3ad84cb9d8a0efb6dd6a14f6bcf6e",
+    "test_texto_sqlserver.py": "024152a706c8d369cb82574cf3537565ff1a7ff6ea74bc80bcdf2b36e68839d2",
+    "reparar_texto_largo.py": "e7dd3eb2d6ab0d63f85576fbf4e5d54ca33684d933d9d8dd333f1092de580aba",
+    "actualizar_campos_aprobados.py": "d4cd55462d167f9ecc04eff7ee47afbc1f7080524c6b38fad9b57fca8084971a",
+    "validacion_texto_sqlserver.py": "7a85e79a2b05eecb721523e1ce4ff924be62475b68a2620b59bb798db628602c",
+    "Datos_Proyecto.pyt": "b5e1ef3691c2220ed259047e8e6bb56f2b985fd6940d205d243876207185cca0",
+    "datos_proyecto.py": "347509f0fc9eb6c616c4ce3ac4b2e575b53402f5cddbed48b656508c0dc2d15a",
+    "crear_esquema.py": "b72a2424ad6403eadbb715b46bfadc9e944d689b155aa40a52569b5483efcb4b",
+    "esquema.json": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+    "campos_aprobados_1_5.json": "1448240df7144fda63a9b161c21c82a36f8050843adad6c1e539832476615049"
+  }
+}

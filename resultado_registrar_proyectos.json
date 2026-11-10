@@ -1,0 +1,127 @@
+{
+  "version": "1.11",
+  "estado": "ALTAS_BLOQUEADAS_SIN_CAMBIOS",
+  "transaccion": "NO_INICIADA",
+  "nuevas_filas_confirmadas": 0,
+  "workspace": "C:\\Users\\CT6788\\Documents\\ArcGIS\\Projects\\MyProject\\SQLServer-EEPAWSDBP01-ArcGisAWS(gis).sde",
+  "aplicacion_solicitada": false,
+  "exclusividad_operativa_declarada": false,
+  "bloqueo_global": false,
+  "cambios_esquema": 0,
+  "registros_kmz_insertados": 0,
+  "incidencias": [
+    "Falta Editor Tracking, requerido por el EFT para tablas editables. Configurarlo antes de aplicar.",
+    "id_tipo_proyecto: falta un dominio codificado que acepte el valor 8.",
+    "id_estado_proyecto: falta un dominio codificado que acepte el valor 3."
+  ],
+  "csv_entrada": {
+    "archivo": "C:\\Users\\CT6788\\Desktop\\InformaciónMapline\\Datos_Proyecto_Controlado\\confirmar_proyectos_por_nombre.csv",
+    "sha256": "5d8bbcc54afc6c6e4b657d025667da3c1a58f1891251d882158ce2fda879b16f"
+  },
+  "destino": {
+    "tabla": "C:\\Users\\CT6788\\Documents\\ArcGIS\\Projects\\MyProject\\SQLServer-EEPAWSDBP01-ArcGisAWS(gis).sde\\gis.mline_tc_proyecto",
+    "geodatabase_remota": true,
+    "versionada": false,
+    "editor_tracking": false,
+    "campos_auditoria": {
+      "creatorFieldName": "",
+      "createdAtFieldName": "",
+      "editorFieldName": "",
+      "editedAtFieldName": ""
+    },
+    "dominios": [
+      {
+        "campo": "id_tipo_proyecto",
+        "dominio": "",
+        "codigo": 8,
+        "etiqueta": null
+      },
+      {
+        "campo": "id_estado_proyecto",
+        "dominio": "",
+        "codigo": 3,
+        "etiqueta": null
+      }
+    ],
+    "relaciones_observadas": [],
+    "incidencias": [
+      "Falta Editor Tracking, requerido por el EFT para tablas editables. Configurarlo antes de aplicar.",
+      "id_tipo_proyecto: falta un dominio codificado que acepte el valor 8.",
+      "id_estado_proyecto: falta un dominio codificado que acepte el valor 3."
+    ]
+  },
+  "plan": {
+    "version": 1,
+    "estado": "PLAN_ALTAS_PREVISTO",
+    "solo_plan": true,
+    "codigos_reservados": false,
+    "catalogo_filas": 40,
+    "max_id_proyecto": 40,
+    "altas": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "accion": "CREAR",
+        "valores": {
+          "id_tipo_proyecto": 8,
+          "id_estado_proyecto": 3,
+          "es_registro": "1",
+          "id_proyecto": 41,
+          "co_proyecto": "PRY-00000041",
+          "no_proyecto": "Proyecto JAENNORTE",
+          "de_proyecto": "LT 220 kV Caclic-Jaen Norte"
+        },
+        "codigo_previsional": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "accion": "CREAR",
+        "valores": {
+          "id_tipo_proyecto": 8,
+          "id_estado_proyecto": 3,
+          "es_registro": "1",
+          "id_proyecto": 42,
+          "co_proyecto": "PRY-00000042",
+          "no_proyecto": "Proyecto POROMA",
+          "de_proyecto": "LT 220 kV Ica-Poroma"
+        },
+        "codigo_previsional": true
+      }
+    ],
+    "existentes": [],
+    "proyectos": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "accion": "CREAR",
+        "valores": {
+          "id_tipo_proyecto": 8,
+          "id_estado_proyecto": 3,
+          "es_registro": "1",
+          "id_proyecto": 41,
+          "co_proyecto": "PRY-00000041",
+          "no_proyecto": "Proyecto JAENNORTE",
+          "de_proyecto": "LT 220 kV Caclic-Jaen Norte"
+        },
+        "codigo_previsional": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "accion": "CREAR",
+        "valores": {
+          "id_tipo_proyecto": 8,
+          "id_estado_proyecto": 3,
+          "es_registro": "1",
+          "id_proyecto": 42,
+          "co_proyecto": "PRY-00000042",
+          "no_proyecto": "Proyecto POROMA",
+          "de_proyecto": "LT 220 kV Ica-Poroma"
+        },
+        "codigo_previsional": true
+      }
+    ]
+  },
+  "archivo_resultado": "C:\\Users\\CT6788\\Desktop\\InformaciónMapline\\Datos_Proyecto_Controlado\\Alta_Proyectos_20261109_153948_7cf2333518f6\\resultado.json"
+}

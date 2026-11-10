@@ -1,0 +1,13 @@
+{
+  "py_compile": true,
+  "manifest_tables": 8,
+  "manifest_indexes": 27,
+  "pure_plan_cases_passed": 11,
+  "first_simulated_pass_created": 27,
+  "second_simulated_pass_created": 0,
+  "default_main_mock_read_only": true,
+  "default_main_plan_count": 27,
+  "mock_sql_calls_select_only": 2,
+  "real_sql_server_execution": false,
+  "real_arcgis_execution": false
+}

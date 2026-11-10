@@ -1,0 +1,22 @@
+{
+  "version_paquete": "1.2",
+  "version_modelo": 4,
+  "campos_retirados_por_nombre": {
+    "codigo_estacion": 75,
+    "tema": 10,
+    "id_origen": 13,
+    "descripcion_origen": 76,
+    "tipo_tema": 76
+  },
+  "total_campos_retirados": 250,
+  "atributos_kmz_conservados": 2238,
+  "clases": 76,
+  "estructuras_campos_modelo": 34,
+  "estructuras_campos_sistema": 7,
+  "codigo_estacion_solo_area_estudio_campo": true,
+  "fuente_eft_sha256": "6d6c8575990b0fd3963ee71899c1c0461f09362eb9303ade1ff52b4aa48c9852",
+  "alcance": "Aplicabilidad y eliminacion de extensiones. No certifica tipos, unidades, mapeos ni migracion completa.",
+  "pruebas_unitarias": 17,
+  "pruebas_reglas_inventario": 8,
+  "esquema_sha256": "5e368094dc0e1991f2ef80f50f9b49e9a22fe3fb8df60dcd35b9139d296340de"
+}

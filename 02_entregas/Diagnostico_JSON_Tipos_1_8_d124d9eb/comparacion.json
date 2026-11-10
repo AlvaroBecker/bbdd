@@ -1,0 +1,865 @@
+{
+  "estado": "DIFERENCIA_DE_COBERTURA_IDENTIFICADA",
+  "entradas": {
+    "resultado_con_carpeta.json": {
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\resultado_con_carpeta.json",
+      "sha256": "58d657260f8d5fa38f71adcf51b5763c1570f2b4211c8f8b65519a827467e35a"
+    },
+    "resultado_perfil_incluido.json": {
+      "ruta": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\resultado_perfil_incluido.json",
+      "sha256": "e56cd09b90429ac622de20bf5fc0c8480393f459bc0a28b58f63f859ee505c4a"
+    }
+  },
+  "referencias_identicas": true,
+  "fuentes_comunes_identicas_por_sha256": [
+    "Proyecto CHANCHAMAYO.kmz",
+    "Proyecto FELAM.kmz",
+    "Proyecto HUARAZ.kmz",
+    "Proyecto JAENNORTE.kmz",
+    "Proyecto MUYURINA.kmz",
+    "Proyecto PALIAN.kmz",
+    "Proyecto PARIÑAS.kmz",
+    "Proyecto POROMA.kmz",
+    "Proyecto PUCALLPA.kmz"
+  ],
+  "fuentes_no_incorporadas_en_lectura": [
+    "G1 Enlace 500 kV Miguel Grau - Pariñas.kmz",
+    "G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1).kmz",
+    "G1 LT 220 kV Muyurina – Mollepata.kmz",
+    "G1 Nueva SE Palián 22060 kV y LT.kmz"
+  ],
+  "perfil_con_carpeta": {
+    "kmz_esperados": 13,
+    "kmz_leidos": 9,
+    "rutas_esperadas": 3638,
+    "rutas_observadas": 3493,
+    "rutas_coincidentes": 3493,
+    "elementos_esperados": 279623,
+    "elementos_observados": 274216,
+    "campos_fuente": 10585,
+    "campos_destino": 2242,
+    "vinculos_campos_esperados": 7110,
+    "vinculos_campos_sin_observar": 910,
+    "rutas_sin_destino": 2601,
+    "elementos_sin_destino": 140319
+  },
+  "perfil_incluido": {
+    "kmz_esperados": 13,
+    "kmz_leidos": 13,
+    "rutas_esperadas": 3638,
+    "rutas_observadas": 3638,
+    "rutas_coincidentes": 3638,
+    "elementos_esperados": 279623,
+    "elementos_observados": 279623,
+    "campos_fuente": 12171,
+    "campos_destino": 2242,
+    "vinculos_campos_esperados": 7110,
+    "vinculos_campos_sin_observar": 0,
+    "rutas_sin_destino": 2601,
+    "elementos_sin_destino": 140319
+  },
+  "destino_identico_en_ambos": true,
+  "destino_verificado": true,
+  "campos_destino_verificados": 3340,
+  "clases_destino_esperadas": 76,
+  "incidencias_destino": [],
+  "incidencias_campos_con_carpeta": 117,
+  "incidencias_campos_perfil": 4,
+  "campos_con_incidencias_adicionales": [
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "carta",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "concesion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "d_estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "depa",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "distri",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "fec_denu",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "hasdatum",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "id_origen",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "leyenda",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "provi",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "sustancia",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "tit_conces",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_minero_ingemmet_recorte",
+      "campo": "zona",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "calculo",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "centroid_e",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "centroid_n",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "cod_proy",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "datum",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "hoja",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "id_dist",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "id_origen",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "id_plano",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "num_predio",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "observaciones",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "origen",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "perimetro",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "catastro_rural_midagri_sicar_recorte",
+      "campo": "src_area_ha",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "cobertura_vegetal_minam_recorte",
+      "campo": "cob_veg2013",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "cobertura_vegetal_minam_recorte",
+      "campo": "simbolo",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "datum_orig",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "id_dist",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "nom_comunidad",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "nom_dist",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "nom_dpto",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "nom_prov",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "proyeccion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "src_fuente",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "comunidades_campesinas_recorte",
+      "campo": "tipo_proceso",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "concesiones_electricas_minem_recorte",
+      "campo": "empresa",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "ecorregiones_recorte",
+      "campo": "denomina",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "ecorregiones_recorte",
+      "campo": "dominio",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "ecorregiones_recorte",
+      "campo": "ecorregion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "ecorregiones_recorte",
+      "campo": "ha",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "ecorregiones_recorte",
+      "campo": "id",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geologia_ingemmet_linea_recorte",
+      "campo": "codi",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geologia_ingemmet_linea_recorte",
+      "campo": "descrip",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geologia_ingemmet_linea_recorte",
+      "campo": "hoja",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geomorfologia_recorte",
+      "campo": "codigeom",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geomorfologia_recorte",
+      "campo": "etiqueta",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "geomorfologia_recorte",
+      "campo": "sub_uni",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "limite_distrito_recorte",
+      "campo": "capital",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "area_sein",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "calificaci",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "capac_nomi",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "cod_linea",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "corriente",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "longitud_de_linea_de_transmision_km",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "max_tens_o",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "nombre_de_la_empresa",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "nombre_de_linea_de_transmision",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "puesta_en_operacion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "sistema",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "tension_nominal_kv",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "tipo_circu",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "qhapaq_nan_red_vial_inca_mincul_recorte",
+      "campo": "antcat",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "departamen",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "iddpto",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "longitud",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "provincia",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_departamental_mtc_recorte",
+      "campo": "trayectori",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_clasifica",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_cod_cor_log",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_cod_depart",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_cod_ruta",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_cod_tra_con",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_departame",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_nom_ruta",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_nro_res_min",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_reclasifi",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_superfici",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "c_tip_red",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "d_longitud",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "dkm_final",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "dkm_inicio",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "red_vial_nacional_mtc_recorte",
+      "campo": "id",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "clas_map",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "estado_l",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "estado_r",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "fecha_reso",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "nomb_map",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "resol",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_poligono_recorte",
+      "campo": "tipo_resol",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "departamen",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "distrito",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "fecha_reso",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "nombre_map",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "provincia",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "sitios_arqueologicos_punto_recorte",
+      "campo": "resolucion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "altitud",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "capacidad",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "direccion",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "distrito",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "estado",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "latitud",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "longitud",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "provincia",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "telefono",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "subestaciones_osinergmin_recorte",
+      "campo": "tension_nominal_kv",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    },
+    {
+      "clase": "vertices",
+      "campo": "cod_vertice",
+      "incidencias_adicionales": [
+        "COBERTURA_INCOMPLETA"
+      ]
+    }
+  ],
+  "limite": "Los informes no enumeran los KMZ encontrados pero ignorados por nombre ni registran la carpeta raiz seleccionada. No permiten distinguir archivo fuera del alcance de busqueda, nombre diferente o archivo no accesible. La SDE se acredita mediante los informes proporcionados, sin conexion directa en este diagnostico.",
+  "cambios_en_fuentes": false,
+  "cambios_en_modelo": false,
+  "cambios_en_sde": false
+}

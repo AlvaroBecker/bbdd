@@ -1,0 +1,41 @@
+{
+  "source_sde": "",
+  "destination_sde": "",
+  "destination_owner": "",
+  "database": "ArcGisAWS",
+  "staging_schema": "mapline_carga_20261030",
+  "geometry_sources": {
+    "mline_td_proyecto_ltransmision": {
+      "path": "",
+      "key_field": "id_proyecto_ltransmision",
+      "analysis_field": "id_analisis"
+    },
+    "mline_td_proyecto_cgeneracion": {
+      "path": "",
+      "key_field": "id_proyecto_cgeneracion",
+      "analysis_field": "id_analisis"
+    },
+    "mline_td_proyecto_area_interes": {
+      "path": "",
+      "key_field": "id_proyecto_area_interes",
+      "analysis_field": "id_analisis"
+    },
+    "mline_td_proyecto_envelope": {
+      "path": "",
+      "key_field": "id_proyecto_envelope",
+      "analysis_field": "id_analisis"
+    },
+    "mline_td_proyecto_celda": {
+      "path": "",
+      "key_field": "id_proyecto_celda",
+      "analysis_field": "id_analisis"
+    },
+    "mline_td_proyecto_infraestructura": {
+      "path": "",
+      "key_field": "id_proyecto_infraestructura",
+      "analysis_field": "id_analisis"
+    }
+  },
+  "portal_mappings": "portal_mappings.json",
+  "filter_mappings": "filter_mappings.json"
+}

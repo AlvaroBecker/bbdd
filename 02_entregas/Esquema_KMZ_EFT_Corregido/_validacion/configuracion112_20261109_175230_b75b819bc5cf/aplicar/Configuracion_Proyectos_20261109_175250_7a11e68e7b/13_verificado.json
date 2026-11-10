@@ -1,0 +1,6 @@
+{
+  "accion": "AGREGAR_CAMPO",
+  "campo": "last_edited_user",
+  "tipo": "TEXT",
+  "longitud": 255
+}

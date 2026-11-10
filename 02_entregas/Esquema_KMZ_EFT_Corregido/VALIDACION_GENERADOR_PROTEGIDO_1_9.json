@@ -1,0 +1,12 @@
+{
+  "version_paquete": "1.9",
+  "regresion_rechazada": true,
+  "archivos_intactos": true,
+  "mensaje": "El modelo vigente ya tiene cierre 1.9. Este generador historico llega al modelo 11 y no puede sobrescribirlo. Use preparar_cierre_tipos_1_9.py para reproducir el cierre aprobado.",
+  "archivos_revisados": 136,
+  "cambios_en_sde": false,
+  "archivos_sha256": {
+    "03_scripts/generar_esquema_kmz_eft_corregido.py": "dd168863a5f84524675e3cd62069693a7bc249c6b7521a76dd934706a31f1b89",
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133"
+  }
+}

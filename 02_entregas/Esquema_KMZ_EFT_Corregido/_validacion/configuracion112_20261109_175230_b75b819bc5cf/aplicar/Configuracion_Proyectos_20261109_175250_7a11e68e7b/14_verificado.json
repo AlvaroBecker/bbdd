@@ -1,0 +1,6 @@
+{
+  "accion": "AGREGAR_CAMPO",
+  "campo": "last_edited_date",
+  "tipo": "DATE",
+  "longitud": null
+}

@@ -1,0 +1,4 @@
+﻿nombre_actual;nombre_nuevo;ruta_actual;alias_actual;alias_objetivo;renombrar;actualizar_alias;bloqueo_disponible;accion
+accesos;accesos;C:\Users\aibecker\Desktop\ENGIE PERU\bbdd\02_entregas\Esquema_KMZ_EFT_Corregido\_validacion\nombres16_20261106_131939_941b5a72\ensayo.gdb\Datos_Proyecto\accesos;;Accesos del proyecto;False;True;True;PENDIENTE
+limite_departamento_recorte;limite_departamento_recorte;C:\Users\aibecker\Desktop\ENGIE PERU\bbdd\02_entregas\Esquema_KMZ_EFT_Corregido\_validacion\nombres16_20261106_131939_941b5a72\ensayo.gdb\Datos_Proyecto\limite_departamento_recorte;;Límites departamentales (INEI) — recorte;False;True;True;PENDIENTE
+predios_inscritos_en_sunarp_recorte;predios_inscritos_sunarp_recorte;C:\Users\aibecker\Desktop\ENGIE PERU\bbdd\02_entregas\Esquema_KMZ_EFT_Corregido\_validacion\nombres16_20261106_131939_941b5a72\ensayo.gdb\Datos_Proyecto\predios_inscritos_en_sunarp_recorte;;Predios inscritos en SUNARP — recorte;True;True;True;PENDIENTE

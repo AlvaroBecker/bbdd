@@ -1,0 +1,62 @@
+{
+  "plan": {
+    "version": 1,
+    "estado": "PROYECTOS_YA_EXISTEN",
+    "solo_plan": true,
+    "codigos_reservados": false,
+    "catalogo_filas": 42,
+    "max_id_proyecto": 42,
+    "altas": [],
+    "existentes": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ],
+    "proyectos": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ]
+  },
+  "transaccion": "ABIERTA",
+  "altas": 2,
+  "codigos_reservados": false
+}

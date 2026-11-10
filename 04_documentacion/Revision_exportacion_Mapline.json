@@ -1,0 +1,48 @@
+{
+  "bytes": 176134639,
+  "tables": 30,
+  "tableNames": [
+    "mline_ta_proyecto_estado",
+    "mline_tc_fuente_gis_importacion",
+    "mline_tc_proceso",
+    "mline_tc_proceso_arcgis",
+    "mline_tc_proyecto",
+    "mline_td_capa_importacion",
+    "mline_td_celda_capa",
+    "mline_td_infraestructura_celda",
+    "mline_td_proceso_log",
+    "mline_td_proyecto_alternativa",
+    "mline_td_proyecto_area_interes",
+    "mline_td_proyecto_capa",
+    "mline_td_proyecto_celda",
+    "mline_td_proyecto_cgeneracion",
+    "mline_td_proyecto_componente",
+    "mline_td_proyecto_envelope",
+    "mline_td_proyecto_infraestructura",
+    "mline_td_proyecto_ltransmision",
+    "mline_td_proyecto_regla_cfg",
+    "mline_td_proyecto_tematico",
+    "mline_tm_capa",
+    "mline_tm_capa_aspecto_etiqueta",
+    "mline_tm_capa_aspecto_poligono",
+    "mline_tm_capa_aspecto_polilinea",
+    "mline_tm_capa_aspecto_punto",
+    "mline_tm_capa_propiedad",
+    "mline_tm_fuente_gis",
+    "mline_tp_parametro",
+    "mline_tp_tipoparametro",
+    "net_log"
+  ],
+  "tablesWithData": 27,
+  "tablesWithoutInsert": [
+    "mline_tc_proceso_arcgis",
+    "mline_td_capa_importacion",
+    "net_log"
+  ],
+  "foreignKeys": 63,
+  "engines": [
+    "InnoDB"
+  ],
+  "completion": "-- Dump completed on 2026-10-30 13:34:58",
+  "procedures": 143
+}

@@ -1,0 +1,68 @@
+{
+  "clase": "estructuras",
+  "fuentes": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    }
+  ],
+  "esquema_sha256": "1443de34db76eafb69dc95e0167cbd13ebe7fcaf0147da67406595b0fad2f24f",
+  "mapeo_sha256": "bc0b5021f817b3072019fb4e6266641c4a10af1bfc70ce745f7c78b58c93b29c",
+  "campos_por_ruta_sha256": "eab43a3967ab838877cbfe24f0c4deecfb8c2aed5f68835eebf4099290b34c25",
+  "rutas": 76,
+  "registros_esperados": 11579,
+  "registros_observados": 11579,
+  "rutas_con_diferencias": 0,
+  "incidencias": 0,
+  "campos_revisados": 21,
+  "propuestas": {
+    "TEXT_CONSERVAR": 11,
+    "SIN_VALORES_UTILES_CONSERVAR_TEXT": 3,
+    "DOUBLE_CANDIDATO": 7
+  },
+  "maximos_campos_comunes": {
+    "nombre": 29,
+    "ruta_kml": 153
+  },
+  "validacion_sde": false,
+  "cambios_en_sde": false,
+  "alcance": "Solo las 76 rutas asignadas actualmente a estructuras; no aprueba el mapeo ni elimina copias. Marcadores literales se cuentan pero no se convierten a NULL. No se alteran tipos ni longitudes."
+}

@@ -1,0 +1,71 @@
+{
+  "resultado": "PREPARACION_LOCAL_VERIFICADA_SDE_NO_EJECUTADO",
+  "fecha_utc": "2026-11-04T16:42:50.015919+00:00",
+  "arcgis_pro": "3.7.1",
+  "cargar_eft_py_sha256": "C6F85AB08BDF34D70374E78422738CA385B4232B4F2B1362F2AA741CA0FD4395",
+  "entorno_prueba": "Fixture local de Chanchamayo, Jaen Norte y Pucallpa; no incluida en el paquete.",
+  "modo": "PREPARAR_LOCAL",
+  "kmz_seleccionados": 3,
+  "kmz_con_entidades_preparadas": 2,
+  "kmz_sin_grupos_habilitados": [
+    "Proyecto JAENNORTE.kmz"
+  ],
+  "entidades_preparadas": 3329,
+  "duplicados_exactos_omitidos": 0,
+  "por_fuente": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "entidades": 652
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "entidades": 2677
+    }
+  ],
+  "clases_locales": 17,
+  "entidades_por_clase": {
+    "Accesos": 310,
+    "CatastroMinero_Recorte": 996,
+    "CentroPoblado_Recorte": 73,
+    "ConcesionElectrica_Recorte": 317,
+    "Ductos_Pozos_Pto_Recorte": 8,
+    "Estructuras": 564,
+    "Geologia_Pol_Recorte": 60,
+    "Geomorfologia_Recorte": 51,
+    "Poseedores_Pol_Recorte": 72,
+    "Poseedores_Pto_Recorte": 72,
+    "PredioRural_Recorte": 102,
+    "PredioSUNARP_Recorte": 508,
+    "RegistroCampo_Lin": 65,
+    "Subestacion_Pol": 1,
+    "Subestacion_Pto": 1,
+    "Vertices": 53,
+    "ZEE_Recorte": 76
+  },
+  "verificaciones_geodatabase": {
+    "datasets_EFT_presentes": [
+      "Datos_Externos",
+      "Datos_Internos",
+      "Datos_Proyecto"
+    ],
+    "campos_kz_sha256_y_kz_atributos_presentes": true,
+    "todas_las_clases_con_Z": true,
+    "todas_las_clases_con_GlobalID": true,
+    "todas_las_clases_con_editor_tracking_UTC": true
+  },
+  "pruebas": {
+    "unitarias": "14/14 aprobadas",
+    "estructura_arcpy": "2/2 aprobadas; incluye idempotencia de estructura y relaciones",
+    "selector_toolbox": "Smoke test aprobado con ArcPy; leyo los 3 KMZ del informe.json y asigno el mapeo por defecto"
+  },
+  "interfaz_arcgis_pro_probada": false,
+  "conexion_sde_remota_ejecutada": false,
+  "branch_versioning_probado": false,
+  "permisos_sde_y_relaciones_de_negocio_verificados": false,
+  "notas": [
+    "La prueba de preparacion local valida la conversion y estructura en una geodatabase de archivos; no valida una carga remota.",
+    "La estructura EFT se verifico contra el catalogo implementado y no constituye aprobacion de los supuestos de negocio pendientes."
+  ]
+}

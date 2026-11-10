@@ -1,0 +1,5 @@
+{
+  "accion": "ASIGNAR_DOMINIO",
+  "campo": "id_tipo_proyecto",
+  "nombre": "mline_proyecto_tipo"
+}

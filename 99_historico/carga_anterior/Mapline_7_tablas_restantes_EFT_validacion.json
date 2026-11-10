@@ -1,0 +1,76 @@
+{
+  "file": "Mapline_7_tablas_restantes_EFT_SQLServer.sql",
+  "total_rows": 595849,
+  "tables": [
+    {
+      "table": "mline_ta_proyecto_estado",
+      "rows": 50,
+      "columns": 14,
+      "batches": 1,
+      "values_sha256": "83f5fa86ce9885caded81edaeee4eac63381d13e9f0d229daa1e8d09792d45c3",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_celda_capa",
+      "rows": 589015,
+      "columns": 14,
+      "batches": 1254,
+      "values_sha256": "057f342c4c7cefcea9b7f88f44ef0552004ad3168b787bae2184e304ec559605",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_infraestructura_celda",
+      "rows": 2767,
+      "columns": 14,
+      "batches": 6,
+      "values_sha256": "750354d3362eb55815f05c2a0dd6634b989201efee6313fdd77f17afa0374c39",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_proyecto_alternativa",
+      "rows": 8,
+      "columns": 28,
+      "batches": 1,
+      "values_sha256": "c82303ebad56f3f76025f54346a36f8eca08f829fc7eb90b556a957fca0bba89",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_proyecto_capa",
+      "rows": 2311,
+      "columns": 14,
+      "batches": 5,
+      "values_sha256": "2077d1b378d6e9f4b6200b793677a6638ac33f9bf8c569e291e2e6df8703d067",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_proyecto_componente",
+      "rows": 120,
+      "columns": 26,
+      "batches": 1,
+      "values_sha256": "6f6a10d39ed15d90578e5b6012012a5615a35f73ffc1aebd111709593dcfb670",
+      "source_values_unchanged": true
+    },
+    {
+      "table": "mline_td_proyecto_regla_cfg",
+      "rows": 1578,
+      "columns": 29,
+      "batches": 4,
+      "values_sha256": "84bd03e38ff7b035f156ce8a5ffa214e8e621886319a5ee4024d588f82d23079",
+      "source_values_unchanged": true
+    }
+  ],
+  "after_insert_transformations": {
+    "mline_td_proyecto_componente": {
+      "id_proyecto_capa_componente": null,
+      "id_proyecto_capa_vertices": null
+    },
+    "mline_td_proyecto_alternativa": {
+      "id_proyecto_capa_alternativa": null,
+      "id_proyecto_capa_vertices": null
+    }
+  },
+  "creates_schemas": false,
+  "sqlcmd_required": false,
+  "recreates_project_table": false,
+  "executed_on_sql_server": false
+}

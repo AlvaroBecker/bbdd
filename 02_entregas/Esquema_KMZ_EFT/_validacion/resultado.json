@@ -1,0 +1,94 @@
+{
+  "arcgis": "3.7.1",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT\\_validacion\\prueba_20261104_182321.gdb",
+  "clases": [
+    {
+      "clase": "PredioSUNARP_Recorte",
+      "campos": 91,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "ViasNacional_Recorte",
+      "campos": 324,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "Estructuras",
+      "campos": 42,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    },
+    {
+      "clase": "mline_td_proyecto_ltransmision",
+      "campos": 39,
+      "wkid": 4326,
+      "z": true,
+      "globalid": true,
+      "editor_tracking_utc": true,
+      "cardinalidad": "OneToMany",
+      "llaves": [
+        [
+          "co_proyecto",
+          "OriginPrimary",
+          ""
+        ],
+        [
+          "proyecto",
+          "OriginForeign",
+          ""
+        ]
+      ]
+    }
+  ],
+  "repeticion_sin_duplicacion": true,
+  "codigo_padre_duplicado_rechazado": true,
+  "prueba_sde": false,
+  "prueba_branch": false
+}

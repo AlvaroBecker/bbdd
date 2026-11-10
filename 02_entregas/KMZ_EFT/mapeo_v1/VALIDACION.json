@@ -1,0 +1,46 @@
+{
+  "resultado": "CORRECTO",
+  "libro": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\outputs\\mapline_kmz_20261103_v1\\Mapeo_KMZ_EFT_propuesta_v1.xlsx",
+  "sha256": "bf3fa6ae36b6569802d451873000ee0d48be7c0b519e0c3fbf2ecfac7e01bca7",
+  "conteos": {
+    "archivos": 13,
+    "placemarks": 279623,
+    "grupos_origen": 3655,
+    "grupos_revision": 1403,
+    "grupos_con_clase_propuesta": 294,
+    "filas_con_clase_propuesta": 311,
+    "decisiones_recibidas": 0,
+    "nuevas_aprobaciones": 0
+  },
+  "filas_recibidas_preservadas": 3655,
+  "columnas_originales_preservadas": 26,
+  "columnas_derivadas_nuevas": 8,
+  "filas_mysql_proyectos": 40,
+  "filas_mysql_componentes": 120,
+  "formulas_analizadas": 4225,
+  "errores_formula_cache": 0,
+  "prueba_interaccion": {
+    "stateMissing": [
+      [
+        "Confirmar proyecto"
+      ]
+    ],
+    "statePartial": [
+      [
+        "Validar atributos y vínculo"
+      ]
+    ],
+    "restored": true
+  },
+  "hojas_revisadas_visualmente": [
+    "Revisión",
+    "Proyectos",
+    "Detalle",
+    "MySQL"
+  ],
+  "ejecucion_native_excel": false,
+  "originales_modificados": false,
+  "carga_sql": false,
+  "carga_arcgis": false,
+  "nuevas_aprobaciones": 0
+}

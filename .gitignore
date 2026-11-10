@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# ArcGIS Pro
+*.lock
+*.sr.lock
+*.aprx.lock
+.esri/
+Index/
+
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Datos originales
+*.sql
+*.kmz
+
+# Resultados temporales
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporales
+*.log
+*.tmp
+Thumbs.db

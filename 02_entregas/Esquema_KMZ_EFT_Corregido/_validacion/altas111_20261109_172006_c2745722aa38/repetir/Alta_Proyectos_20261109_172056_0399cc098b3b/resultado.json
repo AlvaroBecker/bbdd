@@ -1,0 +1,158 @@
+{
+  "version": "1.11",
+  "estado": "ALTAS_PROYECTOS_VERIFICADAS",
+  "transaccion": "NO_INICIADA",
+  "nuevas_filas_confirmadas": 0,
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\ensayo.gdb",
+  "aplicacion_solicitada": true,
+  "exclusividad_operativa_declarada": true,
+  "bloqueo_global": false,
+  "cambios_esquema": 0,
+  "registros_kmz_insertados": 0,
+  "incidencias": [],
+  "csv_entrada": null,
+  "destino": {
+    "tabla": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\ensayo.gdb\\mline_tc_proyecto",
+    "geodatabase_remota": false,
+    "versionada": false,
+    "editor_tracking": true,
+    "campos_auditoria": {
+      "creatorFieldName": "creador",
+      "createdAtFieldName": "fe_creacion",
+      "editorFieldName": "editor",
+      "editedAtFieldName": "fe_actualizacion"
+    },
+    "dominios": [
+      {
+        "campo": "id_tipo_proyecto",
+        "dominio": "ensayo_tipo_proyecto",
+        "codigo": 8,
+        "etiqueta": "Línea de Transmisión"
+      },
+      {
+        "campo": "id_estado_proyecto",
+        "dominio": "ensayo_estado_proyecto",
+        "codigo": 3,
+        "etiqueta": "Registrado"
+      }
+    ],
+    "relaciones_observadas": [],
+    "incidencias": []
+  },
+  "plan": {
+    "version": 1,
+    "estado": "PROYECTOS_YA_EXISTEN",
+    "solo_plan": true,
+    "codigos_reservados": false,
+    "catalogo_filas": 42,
+    "max_id_proyecto": 42,
+    "altas": [],
+    "existentes": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ],
+    "proyectos": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ]
+  },
+  "plan_final": {
+    "version": 1,
+    "estado": "PROYECTOS_YA_EXISTEN",
+    "solo_plan": true,
+    "codigos_reservados": false,
+    "catalogo_filas": 42,
+    "max_id_proyecto": 42,
+    "altas": [],
+    "existentes": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ],
+    "proyectos": [
+      {
+        "proyecto": "JAENNORTE",
+        "archivo_kmz": "Proyecto JAENNORTE.kmz",
+        "id_proyecto": 41,
+        "co_proyecto": "PRY-00000041",
+        "no_proyecto": "Proyecto JAENNORTE",
+        "de_proyecto": "LT 220 kV Caclic-Jaen Norte",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      },
+      {
+        "proyecto": "POROMA",
+        "archivo_kmz": "Proyecto POROMA.kmz",
+        "id_proyecto": 42,
+        "co_proyecto": "PRY-00000042",
+        "no_proyecto": "Proyecto POROMA",
+        "de_proyecto": "LT 220 kV Ica-Poroma",
+        "accion": "REUTILIZAR",
+        "inactivo": false,
+        "sin_modificar": true
+      }
+    ]
+  },
+  "archivo_csv_proyectos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\repetir\\Alta_Proyectos_20261109_172056_0399cc098b3b\\confirmar_proyectos.csv",
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\repetir\\Alta_Proyectos_20261109_172056_0399cc098b3b\\resultado.json"
+}

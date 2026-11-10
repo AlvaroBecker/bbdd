@@ -1,0 +1,29 @@
+{
+  "originalUnchanged": true,
+  "target": "ArcGisAWS",
+  "createDatabaseCount": 0,
+  "dropCount": 0,
+  "createTableCount": 30,
+  "readOnlyOriginal": true,
+  "allDecodedValuesMatch": true,
+  "rows": 1110585,
+  "finalObjects": 14,
+  "spatialObjects": 6,
+  "offlineModelReview": {
+    "missingParents": 0,
+    "duplicatePK": 0,
+    "crossProjectReferences": 0,
+    "unresolvedProjectRoutes": 0
+  },
+  "sqlServerExecutionTested": false,
+  "arcpyExecutionTested": false,
+  "loaderGuardTests": {
+    "passed": 4,
+    "checks": [
+      "missing_config_rejected",
+      "valid_keys_accepted",
+      "duplicate_key_rejected",
+      "cross_project_reference_rejected"
+    ]
+  }
+}

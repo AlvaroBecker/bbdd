@@ -1,0 +1,43 @@
+{
+  "version_paquete": "1.5",
+  "version_modelo": 9,
+  "arcgis": "3.7.1",
+  "clases_ensayadas": [
+    "accesos",
+    "limite_departamento_recorte",
+    "predios_inscritos_en_sunarp_recorte"
+  ],
+  "clases_ensayadas_total": 3,
+  "operaciones_aprobadas_ensayadas": 4,
+  "validacion_sin_escritura": true,
+  "dos_double_verificados": true,
+  "un_long_verificado": true,
+  "texto_4000_a_10000_verificado": true,
+  "validacion_sin_cambios": true,
+  "double_verificado": true,
+  "long_verificado": true,
+  "texto_largo_verificado": true,
+  "cuatro_alterfield_nativos": true,
+  "demas_campos_sin_cambios": true,
+  "preservacion_restantes": true,
+  "metadatos_globalid_auditoria_geometria_indices_sin_cambios": true,
+  "clases_permanecen_vacias": true,
+  "repeticion_sin_escritura": true,
+  "repeticion_sin_cambios": true,
+  "fuente_1_4_sin_cambios": true,
+  "estructuras_1_4_copia_sin_cambios": true,
+  "validacion_sde": false,
+  "gdb": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\ensayo.gdb",
+  "esquema_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+  "aprobacion_sha256": "1448240df7144fda63a9b161c21c82a36f8050843adad6c1e539832476615049",
+  "modulo_sha256": "fdc30b196a7fc1b71eed8504e7afcd460b149017790b9e0537a62284ad0bc651",
+  "informes": {
+    "validar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_182604_4d8691f1\\estados\\20261105T212652_587484Z_d2f4454f\\resultado.json",
+    "aplicar": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_182814_53cc40b7\\estados\\20261105T213144_730632Z_9a4c23e9\\resultado.json",
+    "repetir": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183238_513752ae\\estados\\20261105T213358_213186Z_595a96ff\\resultado.json"
+  },
+  "alcance": "Tres clases en copia aislada de una geodatabase de archivos. Cuatro de las99operaciones aprobadas; no ensaya las otras95operaciones ni conecta a SQL Server/SDE. Etapas en procesos separados.",
+  "toolbox_cargada_y_validada": true,
+  "toolbox_validar_tres_clases_sin_escritura": true,
+  "informe_toolbox": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\Campos_Aprobados_20261105_183448_e740139b\\estados\\20261105T213520_734362Z_facae016\\resultado.json"
+}

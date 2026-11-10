@@ -1,0 +1,5 @@
+﻿clase;campo;tipo_actual;longitud_actual;tipo_objetivo;longitud_objetivo;accion
+accesos;longitud;Double;0;DOUBLE;;YA_OBJETIVO
+limite_departamento_recorte;poblacion;Integer;0;LONG;;YA_OBJETIVO
+predios_inscritos_sunarp_recorte;cargas_y_gravamenes;String;10000;TEXT;10000;YA_OBJETIVO
+predios_inscritos_sunarp_recorte;src_area_ha;Double;0;DOUBLE;;YA_OBJETIVO

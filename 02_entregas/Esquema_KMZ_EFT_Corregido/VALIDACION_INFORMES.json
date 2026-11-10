@@ -1,0 +1,11 @@
+{
+  "version_paquete": "1.1",
+  "arcgis": "3.7.1",
+  "validacion_toolbox": true,
+  "salida_json_final_correcta": true,
+  "estados_inmutables": 3,
+  "cambios_geodatabase": false,
+  "validacion_sde": false,
+  "pruebas_unitarias": 11,
+  "bloqueo_windows_real_comprobado": true
+}

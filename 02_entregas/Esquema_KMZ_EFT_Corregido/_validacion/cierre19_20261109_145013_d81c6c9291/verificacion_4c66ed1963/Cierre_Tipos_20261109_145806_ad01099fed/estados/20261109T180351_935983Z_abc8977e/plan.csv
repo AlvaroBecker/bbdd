@@ -1,0 +1,9 @@
+﻿clase;campo;tipo_actual;longitud_actual;tipo_objetivo;longitud_objetivo;accion
+sitios_arqueologicos_poligono_recorte;alt_mode;String;4000;LONG;;ALTERADA_VERIFICADA
+sitios_arqueologicos_poligono_recorte;base;String;4000;DOUBLE;;ALTERADA_VERIFICADA
+sitios_arqueologicos_poligono_recorte;clamped;String;4000;LONG;;ALTERADA_VERIFICADA
+sitios_arqueologicos_poligono_recorte;extruded;String;4000;LONG;;ALTERADA_VERIFICADA
+sitios_arqueologicos_punto_recorte;alt_mode;String;4000;LONG;;ALTERADA_VERIFICADA
+sitios_arqueologicos_punto_recorte;base;String;4000;DOUBLE;;ALTERADA_VERIFICADA
+sitios_arqueologicos_punto_recorte;has_label;String;4000;LONG;;ALTERADA_VERIFICADA
+suelos_recorte;p_aui_suel;String;4000;LONG;;ALTERADA_VERIFICADA

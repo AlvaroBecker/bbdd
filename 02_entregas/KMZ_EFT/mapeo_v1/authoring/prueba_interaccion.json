@@ -1,0 +1,13 @@
+{
+  "stateMissing": [
+    [
+      "Confirmar proyecto"
+    ]
+  ],
+  "statePartial": [
+    [
+      "Validar atributos y vínculo"
+    ]
+  ],
+  "restored": true
+}

@@ -1,0 +1,26 @@
+{
+  "version_paquete": "1.6",
+  "version_modelo": 10,
+  "pruebas_nomenclatura": 11,
+  "pruebas_reglas_inventario": 8,
+  "pruebas_sin_fallos": true,
+  "generacion_repetida_identica": true,
+  "archivos_y_wrappers_comparados": 95,
+  "campos_sin_cambios": 3340,
+  "clases": 76,
+  "renombradas": 25,
+  "nombres_conservados": 51,
+  "hashes_clases_eliminados": 10,
+  "validacion_sde": false,
+  "esquema_sha256": "2f2a1348d6d5d45379a75f5fd857f215fce3873829261119b8185916b7a4217c",
+  "mapeo_sha256": "2d10e23f2c418c01aa6b99cc80af093101ff50f6b00763a261229aa90ddb498a",
+  "aprobacion_sha256": "1ee95c66de434366da24eac78eb37c94fa0c5d502a2c22dae20376732dbb4163",
+  "baseline_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+  "archivos_fuente_sha256": {
+    "nombres_clases_kmz.py": "16081ea1c97736851145770dfd5bea8e24523bbd12387d8ea913347b961a7294",
+    "aplicar_nombres_clases.py": "17b731142f8e54306896ce40d95a8d4239bd7bea99602c494a517b5fd3a804ff",
+    "generar_esquema_kmz_eft_corregido.py": "e9a0cfa91cd679a69327252f3b574bedaa72300f24aa6adf18619535dd29ff25",
+    "auditar_normalizacion_kmz.py": "be2448347b754b6b86916381276ab567437da8333ae374e1c66750f0769a42cb",
+    "test_nombres_clases_1_6.py": "70dc2594f69e2d7c944de267ffd7ce9128dc113c39a0c0e70f350ee3091e793c"
+  }
+}

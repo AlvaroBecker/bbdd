@@ -1,0 +1,70 @@
+{
+  "source_file": "Mapline_20261030.sql",
+  "source_sha256": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd",
+  "tables": 8,
+  "primary_keys": 8,
+  "foreign_keys": 27,
+  "original_secondary_indexes": 27,
+  "auto_increment_columns": 0,
+  "pk_matches_dump": true,
+  "fk_matches_dump": true,
+  "indexes_match_dump": true,
+  "sql_active_foreign_keys": 11,
+  "recursive_no_action_foreign_keys": 2,
+  "classification_counts": {
+    "active_sql": 11,
+    "obsolete_no_fk": 3,
+    "pending_spatial": 3,
+    "pending_parameter_domain": 8,
+    "pending_portal": 2
+  },
+  "classification_names": {
+    "active_sql": [
+      "mline_pryctoestdo_prycto01_fk",
+      "mline_pryctocldacpa_pryctocpa02_fk",
+      "mline_pryctoaltrntiva_pryctoaltrntiva03_fk",
+      "mline_pryctoaltrntiva_pryctocmpnnte01_fk",
+      "mline_pryctoaltrntiva_pryctocpa06_fk",
+      "mline_pryctocpa_prycto01_fk",
+      "mline_pryctocmpnnte_prycto01_fk",
+      "mline_pryctorglacfg_prycto01_fk",
+      "mline_pryctorglacfg_pryctocpa02_fk",
+      "mline_pryctorglacfg_pryctocpa06_fk",
+      "mline_pryctorglacfg_pryctorglacfg03_fk"
+    ],
+    "obsolete_no_fk": [
+      "mline_pryctoaltrntiva_pryctocpa02_fk",
+      "mline_pryctocmpnnte_pryctocpa02_fk",
+      "mline_td_proyecto_componente_ibfk_1"
+    ],
+    "pending_spatial": [
+      "mline_pryctocldacpa_pryctoclda01_fk",
+      "mline_infracapa_pryctoaltrntiva01_fk",
+      "mline_infracapa_pryctocel02_fk"
+    ],
+    "pending_parameter_domain": [
+      "mline_pryctoestdo_prmtro02_fk",
+      "mline_pryctoestdo_prmtro03_fk",
+      "mline_prycto_prmtro01_fk",
+      "mline_prycto_prmtro02_fk",
+      "mline_pryctoaltrntiva_prmtro04_fk",
+      "mline_pryctoaltrntiva_prmtro05_fk",
+      "mline_pryctorglacfg_prmtro05_fk",
+      "mline_pryctorglacfg_prmtro07_fk"
+    ],
+    "pending_portal": [
+      "mline_pryctocpa_cpa02_fk",
+      "mline_pryctorglacfg_cpaprpiedad04_fk"
+    ]
+  },
+  "manifest_treatments": {
+    "coded_domain": 8,
+    "sql_foreign_key": 11,
+    "pending_spatial_parent": 3,
+    "retirada_por_eft_no_recrear_fk": 3,
+    "pending_portal_field_mapping": 2
+  },
+  "new_inferred_business_rules": 0,
+  "sql_server_execution_tested": false,
+  "arcgis_execution_tested": false
+}

@@ -1,0 +1,10 @@
+{
+  "estado": "CREACION_VERIFICADA",
+  "informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\general15_20261105_181858_00b94272\\20261105_182045_a8ec38a8\\estados\\20261105T212447_448466Z_0ec2afa7\\resultado.json",
+  "fuente_sin_cambios": true,
+  "clases": [
+    "accesos",
+    "limite_departamento_recorte",
+    "predios_inscritos_en_sunarp_recorte"
+  ]
+}

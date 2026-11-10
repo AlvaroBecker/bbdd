@@ -1,0 +1,10 @@
+{
+  "01_diagnostico_sql.sql": "32f16b7c2e1f6617daf2d216f198e13036ed2f3e1890f051d47b47d25bde193b",
+  "02_restaurar_indices_no_unicos.sql": "51e40a882fcc5ce3610cd6d17c6d1f70e81e86f703cde4d453690e7f15becb01",
+  "02b_restaurar_indices_arcgis.py": "35035929fa22bc567c11b1aa71646533de47760a0efa31ebf0b5a4cc2898e03e",
+  "03_configurar_reglas_arcgis.py": "ba61028d96c86b4274ab11d6f7fa5e67bcca4aa7e95a591817cd69b6282ff0da",
+  "04_correspondencia_restricciones.md": "7b316157dbc833c83d9739917c7364c34aef8ecadd7d3de52a378246cf04d9de",
+  "05_verificacion_local.json": "0b238f84ac0ca28ff698b28fe28eebd52d817cbc4ae900334157709313fe02a5",
+  "LEEME.md": "7baaba6ead302c09d4981cd169f450e3f5ce2e028bca1c2ef72a093534e17b4b",
+  "modelo_restricciones.json": "347f11dcf4958387ca5c76c3fd56b3a6e361eb52b38a79d13061186f9bdcf4d2"
+}

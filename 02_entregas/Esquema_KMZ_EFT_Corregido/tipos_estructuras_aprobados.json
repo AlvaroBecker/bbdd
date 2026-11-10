@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "clase": "estructuras",
+  "autorizacion": "Usuario: ok procede, 2026-11-05",
+  "modelo_base_sha256": "1443de34db76eafb69dc95e0167cbd13ebe7fcaf0147da67406595b0fad2f24f",
+  "perfil_sha256": "3a371f89d086a2051f5381ab67eaaeb35c73acf36ebdf43f6da5a1501e02f6e1",
+  "fuentes": [
+    {
+      "archivo": "Proyecto CHANCHAMAYO.kmz",
+      "sha256": "2d83ff1278edfaccce46f8d654c134b5827f817fbafb4a2421e9a2266e6cf8af",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto FELAM.kmz",
+      "sha256": "d9630debea9426862400c92f235f41576765a11cc13fec4aea63d158b26cac01",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto HUARAZ.kmz",
+      "sha256": "52d5f7543666b8420e63bbd585b1e82424768b67093f1968e1379033247bf039",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PALIAN.kmz",
+      "sha256": "9df0668a37d98df7a9ea80e0ea4c072c41375b402dca56637728850835f34f3a",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PARIÑAS.kmz",
+      "sha256": "a471dbf302d58ae4dbc8717f094d00b688a8808517b5d53cb2a7f2c8db3951a8",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    },
+    {
+      "archivo": "Proyecto PUCALLPA.kmz",
+      "sha256": "a03e3d764efd051311972131bd605cb6275fb6be5f495ddaa01ba90394612dd2",
+      "xsi_declarado_en_lectura": [
+        "doc.kml"
+      ]
+    }
+  ],
+  "registros_perfilados": 11579,
+  "rutas_perfiladas": 76,
+  "campos": {
+    "cod_vertice": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 16
+    },
+    "codigo_enti": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 78
+    },
+    "descripcion": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 6
+    },
+    "east": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 10
+    },
+    "emp_consultora": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 6
+    },
+    "este": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 10
+    },
+    "lat_lon": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 23
+    },
+    "name": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 20
+    },
+    "norte": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 11
+    },
+    "north": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 11
+    },
+    "position": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 30
+    },
+    "src_fuente": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 6
+    },
+    "src_nombre": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 89
+    },
+    "tipo": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 30
+    },
+    "torre": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 4
+    },
+    "utm": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 30
+    },
+    "vano": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 6
+    },
+    "vertice": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 5
+    },
+    "x": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 9
+    },
+    "y": {
+      "tipo": "DOUBLE",
+      "longitud": null,
+      "longitud_maxima_observada": 10
+    },
+    "zone": {
+      "tipo": "TEXT",
+      "longitud": 4000,
+      "longitud_maxima_observada": 3
+    }
+  },
+  "limpieza_nulos": "No se aplica en esta fase",
+  "unidades_y_crs": "Se conservan valores originales; no se convierten unidades ni CRS"
+}

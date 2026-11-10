@@ -1,0 +1,44 @@
+{
+  "estado": "ERROR_DETENIDO",
+  "modo": "CREAR",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_232530_758673c4\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "modelo_sha256": "5e368094dc0e1991f2ef80f50f9b49e9a22fe3fb8df60dcd35b9139d296340de",
+  "inicio_utc": "2026-11-05T02:29:17.268782+00:00",
+  "completadas": [],
+  "clase_en_curso": "area_estudio_campo",
+  "clases": [
+    {
+      "nombre": "area_estudio_campo",
+      "geometria": "POLYGON",
+      "campos": 17,
+      "tipos_pendientes": 4,
+      "accion": "CREAR"
+    },
+    {
+      "nombre": "estructuras",
+      "geometria": "POINT",
+      "campos": 34,
+      "tipos_pendientes": 23,
+      "accion": "CREAR"
+    }
+  ],
+  "advertencias": [
+    "El catalogo de 76 clases sigue siendo una propuesta funcional, no una aprobacion de INDRA.",
+    "Los atributos marcados pendientes mantienen texto conservador; requieren perfil de valores y unidades antes de cargar.",
+    "Los campos propios no se eliminan por tener nombres parecidos. El informe no certifica la equivalencia de sus valores.",
+    "Esta fase crea clases vacias con GlobalID y auditoria UTC. No carga KMZ, no crea relaciones y no activa branch.",
+    "Las relaciones con proyecto y las relaciones de negocio se validan y crean en una fase posterior.",
+    "DDL ArcGIS no es una transaccion atomica: un fallo puede dejar una clase parcial. Se informa y se detiene, sin borrado automatico.",
+    "TestSchemaLock del contenedor devolvio False; esta comprobacion no es concluyente en el ensayo local. ArcGIS verificara los bloqueos reales durante cada creacion."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_232530_758673c4\\20261104_232917_4ed17220\\estados\\20261105T023035_910597Z_619968c8\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_232530_758673c4\\20261104_232917_4ed17220\\estados\\20261105T023035_910597Z_619968c8\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_232530_758673c4\\20261104_232917_4ed17220\\campos.csv",
+  "arcgis": "3.7.1",
+  "proyectos_en_padre": 1,
+  "test_schema_lock_dataset_informativo": false,
+  "error": "ERROR 000229: Cannot open \nFailed to execute (AddFields).\n\nLa comprobacion posterior tampoco confirma la clase completa: C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\eft12_20261104_232530_758673c4\\ensayo.gdb\\Datos_Proyecto\\area_estudio_campo: falta proyecto. Revisar migracion; no se modifica el objeto existente.",
+  "fin_utc": "2026-11-05T02:30:35.906717+00:00"
+}

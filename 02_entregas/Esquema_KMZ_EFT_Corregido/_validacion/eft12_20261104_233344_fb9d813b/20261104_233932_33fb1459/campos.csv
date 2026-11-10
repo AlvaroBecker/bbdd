@@ -1,0 +1,46 @@
+﻿clase;campo;tipo;longitud;permite_nulos;dominio;origen;revision_tipo_pendiente
+calicatas;proyecto;TEXT;12;False;;EFT 5.8.7;False
+calicatas;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+calicatas;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+calicatas;componente;TEXT;150;True;;EFT 5.8.7;False
+calicatas;alternativa;TEXT;100;True;;EFT 5.8.7;False
+calicatas;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+calicatas;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+calicatas;nombre;TEXT;1000;True;;EFT 5.8.7;False
+calicatas;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+calicatas;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+calicatas;fecha_carga;DATE;;True;;EFT 5.8.7;False
+estructuras;proyecto;TEXT;12;False;;EFT 5.8.7;False
+estructuras;id_analisis;TEXT;100;False;;EFT 5.8.7;False
+estructuras;disciplina;TEXT;20;True;dom_disciplina;EFT 5.8.7;False
+estructuras;componente;TEXT;150;True;;EFT 5.8.7;False
+estructuras;alternativa;TEXT;100;True;;EFT 5.8.7;False
+estructuras;condicion;TEXT;20;True;dom_condicion;EFT 5.8.7;False
+estructuras;fuente;TEXT;60;True;dom_fuente;EFT 5.8.7;False
+estructuras;nombre;TEXT;1000;True;;EFT 5.8.7;False
+estructuras;archivo_origen;TEXT;255;True;;EFT 5.8.7;False
+estructuras;ruta_kml;TEXT;4000;True;;EFT 5.8.7;False
+estructuras;fecha_carga;DATE;;True;;EFT 5.8.7;False
+estructuras;src_NOMBRE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;CODIGOENTI;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;NAME;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;ALTERNATIV;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;src_ALTERNATIVA;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;DESCRIPCION;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;src_FUENTE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;TIPO;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;EMP_CONSULTORA;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;ESTE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;NORTE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;CODVERTICE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;POSITION;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;ZONE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;EAST;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;NORTH;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;UTM;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;LAT_LON;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;TORRE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;VERTICE;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;X;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;Y;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True
+estructuras;VANO;TEXT;4000;True;;"Atributo KMZ; texto conservador pendiente de revision de tipo";True

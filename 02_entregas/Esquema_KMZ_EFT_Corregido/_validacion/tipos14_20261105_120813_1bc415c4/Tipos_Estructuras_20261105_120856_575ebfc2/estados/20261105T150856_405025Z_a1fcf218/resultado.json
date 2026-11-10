@@ -1,0 +1,27 @@
+{
+  "estado": "INICIADO",
+  "modo": "VALIDAR_TIPOS",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\ensayo.gdb",
+  "modelo_sha256": "5fc138d536e6661e5dd45af296d536a02e917d24215f39f771526dbb3fc04b55",
+  "version_paquete": "1.4",
+  "completadas": [],
+  "campo_en_curso": null,
+  "clase_en_curso": null,
+  "clases": [
+    {
+      "nombre": "estructuras",
+      "geometria": "POINT",
+      "campos": 32,
+      "tipos_pendientes": 0,
+      "accion": "POR_VALIDAR"
+    }
+  ],
+  "advertencias": [
+    "Cambio exclusivo de siete tipos en una clase vacia. Los 14 atributos TEXT conservan sus longitudes.",
+    "No carga datos ni convierte unidades, coordenadas o marcadores <Null>.",
+    "Los cambios DDL no forman una transaccion atomica. Un error puede dejar tipos parcialmente actualizados; la siguiente ejecucion reconoce los DOUBLE ya aplicados."
+  ],
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_120856_575ebfc2\\estados\\20261105T150856_405025Z_a1fcf218\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_120856_575ebfc2\\estados\\20261105T150856_405025Z_a1fcf218\\informe.md",
+  "archivo_campos": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\tipos14_20261105_120813_1bc415c4\\Tipos_Estructuras_20261105_120856_575ebfc2\\campos.csv"
+}

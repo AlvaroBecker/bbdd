@@ -1,0 +1,126 @@
+﻿descripcion;geometria;nombre_normalizado_completo;nombre_clase;dataset;estado;nombre_abreviado;filas_campos;elementos_inventariados;G1 Enlace 500 kV Miguel Grau - Pariñas;G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1);G1 LT 220 kV Muyurina – Mollepata;G1 Nueva SE Palián 22060 kV y LT;Proyecto CHANCHAMAYO;Proyecto FELAM;Proyecto HUARAZ;Proyecto JAENNORTE;Proyecto MUYURINA;Proyecto PALIAN;Proyecto PARIÑAS;Proyecto POROMA;Proyecto PUCALLPA
+Acceso existente – carretera principal;Línea;acceso_existente_carretera_principal;acceso_existente_carretera_principal;Datos_Proyecto;DEFINIDA;NO;269;140;0;0;0;0;0;0;0;0;0;0;140;0;0
+Acceso existente – trocha carrozable;Línea;acceso_existente_trocha_carrozable;acceso_existente_trocha_carrozable;Datos_Proyecto;DEFINIDA;NO;15;448;0;0;0;0;0;148;0;0;0;109;191;0;0
+Accesos del proyecto;Línea;accesos_del_proyecto;accesos_del_proyecto;Datos_Proyecto;DEFINIDA;NO;5;85;0;0;0;0;0;2;0;11;0;72;0;0;0
+Acreditación de disponibilidad hídrica (ANA);Punto;acreditacion_de_disponibilidad_hidrica_ana;acreditacion_de_disponibilidad_hidrica_ana;Datos_Proyecto;DEFINIDA;NO;26;61;0;0;0;0;0;23;0;0;0;10;28;0;0
+Aerogeneradores / parque eólico;Punto;aerogeneradores_parque_eolico;aerogeneradores_parque_eolico;Datos_Proyecto;DEFINIDA;NO;6;74;0;0;0;0;0;0;0;0;0;0;0;74;0
+Autorización de ejecución de obras hidráulicas (ANA);Punto;autorizacion_de_ejecucion_de_obras_hidraulicas_ana;autorizacion_de_ejecucion_de_obras_hidraulicas_ana;Datos_Proyecto;DEFINIDA;NO;19;47;0;0;0;0;0;1;0;0;0;31;15;0;0
+Canales de derivación (ANA);Línea;canales_de_derivacion_ana;canales_de_derivacion_ana;Datos_Proyecto;DEFINIDA;NO;76;138;0;0;0;0;0;10;0;0;6;81;41;0;0
+Canales de riego;Línea;canales_de_riego;canales_de_riego;Datos_Proyecto;DEFINIDA;NO;15;1850;0;0;0;0;0;614;0;0;618;618;0;0;0
+Canales de trasvase (ANA);Línea;canales_de_trasvase_ana;canales_de_trasvase_ana;Datos_Proyecto;DEFINIDA;NO;76;2;0;0;0;0;0;0;0;0;0;0;2;0;0
+Canales laterales (ANA);Línea;canales_laterales_ana;canales_laterales_ana;Datos_Proyecto;DEFINIDA;NO;77;3097;0;0;0;0;0;25;0;0;0;1522;1550;0;0
+Canteras;Polígono;canteras_poligono;canteras_poligono;Datos_Proyecto;DEFINIDA;NO;50;2;0;0;0;0;0;0;0;2;0;0;0;0;0
+Canteras;Punto;canteras_punto;canteras_punto;Datos_Proyecto;DEFINIDA;NO;3;35;0;0;0;0;0;0;0;35;0;0;0;0;0
+Capacidad de uso mayor de suelos;Polígono;capacidad_de_uso_mayor_de_suelos;capacidad_de_uso_mayor_de_suelos;Datos_Proyecto;DEFINIDA;NO;29;1016;0;0;0;0;13;0;93;0;0;0;0;0;910
+Catastro minero (INGEMMET);Polígono;catastro_minero_ingemmet;catastro_minero_ingemmet;Datos_Proyecto;DEFINIDA;NO;41;249;65;1;8;23;0;2;0;6;7;52;79;6;0
+Catastro rural (MIDAGRI / SICAR);Polígono;catastro_rural_midagri_sicar;catastro_rural_midagri_sicar;Datos_Proyecto;DEFINIDA;NO;98;1219;0;79;260;0;39;0;65;527;17;83;9;77;63
+Centros poblados (INEI);Punto;centros_poblados_inei;centros_poblados_inei;Datos_Proyecto;DEFINIDA;NO;29;878;0;0;0;0;0;189;0;111;17;0;411;77;73
+Clasificación climática;Polígono;clasificacion_climatica;clasificacion_climatica;Datos_Proyecto;DEFINIDA;NO;5;8;0;0;0;0;0;2;0;0;1;3;2;0;0
+Clasificación hidrogeológica;Polígono;clasificacion_hidrogeologica;clasificacion_hidrogeologica;Datos_Proyecto;DEFINIDA;NO;21;33;0;0;0;0;0;6;0;0;1;15;11;0;0
+Cobertura agrícola (MIDAGRI);Polígono;cobertura_agricola_midagri;cobertura_agricola_midagri;Datos_Proyecto;DEFINIDA;NO;3;260;0;0;0;0;0;0;0;0;0;0;0;260;0
+Cobertura vegetal (MINAM);Polígono;cobertura_vegetal_minam;cobertura_vegetal_minam;Datos_Proyecto;DEFINIDA;NO;22;267;16;11;4;22;0;0;0;0;4;122;56;32;0
+Comunidades campesinas;Polígono;comunidades_campesinas;comunidades_campesinas;Datos_Proyecto;DEFINIDA;NO;32;202;4;12;3;13;0;24;19;10;16;68;33;0;0
+Concesiones eléctricas (MINEM);Línea;concesiones_electricas_minem_linea;concesiones_electricas_minem_linea;Datos_Proyecto;DEFINIDA;NO;17;271;0;0;0;0;170;0;4;49;0;0;0;37;11
+Concesiones eléctricas (MINEM);Polígono;concesiones_electricas_minem_poligono;concesiones_electricas_minem_poligono;Datos_Proyecto;DEFINIDA;NO;70;456;0;2;1;5;307;0;10;83;0;0;0;40;8
+Concesiones forestales (SERFOR);Polígono;concesiones_forestales_serfor;concesiones_forestales_serfor;Datos_Proyecto;DEFINIDA;NO;13;37;0;0;0;0;0;2;0;0;6;27;2;0;0
+Conflictos sociales (Defensoría del Pueblo);Mixta;conflictos_sociales_defensoria_del_pueblo;conflictos_sociales_defensoria_del_pueblo;Datos_Proyecto;PENDIENTE_SEPARAR_GEOMETRIAS;NO;19;4;0;0;4;0;0;0;0;0;0;0;0;0;0
+Cuencas hidrográficas (ANA);Polígono;cuencas_hidrograficas_ana;cuencas_hidrograficas_ana;Datos_Proyecto;DEFINIDA;NO;22;22;0;0;0;0;0;22;0;0;0;0;0;0;0
+Distancias / buffers a áreas de interés;Línea;distancias_buffers_a_areas_de_interes;distancias_buffers_a_areas_de_interes;Datos_Proyecto;DEFINIDA;NO;21;393;0;0;0;0;0;130;0;0;25;134;104;0;0
+Ecorregiones;Polígono;ecorregiones;ecorregiones;Datos_Proyecto;DEFINIDA;NO;12;9;1;1;1;2;1;0;1;0;0;0;0;1;1
+Ecosistemas frágiles (SERFOR);Polígono;ecosistemas_fragiles_serfor;ecosistemas_fragiles_serfor;Datos_Proyecto;DEFINIDA;NO;26;31;0;0;0;0;0;5;0;14;1;7;1;3;0
+Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 17 s;Línea;elementos_de_la_red_hidrografica_de_la_carta_nacional_escala_1_100_000_del_ign_corresponde_a_toda_la_zona_utm_17_s;elementos_de_la_red_hidrografica_de_la_ca_d30d96e4;Datos_Proyecto;DEFINIDA;SI;15;1;0;0;0;0;0;1;0;0;0;0;0;0;0
+Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 18 L y 18 K;Línea;elementos_de_la_red_hidrografica_de_la_carta_nacional_escala_1_100_000_del_ign_corresponde_a_toda_la_zona_utm_18_l_y_18_k;elementos_de_la_red_hidrografica_de_la_ca_91a21118;Datos_Proyecto;DEFINIDA;SI;13;70419;0;0;0;0;0;7752;0;0;209;60303;2155;0;0
+Entidades CAD exportadas (AutoCAD / Civil 3D);Polígono;entidades_cad_exportadas_autocad_civil_3d;entidades_cad_exportadas_autocad_civil_3d;Datos_Proyecto;DEFINIDA;NO;10;1;0;0;0;0;0;0;0;0;0;0;0;0;1
+Estaciones de bombeo (ANA);Punto;estaciones_de_bombeo_ana;estaciones_de_bombeo_ana;Datos_Proyecto;DEFINIDA;NO;64;34;0;0;0;0;0;0;0;0;0;0;34;0;0
+Estación de muestreo – componente biológico;Polígono;estacion_de_muestreo_componente_biologico;estacion_de_muestreo_componente_biologico;Datos_Proyecto;DEFINIDA;NO;8;28;0;0;0;0;0;28;0;0;0;0;0;0;0
+Fajas marginales de cuerpos de agua (ANA);Polígono;fajas_marginales_de_cuerpos_de_agua_ana_poligono;fajas_marginales_de_cuerpos_de_agua_ana_poligono;Datos_Proyecto;DEFINIDA;NO;7;4;0;0;0;0;0;2;0;0;0;0;2;0;0
+Fajas marginales de cuerpos de agua (ANA);Punto;fajas_marginales_de_cuerpos_de_agua_ana_punto;fajas_marginales_de_cuerpos_de_agua_ana_punto;Datos_Proyecto;DEFINIDA;NO;31;23781;0;0;0;0;0;4031;0;237;5506;9903;3985;119;0
+Fisiografía;Polígono;fisiografia;fisiografia;Datos_Proyecto;DEFINIDA;NO;15;23;0;0;0;0;6;0;3;0;0;0;0;0;14
+Formalización de derechos de uso de agua (ANA);Punto;formalizacion_de_derechos_de_uso_de_agua_ana;formalizacion_de_derechos_de_uso_de_agua_ana;Datos_Proyecto;DEFINIDA;NO;23;327;0;0;0;0;0;10;0;0;1;43;273;0;0
+Franja de servidumbre de la LT;Polígono;franja_de_servidumbre_de_la_lt;franja_de_servidumbre_de_la_lt;Datos_Proyecto;DEFINIDA;NO;9;10;0;0;0;0;0;0;0;5;0;0;0;5;0
+Geología (INGEMMET);Línea;geologia_ingemmet_linea;geologia_ingemmet_linea;Datos_Proyecto;DEFINIDA;NO;8;545;4;0;2;16;0;89;0;0;24;410;0;0;0
+Geología (INGEMMET);Polígono;geologia_ingemmet_poligono;geologia_ingemmet_poligono;Datos_Proyecto;DEFINIDA;NO;4;30;0;0;0;0;10;0;6;8;0;0;0;0;6
+Geomorfología;Polígono;geomorfologia;geomorfologia;Datos_Proyecto;DEFINIDA;NO;12;274;67;21;3;18;4;2;6;0;3;90;51;0;9
+Hidrocarburos (lotes, ductos, pozos);Polígono;hidrocarburos_lotes_ductos_pozos_poligono;hidrocarburos_lotes_ductos_pozos_poligono;Datos_Proyecto;DEFINIDA;NO;15;13;0;0;0;0;0;0;0;9;0;0;4;0;0
+Hidrocarburos (lotes, ductos, pozos);Punto;hidrocarburos_lotes_ductos_pozos_punto;hidrocarburos_lotes_ductos_pozos_punto;Datos_Proyecto;DEFINIDA;NO;19;13;0;0;0;0;0;0;0;0;0;0;0;0;13
+Hábitats críticos;Polígono;habitats_criticos;habitats_criticos;Datos_Proyecto;DEFINIDA;NO;29;8;0;0;0;0;0;2;0;0;2;2;2;0;0
+Información del Catastro Minero. La información que se muestra tiene carácter referencia y es solo de consulta. La actualización de derechos mineros es diaria según se registra, consolida y valida la información por los especialistas del Sistema Cata…;Polígono;informacion_del_catastro_minero_la_informacion_que_se_muestra_tiene_caracter_referencia_y_es_solo_de_consulta_la_actualizacion_de_derechos_mineros_es_diaria_segun_se_registra_consolida_y_valida_la_informacion_por_los_especialistas_del_sistema_cata;informacion_del_catastro_minero_la_inform_598b689e;Datos_Proyecto;DEFINIDA;SI;48;44;0;0;0;0;0;0;0;6;0;0;0;38;0
+Instrumentos de gestión ambiental (SENACE);Línea;instrumentos_de_gestion_ambiental_senace_linea;instrumentos_de_gestion_ambiental_senace_linea;Datos_Proyecto;DEFINIDA;NO;11;3;3;0;0;0;0;0;0;0;0;0;0;0;0
+Instrumentos de gestión ambiental (SENACE);Polígono;instrumentos_de_gestion_ambiental_senace_poligono;instrumentos_de_gestion_ambiental_senace_poligono;Datos_Proyecto;DEFINIDA;NO;12;89;42;35;5;7;0;0;0;0;0;0;0;0;0
+Instrumentos de gestión ambiental (SENACE);Punto;instrumentos_de_gestion_ambiental_senace_punto;instrumentos_de_gestion_ambiental_senace_punto;Datos_Proyecto;DEFINIDA;NO;40;4;4;0;0;0;0;0;0;0;0;0;0;0;0
+Lagunas;Polígono;lagunas;lagunas;Datos_Proyecto;DEFINIDA;NO;8;15;0;0;0;0;0;15;0;0;0;0;0;0;0
+Lugares más importantes para la conservación basada en el hábitat de las aves;Polígono;lugares_mas_importantes_para_la_conservacion_basada_en_el_habitat_de_las_aves;lugares_mas_importantes_para_la_conservac_da96e3b0;Datos_Proyecto;DEFINIDA;SI;3;7;0;0;0;0;0;0;0;6;0;0;0;1;0
+Límites político-administrativos (INEI);Polígono;limites_politico_administrativos_inei;limites_politico_administrativos_inei;Datos_Proyecto;DEFINIDA;NO;41;120;11;5;6;14;0;84;0;0;0;0;0;0;0
+Línea de transmisión del proyecto;Línea;linea_de_transmision_del_proyecto_linea;linea_de_transmision_del_proyecto_linea;Datos_Proyecto;DEFINIDA;NO;44;676;2;7;1;8;51;67;0;12;51;355;26;18;78
+Línea de transmisión del proyecto;Polígono;linea_de_transmision_del_proyecto_poligono;linea_de_transmision_del_proyecto_poligono;Datos_Proyecto;DEFINIDA;NO;8;132;0;0;0;0;0;0;0;129;0;0;2;1;0
+Línea de transmisión del proyecto;Punto;linea_de_transmision_del_proyecto_punto;linea_de_transmision_del_proyecto_punto;Datos_Proyecto;DEFINIDA;NO;13;260;0;0;0;0;17;10;0;42;0;94;0;56;41
+Líneas de transmisión existentes (OSINERGMIN);Línea;lineas_de_transmision_existentes_osinergmin_linea;lineas_de_transmision_existentes_osinergmin_linea;Datos_Proyecto;DEFINIDA;NO;54;2071;9;9;7;8;10;28;9;0;640;1276;72;0;3
+Líneas de transmisión existentes (OSINERGMIN);Punto;lineas_de_transmision_existentes_osinergmin_punto;lineas_de_transmision_existentes_osinergmin_punto;Datos_Proyecto;DEFINIDA;NO;6;96;0;0;0;0;6;0;0;0;0;0;0;0;90
+Líneas y geoglifos de Nasca – Patrimonio UNESCO;Punto;lineas_y_geoglifos_de_nasca_patrimonio_unesco;lineas_y_geoglifos_de_nasca_patrimonio_unesco;Datos_Proyecto;DEFINIDA;NO;3;46;0;0;0;0;0;0;0;0;0;0;0;46;0
+Mapa de Capacidad de Uso Mayor de la Región Piura, suministra información de carácter práctico, netamente interpretativa, basada en la aptitud natural que poseen las Tierras para soportar sosteniblemente un determinado uso, sea agrícola, pastoreo, fo…;Polígono;mapa_de_capacidad_de_uso_mayor_de_la_region_piura_suministra_informacion_de_caracter_practico_netamente_interpretativa_basada_en_la_aptitud_natural_que_poseen_las_tierras_para_soportar_sosteniblemente_un_determinado_uso_sea_agricola_pastoreo_fo;mapa_de_capacidad_de_uso_mayor_de_la_regi_fd2f6751;Datos_Proyecto;DEFINIDA;SI;11;33;0;0;0;0;0;18;0;0;4;11;0;0;0
+Mapa nacional de ecosistemas (MINAM);Polígono;mapa_nacional_de_ecosistemas_minam;mapa_nacional_de_ecosistemas_minam;Datos_Proyecto;DEFINIDA;NO;31;567;0;0;0;0;0;30;0;325;4;122;68;18;0
+Paleontología;Polígono;paleontologia_poligono;paleontologia_poligono;Datos_Proyecto;DEFINIDA;NO;3;2;0;0;0;0;1;0;0;0;0;0;0;0;1
+Paleontología;Punto;paleontologia_punto;paleontologia_punto;Datos_Proyecto;DEFINIDA;NO;16;433;0;0;0;1;0;0;0;386;0;0;0;46;0
+"Para identificar las Unidades de Uso actual del suelo, se tuvo en cuenta la interpretación visual de imágenes de satélite ASTER VNIR de 15 m.; selección y análisis de información secundaria cartográfica y bibliográfica; recolección de información en…";Polígono;para_identificar_las_unidades_de_uso_actual_del_suelo_se_tuvo_en_cuenta_la_interpretacion_visual_de_imagenes_de_satelite_aster_vnir_de_15_m_seleccion_y_analisis_de_informacion_secundaria_cartografica_y_bibliografica_recoleccion_de_informacion_en;para_identificar_las_unidades_de_uso_actu_0d06ed96;Datos_Proyecto;DEFINIDA;SI;6;57;0;0;0;0;0;6;0;0;5;46;0;0;0
+Patrimonio arqueológico;Línea;patrimonio_arqueologico_linea;patrimonio_arqueologico_linea;Datos_Proyecto;DEFINIDA;NO;72;78;0;0;0;0;0;2;2;48;1;5;0;20;0
+Patrimonio arqueológico;Polígono;patrimonio_arqueologico_poligono;patrimonio_arqueologico_poligono;Datos_Proyecto;DEFINIDA;NO;31;229;0;0;0;0;0;2;9;48;4;4;2;160;0
+Patrimonio arqueológico;Punto;patrimonio_arqueologico_punto;patrimonio_arqueologico_punto;Datos_Proyecto;DEFINIDA;NO;27;354;0;0;0;0;0;1;11;186;0;0;1;155;0
+Plantaciones forestales en predios privados (SERFOR);Polígono;plantaciones_forestales_en_predios_privados_serfor;plantaciones_forestales_en_predios_privados_serfor;Datos_Proyecto;DEFINIDA;NO;33;11;0;0;0;0;0;0;0;0;0;0;11;0;0
+Poseedores / posesionarios (sin título inscrito);Polígono;poseedores_posesionarios_sin_titulo_inscrito_poligono;poseedores_posesionarios_sin_tit_d3efb006_poligono;Datos_Proyecto;DEFINIDA;SI;22;99;0;0;0;0;43;0;9;0;0;0;0;18;29
+Poseedores / posesionarios (sin título inscrito);Punto;poseedores_posesionarios_sin_titulo_inscrito_punto;poseedores_posesionarios_sin_titulo_inscrito_punto;Datos_Proyecto;DEFINIDA;NO;8;81;0;0;0;0;43;0;9;0;0;0;0;0;29
+Predios;Polígono;predios;predios;Datos_Proyecto;DEFINIDA;NO;80;2811;2352;0;0;388;1;4;1;0;1;0;12;50;2
+Predios inscritos en SUNARP;Polígono;predios_inscritos_en_sunarp;predios_inscritos_en_sunarp;Datos_Proyecto;DEFINIDA;NO;70;1019;0;0;0;0;22;41;117;0;22;49;247;35;486
+Puentes;Punto;puentes;puentes;Datos_Proyecto;DEFINIDA;NO;116;1;0;1;0;0;0;0;0;0;0;0;0;0;0
+Puntos de homologación de valores de terreno (tasación);Punto;puntos_de_homologacion_de_valores_de_terreno_tasacion;puntos_de_homologacion_de_valores_de_terr_3504f30d;Datos_Proyecto;DEFINIDA;SI;19;27;0;0;0;0;0;0;0;0;0;0;27;0;0
+Qhapaq Ñan – red vial inca (Ministerio de Cultura);Línea;qhapaq_nan_red_vial_inca_ministerio_de_cultura;qhapaq_nan_red_vial_inca_ministerio_de_cultura;Datos_Proyecto;DEFINIDA;NO;53;172;0;6;9;6;0;100;0;0;33;0;18;0;0
+Red de sitios que son importantes para la viabilidad a largo plazo de las poblaciones de aves presentes en la naturaleza;Polígono;red_de_sitios_que_son_importantes_para_la_viabilidad_a_largo_plazo_de_las_poblaciones_de_aves_presentes_en_la_naturaleza;red_de_sitios_que_son_importantes_para_la_2d3e065b;Datos_Proyecto;DEFINIDA;SI;8;4;0;0;0;0;0;0;0;4;0;0;0;0;0
+Red vial (MTC);Línea;red_vial_mtc_linea;red_vial_mtc_linea;Datos_Proyecto;DEFINIDA;NO;31;257;0;0;0;0;0;82;0;0;32;0;70;0;73
+Red vial (MTC);Polígono;red_vial_mtc_poligono;red_vial_mtc_poligono;Datos_Proyecto;DEFINIDA;NO;17;6;0;0;0;0;0;0;0;0;0;0;0;6;0
+Red vial departamental (MTC);Línea;red_vial_departamental_mtc;red_vial_departamental_mtc;Datos_Proyecto;DEFINIDA;NO;51;444;2;0;0;1;0;106;0;96;0;26;74;139;0
+Red vial nacional (MTC);Línea;red_vial_nacional_mtc;red_vial_nacional_mtc;Datos_Proyecto;DEFINIDA;NO;306;847;12;4;1;7;0;99;0;233;33;171;121;166;0
+Red vial vecinal (MTC);Línea;red_vial_vecinal_mtc;red_vial_vecinal_mtc;Datos_Proyecto;DEFINIDA;NO;29;4897;6;10;1;7;0;738;0;1939;128;973;419;676;0
+Redes de distribución en media tensión;Línea;redes_de_distribucion_en_media_tension_linea;redes_de_distribucion_en_media_tension_linea;Datos_Proyecto;DEFINIDA;NO;8;1401;0;802;139;458;0;0;2;0;0;0;0;0;0
+Redes de distribución en media tensión;Punto;redes_de_distribucion_en_media_tension_punto;redes_de_distribucion_en_media_tension_punto;Datos_Proyecto;DEFINIDA;NO;27;130;0;62;19;49;0;0;0;0;0;0;0;0;0
+Reservas de biósfera (UNESCO);Polígono;reservas_de_biosfera_unesco;reservas_de_biosfera_unesco;Datos_Proyecto;DEFINIDA;NO;16;12;2;0;2;0;0;1;0;0;2;2;3;0;0
+Restricciones aeronáuticas (pistas, conos de vuelo);Línea;restricciones_aeronauticas_pistas_conos_de_vuelo_linea;restricciones_aeronauticas_pistas_c_0801fe6d_linea;Datos_Proyecto;DEFINIDA;SI;8;5;0;0;0;0;5;0;0;0;0;0;0;0;0
+Restricciones aeronáuticas (pistas, conos de vuelo);Polígono;restricciones_aeronauticas_pistas_conos_de_vuelo_poligono;restricciones_aeronauticas_pista_60c6d71f_poligono;Datos_Proyecto;DEFINIDA;SI;9;3;0;0;0;0;2;0;0;1;0;0;0;0;0
+Restricciones aeronáuticas (pistas, conos de vuelo);Punto;restricciones_aeronauticas_pistas_conos_de_vuelo_punto;restricciones_aeronauticas_pistas_c_573359e7_punto;Datos_Proyecto;DEFINIDA;SI;14;1;0;0;0;0;0;0;0;1;0;0;0;0;0
+Ríos / red hidrográfica;Línea;rios_red_hidrografica_linea;rios_red_hidrografica_linea;Datos_Proyecto;DEFINIDA;NO;17;108;0;0;0;0;0;9;0;0;29;3;67;0;0
+Ríos / red hidrográfica;Polígono;rios_red_hidrografica_poligono;rios_red_hidrografica_poligono;Datos_Proyecto;DEFINIDA;NO;14;2;0;0;0;0;0;0;0;0;0;0;0;2;0
+Ríos – secciones transversales (ANA);Línea;rios_secciones_transversales_ana;rios_secciones_transversales_ana;Datos_Proyecto;DEFINIDA;NO;16;2702;0;0;0;0;0;941;0;0;203;558;1000;0;0
+Sitios Ramsar (humedales);Polígono;sitios_ramsar_humedales;sitios_ramsar_humedales;Datos_Proyecto;DEFINIDA;NO;10;8;0;0;0;0;0;4;0;0;1;2;1;0;0
+Sitios arqueológicos declarados (Ministerio de Cultura);Punto;sitios_arqueologicos_declarados_ministerio_de_cultura;sitios_arqueologicos_declarados_ministeri_cc3c0cc0;Datos_Proyecto;DEFINIDA;SI;7;217;1;1;0;0;0;78;0;0;0;0;137;0;0
+Sitios arqueológicos delimitados (Ministerio de Cultura);Polígono;sitios_arqueologicos_delimitados_ministerio_de_cultura;sitios_arqueologicos_delimitados_minister_ab26daa9;Datos_Proyecto;DEFINIDA;SI;11;320;2;2;1;0;0;132;0;0;7;0;176;0;0
+Subestaciones en operación (OSINERGMIN);Punto;subestaciones_en_operacion_osinergmin;subestaciones_en_operacion_osinergmin;Datos_Proyecto;DEFINIDA;NO;35;557;1;0;0;0;0;17;0;0;494;10;35;0;0
+Subestaciones proyectadas (OSINERGMIN);Punto;subestaciones_proyectadas_osinergmin;subestaciones_proyectadas_osinergmin;Datos_Proyecto;DEFINIDA;NO;18;36;2;0;0;0;0;0;0;0;17;17;0;0;0
+Subestación del proyecto;Línea;subestacion_del_proyecto_linea;subestacion_del_proyecto_linea;Datos_Proyecto;DEFINIDA;NO;32;33;0;0;0;0;0;8;0;15;2;4;3;0;1
+Subestación del proyecto;Polígono;subestacion_del_proyecto_poligono;subestacion_del_proyecto_poligono;Datos_Proyecto;DEFINIDA;NO;20;230;4;5;2;6;0;18;2;4;20;140;25;2;2
+Subestación del proyecto;Punto;subestacion_del_proyecto_punto;subestacion_del_proyecto_punto;Datos_Proyecto;DEFINIDA;NO;14;103;0;0;0;0;0;0;4;74;5;0;1;17;2
+Suelos;Polígono;suelos;suelos;Datos_Proyecto;DEFINIDA;NO;14;9;0;0;0;0;8;0;1;0;0;0;0;0;0
+Susceptibilidad a movimientos en masa;Polígono;susceptibilidad_a_movimientos_en_masa;susceptibilidad_a_movimientos_en_masa;Datos_Proyecto;DEFINIDA;NO;20;101;0;0;0;0;0;25;0;0;4;41;31;0;0
+Torres / estructuras de la LT del proyecto;Punto;torres_estructuras_de_la_lt_del_proyecto;torres_estructuras_de_la_lt_del_proyecto;Datos_Proyecto;DEFINIDA;NO;24;11560;0;0;0;0;53;1773;79;0;0;4263;4884;0;508
+Trazo / alternativas de ruta de la LT;Línea;trazo_alternativas_de_ruta_de_la_lt_linea;trazo_alternativas_de_ruta_de_la_lt_linea;Datos_Proyecto;DEFINIDA;NO;21;710;0;0;0;0;0;64;4;17;20;527;60;8;10
+Trazo / alternativas de ruta de la LT;Polígono;trazo_alternativas_de_ruta_de_la_lt_poligono;trazo_alternativas_de_ruta_de_la_lt_poligono;Datos_Proyecto;DEFINIDA;NO;17;16;0;0;0;0;3;0;2;0;0;0;0;7;4
+Trazo / alternativas de ruta de la LT;Punto;trazo_alternativas_de_ruta_de_la_lt_punto;trazo_alternativas_de_ruta_de_la_lt_punto;Datos_Proyecto;DEFINIDA;NO;9;252;0;0;0;0;0;0;4;221;0;0;0;27;0
+Uso actual;Polígono;uso_actual;uso_actual;Datos_Proyecto;DEFINIDA;NO;7;4;0;0;0;0;0;0;0;0;0;0;4;0;0
+Uso actual de la tierra;Polígono;uso_actual_de_la_tierra;uso_actual_de_la_tierra;Datos_Proyecto;DEFINIDA;NO;22;41;0;0;0;0;0;21;0;0;8;9;3;0;0
+Vértices del trazo de la LT del proyecto;Línea;vertices_del_trazo_de_la_lt_del_proyecto_linea;vertices_del_trazo_de_la_lt_del_proyecto_linea;Datos_Proyecto;DEFINIDA;NO;1;3;0;3;0;0;0;0;0;0;0;0;0;0;0
+Vértices del trazo de la LT del proyecto;Punto;vertices_del_trazo_de_la_lt_del_proyecto_punto;vertices_del_trazo_de_la_lt_del_proyecto_punto;Datos_Proyecto;DEFINIDA;NO;19;793;0;77;14;87;0;84;24;124;238;30;37;74;4
+Zonas de amortiguamiento de ANP (SERNANP);Polígono;zonas_de_amortiguamiento_de_anp_sernanp;zonas_de_amortiguamiento_de_anp_sernanp;Datos_Proyecto;DEFINIDA;NO;17;34;0;0;0;0;0;5;0;9;1;3;10;6;0
+Zonas de vida (Holdridge);Polígono;zonas_de_vida_holdridge;zonas_de_vida_holdridge;Datos_Proyecto;DEFINIDA;NO;33;19;0;0;0;0;0;0;0;14;0;0;0;3;2
+Zonas reservadas (SERNANP);Polígono;zonas_reservadas_sernanp;zonas_reservadas_sernanp;Datos_Proyecto;DEFINIDA;NO;15;2;0;0;0;0;0;0;0;2;0;0;0;0;0
+Zonas restringidas;Polígono;zonas_restringidas;zonas_restringidas;Datos_Proyecto;DEFINIDA;NO;29;11;0;0;0;0;0;0;0;0;0;0;11;0;0
+Zonificación ecológica económica (ZEE);Polígono;zonificacion_ecologica_economica_zee;zonificacion_ecologica_economica_zee;Datos_Proyecto;DEFINIDA;NO;12;64;0;0;0;0;0;9;0;0;5;35;0;0;15
+https://inaigem.maps.arcgis.com/home/item.html?id=43ebe1757ec84d39aa3ed20a96586049El INAIGEM como organismo técnico especializado de investigación, adscrito al MINAM, tiene como principal función en la ley de su creación: la realización del Inventari…;Polígono;https_inaigem_maps_arcgis_com_home_item_html_id_43ebe1757ec84d39aa3ed20a96586049el_inaigem_como_organismo_tecnico_especializado_de_investigacion_adscrito_al_minam_tiene_como_principal_funcion_en_la_ley_de_su_creacion_la_realizacion_del_inventari;https_inaigem_maps_arcgis_com_home_item_h_94924a64;Datos_Proyecto;DEFINIDA;SI;2;34034;0;0;0;0;0;0;0;0;0;34034;0;0;0
+Área de estudio;Línea;area_de_estudio_linea;area_de_estudio_linea;Datos_Proyecto;DEFINIDA;NO;2;7;0;0;0;0;0;0;0;0;0;0;0;0;7
+Área de estudio;Polígono;area_de_estudio_poligono;area_de_estudio_poligono;Datos_Proyecto;DEFINIDA;NO;19;88;0;0;0;0;0;15;0;1;21;29;22;0;0
+Área urbana;Polígono;area_urbana;area_urbana;Datos_Proyecto;DEFINIDA;NO;40;32;0;0;0;0;0;0;0;0;2;0;30;0;0
+Áreas clave para la biodiversidad (KBA);Polígono;areas_clave_para_la_biodiversidad_kba;areas_clave_para_la_biodiversidad_kba;Datos_Proyecto;DEFINIDA;NO;20;15;0;0;0;0;0;5;0;0;1;4;5;0;0
+Áreas de conservación privada (SERNANP);Polígono;areas_de_conservacion_privada_sernanp;areas_de_conservacion_privada_sernanp;Datos_Proyecto;DEFINIDA;NO;20;52;0;0;0;0;0;1;0;30;0;0;21;0;0
+Áreas de conservación regional (SERNANP);Polígono;areas_de_conservacion_regional_sernanp;areas_de_conservacion_regional_sernanp;Datos_Proyecto;DEFINIDA;NO;16;11;0;0;0;0;0;2;0;1;0;0;6;2;0
+Áreas de promoción (PROINVERSIÓN);Polígono;areas_de_promocion_proinversion;areas_de_promocion_proinversion;Datos_Proyecto;DEFINIDA;NO;12;11;0;0;0;0;0;0;0;9;0;0;0;2;0
+Áreas importantes para las aves (IBA);Polígono;areas_importantes_para_las_aves_iba;areas_importantes_para_las_aves_iba;Datos_Proyecto;DEFINIDA;NO;4;10;0;0;0;0;0;4;0;0;1;3;2;0;0
+Áreas naturales protegidas (SERNANP);Polígono;areas_naturales_protegidas_sernanp;areas_naturales_protegidas_sernanp;Datos_Proyecto;DEFINIDA;NO;19;51;0;0;0;0;0;5;0;10;1;3;15;17;0
+Áreas reservadas – defensa nacional;Polígono;areas_reservadas_defensa_nacional;areas_reservadas_defensa_nacional;Datos_Proyecto;DEFINIDA;NO;29;4;0;0;0;0;0;0;0;0;0;0;4;0;0
+Áreas reservadas – proyectos especiales;Polígono;areas_reservadas_proyectos_especiales;areas_reservadas_proyectos_especiales;Datos_Proyecto;DEFINIDA;NO;29;14;0;0;0;0;0;3;0;0;0;0;11;0;0
+Áreas reservadas – zonas urbanas;Polígono;areas_reservadas_zonas_urbanas;areas_reservadas_zonas_urbanas;Datos_Proyecto;DEFINIDA;NO;29;39;0;0;0;0;0;5;0;0;0;0;34;0;0

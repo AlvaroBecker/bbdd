@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "fecha_utc": "2026-11-03T14:42:49.856362+00:00",
+  "fuentes_unicas": 13,
+  "copias_identicas_verificadas": 9,
+  "hashes_originales_sin_cambios": true,
+  "placemarks": 279623,
+  "coincide_cifra_eft": true,
+  "folders_xml": 3146,
+  "documents_xml": 254,
+  "grupos_mapeo": 3655,
+  "filas_aprobadas": 0,
+  "geometrias_gis_validadas": false,
+  "carga_sql_ejecutada": false,
+  "herramienta_original_modificada": false,
+  "tests": {
+    "run": 18,
+    "failures": 0,
+    "errors": 0
+  },
+  "archivos_sha256": {
+    "inventario\\01_archivos.csv": "2040ace415d59014e470aa5ab78b51e96df0be510ca2e6a343450d809d1a6320",
+    "inventario\\02_carpetas.csv": "9df1d12b19f8d961b9876bb57b9372deabd278c236b2e478fa81f13bfa687a62",
+    "inventario\\03_matriz_mapeo_EFT.csv": "f8cd8abf127f020ac66e69d81700d99de4f6e349d42b2fa7becf8fb624120534",
+    "inventario\\04_objetos_no_placemark.csv": "733deb5a8ed983b98bb483e2ebbf99cf761476c87def3458f7bdfb44350ec3ae",
+    "inventario\\05_resumen_candidatos.csv": "6e5604ac04c88fed1458085e198a3667d84a8eca979c35b3e998b56821057fe3",
+    "inventario\\control_inventario.json": "942e072f5d93a090f57ffb86d4d394312c952929a5ce3574a98cece23f0936db"
+  },
+  "analyzer_sha256": "d83ba25730f30ca12b6469c9bceab0899b561c5b7492acd0deee76ce56b877c2"
+}

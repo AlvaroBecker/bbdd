@@ -1,0 +1,25 @@
+{
+  "version": "1.6-diagnostico-1",
+  "solo_lectura": true,
+  "informe_original_sha256": "edaf5db7bd1b1b61f9ed07236c8781ca5f27e09959e5efda7edf6a59e63524a1",
+  "campos_del_informe_original_conservados": true,
+  "clases_con_referencia": 76,
+  "validacion_sde": false,
+  "archivos_sha256": {
+    "Diagnostico_Renombrado.pyt": "f483df7d526ac7328b6c0b5b83a3d9d3bf7ab9d77129a51bdbd2e9e36aff6eff",
+    "LEEME_DIAGNOSTICO_RENOMBRADO.md": "0f6f4a069136acff0fee15ac3fcfd54745b7b567395e94587403c66f6bf77bd3",
+    "VALIDACION_DIAGNOSTICO_RENOMBRADO_ARCGIS.json": "dd61ec20bc9ade3ff1083d60ea5fc6098bfeecfe4f07cdd7b298c2587d09c0db",
+    "VALIDACION_DIAGNOSTICO_RENOMBRADO_UNITARIA.json": "9c5e5599d5704e236f8691205e4019f246df3d89ece242ff4dfbfd255e593420",
+    "actualizar_campos_aprobados.py": "0fe170e665252e66ec7910bb4a7e414b79acff56011951b69187362857b88016",
+    "ajustar_tipos_estructuras.py": "24c6a1398d9831d288fb9674f127c91a5e87374765a1a87ac6aee562a93e772d",
+    "campos_aprobados_1_5.json": "1ee95c66de434366da24eac78eb37c94fa0c5d502a2c22dae20376732dbb4163",
+    "crear_esquema.py": "0f0cedc8d1970d63f14cb74185acd98146ef4a499d020c8d6c9e5a181333b4cf",
+    "datos_proyecto.py": "d4b8fd00528d9ecf001a9db02a636308494996cacf4bece8e1ea8b6a1870b9ff",
+    "diagnostico_renombrado.py": "4e903308f74385d6fe88d9d9a5606fb2aac53bdbfb7648e2eda9c6cbd9c176f2",
+    "esquema.json": "2f2a1348d6d5d45379a75f5fd857f215fce3873829261119b8185916b7a4217c",
+    "nombres_clases_1_6.json": "2d10e23f2c418c01aa6b99cc80af093101ff50f6b00763a261229aa90ddb498a",
+    "renombrar_clases.py": "48d47c2fb62beb9d14e77f2fa37c169cb9868e8c6afd858c0b6c2afb77116d30",
+    "resultado_origen.json": "edaf5db7bd1b1b61f9ed07236c8781ca5f27e09959e5efda7edf6a59e63524a1",
+    "validacion_texto_sqlserver.py": "19c1a453a187755df8e97e07c8d693b18cbd4c747bd40faf958347431623c102"
+  }
+}

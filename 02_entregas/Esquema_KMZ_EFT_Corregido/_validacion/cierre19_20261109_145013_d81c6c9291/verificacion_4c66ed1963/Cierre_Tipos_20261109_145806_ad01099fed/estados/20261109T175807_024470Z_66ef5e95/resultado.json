@@ -1,0 +1,114 @@
+{
+  "version_paquete": "1.9",
+  "version_modelo": 12,
+  "estado": "INICIADO",
+  "modo": "APLICAR_CIERRE",
+  "workspace": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\ensayo.gdb",
+  "database": "ArcGisAWS",
+  "owner": "gis",
+  "inicio_utc": "2026-11-09T17:58:06.539585+00:00",
+  "campos_pendientes_modelo": 0,
+  "confirmaciones_texto": 722,
+  "cambios_fisicos_aprobados": 8,
+  "cambios_pendientes_destino": null,
+  "cierre_verificado": false,
+  "ingesta_autorizada": false,
+  "cambios_en_modelo": false,
+  "cambios_en_sde": false,
+  "operaciones_intentadas": [],
+  "completadas": [],
+  "plan": [],
+  "clase_en_curso": null,
+  "campo_en_curso": null,
+  "incidencias_campos_ingesta": [
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "longitud_subterranea",
+      "codigo": "REGLA_NULL_PENDIENTE",
+      "detalle": "Definir conversion del literal <Null>; el tipo DOUBLE ya esta confirmado."
+    },
+    {
+      "clase": "lineas_transmision_existentes_osinergmin_recorte",
+      "campo": "maxima_tension_operativa",
+      "codigo": "REGLA_NULL_PENDIENTE",
+      "detalle": "Definir conversion del literal <Null>; el tipo DOUBLE ya esta confirmado."
+    },
+    {
+      "clase": "subestacion_poligono",
+      "campo": "src_area_ha",
+      "codigo": "REGLA_NULL_PENDIENTE",
+      "detalle": "Definir conversion del literal <Null>; el tipo DOUBLE ya esta confirmado."
+    },
+    {
+      "clase": "predios_inscritos_sunarp_recorte",
+      "campo": "oficina_registral",
+      "codigo": "CONFLICTO_MAPEO_VALORES",
+      "detalle": "TEXT conserva capacidad; falta resolver que valor corresponde cargar."
+    }
+  ],
+  "bloqueos_ingesta": [
+    {
+      "codigo": "NULOS_LITERAL",
+      "resuelto": false,
+      "campos": [
+        "lineas_transmision_existentes_osinergmin_recorte.longitud_subterranea",
+        "lineas_transmision_existentes_osinergmin_recorte.maxima_tension_operativa",
+        "subestacion_poligono.src_area_ha"
+      ],
+      "detalle": "Definir y verificar la conversion de <Null> a nulo durante la preparacion de carga."
+    },
+    {
+      "codigo": "OFICINA_REGISTRAL",
+      "resuelto": false,
+      "campo": "predios_inscritos_sunarp_recorte.oficina_registral",
+      "entidades_con_conflicto": 253,
+      "detalle": "El almacenamiento TEXT se confirma; la correspondencia de valores sigue abierta."
+    },
+    {
+      "codigo": "RUTAS_SIN_DESTINO",
+      "resuelto": false,
+      "rutas": 2601,
+      "elementos": 140319,
+      "detalle": "Lectura realizada; falta asignar destino o documentar exclusion conforme al EFT."
+    },
+    {
+      "codigo": "G1_SIN_COMPROBAR_EN_CT6788",
+      "resuelto": false,
+      "archivos": 4,
+      "detalle": "El perfil incluido tiene los13 originales; la lectura en CT6788 solo incorporo9."
+    },
+    {
+      "codigo": "DATASETS_RESTANTES",
+      "resuelto": false,
+      "datasets": [
+        "Datos_Externos",
+        "Datos_Internos"
+      ]
+    }
+  ],
+  "rutas_sin_destino": 2601,
+  "elementos_sin_destino": 140319,
+  "datasets_pendientes": [
+    "Datos_Externos",
+    "Datos_Internos"
+  ],
+  "advertencias": [
+    "La aprobacion de tipos esta en el modelo distribuido; aplicar no modifica archivos del modelo.",
+    "Solo se permiten ocho AlterField sobre clases existentes y vacias; no se crean ni borran objetos.",
+    "Las tres reglas para <Null> y el mapeo de oficina_registral siguen abiertos; no se convierten valores.",
+    "Las 2601 rutas sin destino, las llaves/relaciones de proyecto y los otros dos datasets conservan su fase propia.",
+    "DDL no es una transaccion atomica. Un error detiene el lote y conserva los cambios ya realizados para reanudar.",
+    "Este resultado no acredita ingesta, relaciones/FK, branch ni cumplimiento integral de los otros datasets."
+  ],
+  "referencias_sha256": {
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "esquema_anterior_1_8.json": "7e4640548a87ef8775884c5ab510196ae5e88d382fe8ca068fb7bffe6eaea626",
+    "cierre_tipos_1_9.json": "dff1ea283aa806823627542df18762d4b2e0fa0cf894cafe10fb3dc4df3e72aa"
+  },
+  "modelo_sha256": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+  "campos_modelo": 3340,
+  "clases_modelo": 76,
+  "archivo_resultado": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\verificacion_4c66ed1963\\Cierre_Tipos_20261109_145806_ad01099fed\\estados\\20261109T175807_024470Z_66ef5e95\\resultado.json",
+  "archivo_informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\verificacion_4c66ed1963\\Cierre_Tipos_20261109_145806_ad01099fed\\estados\\20261109T175807_024470Z_66ef5e95\\informe.md",
+  "archivo_plan": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\cierre19_20261109_145013_d81c6c9291\\verificacion_4c66ed1963\\Cierre_Tipos_20261109_145806_ad01099fed\\estados\\20261109T175807_024470Z_66ef5e95\\plan.csv"
+}

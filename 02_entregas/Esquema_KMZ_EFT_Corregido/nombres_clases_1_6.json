@@ -1,0 +1,693 @@
+{
+  "version_paquete": "1.6",
+  "version_modelo": 12,
+  "autorizacion": "Usuario: ok acepto las propuestas, asegurate de aplicar el formato a todas las tablas",
+  "modelo_anterior_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+  "modelo_objetivo_sha256": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+  "clases": [
+    {
+      "nombre_anterior": "accesos",
+      "nombre_nuevo": "accesos",
+      "alias": "Accesos del proyecto",
+      "rol": "proyecto",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "acreditacion_de_disponibilidad_hidrica_ana_recorte",
+      "nombre_nuevo": "acreditacion_disponibilidad_hidrica_ana_recorte",
+      "alias": "Acreditación de disponibilidad hídrica (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "area_estudio_campo",
+      "nombre_nuevo": "area_estudio_campo",
+      "alias": "Área de estudio de campo",
+      "rol": "proyecto",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "area_urbana_recorte",
+      "nombre_nuevo": "area_urbana_recorte",
+      "alias": "Área urbana — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "areas_de_conservacion_recorte",
+      "nombre_nuevo": "areas_conservacion_recorte",
+      "alias": "Áreas de conservación privada y regional (SERNANP) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "areas_de_promocion_proinversion_recorte",
+      "nombre_nuevo": "areas_promocion_proinversion_recorte",
+      "alias": "Áreas de promoción (PROINVERSIÓN) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "areas_naturales_protegidas_sernanp_recorte",
+      "nombre_nuevo": "areas_naturales_protegidas_sernanp_recorte",
+      "alias": "Áreas naturales protegidas (SERNANP) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "autorizacion_de_ejecucion_de_obra_35f72e1f_recorte",
+      "nombre_nuevo": "autorizacion_obras_hidraulicas_ana_recorte",
+      "alias": "Autorización de ejecución de obras hidráulicas (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "calicatas",
+      "nombre_nuevo": "calicatas",
+      "alias": "Calicatas / investigación geotécnica",
+      "rol": "proyecto",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "caminos_de_herradura_recorte",
+      "nombre_nuevo": "caminos_herradura_recorte",
+      "alias": "Caminos de herradura — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "canales_recorte",
+      "nombre_nuevo": "canales_recorte",
+      "alias": "Canales de derivación, riego, trasvase y laterales — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "capacidad_de_uso_mayor_de_suelos_recorte",
+      "nombre_nuevo": "capacidad_uso_mayor_suelos_recorte",
+      "alias": "Capacidad de uso mayor de suelos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "catastro_minero_ingemmet_recorte",
+      "nombre_nuevo": "catastro_minero_ingemmet_recorte",
+      "alias": "Catastro minero (INGEMMET) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "catastro_rural_midagri_sicar_recorte",
+      "nombre_nuevo": "catastro_rural_midagri_sicar_recorte",
+      "alias": "Catastro rural (MIDAGRI / SICAR) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "centros_poblados_inei_recorte",
+      "nombre_nuevo": "centros_poblados_inei_recorte",
+      "alias": "Centros poblados (INEI) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "clasificacion_climatica_recorte",
+      "nombre_nuevo": "clasificacion_climatica_recorte",
+      "alias": "Clasificación climática — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "clasificacion_hidrogeologica_recorte",
+      "nombre_nuevo": "clasificacion_hidrogeologica_recorte",
+      "alias": "Clasificación hidrogeológica — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "cobertura_agricola_midagri_recorte",
+      "nombre_nuevo": "cobertura_agricola_midagri_recorte",
+      "alias": "Cobertura agrícola (MIDAGRI) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "cobertura_vegetal_minam_recorte",
+      "nombre_nuevo": "cobertura_vegetal_minam_recorte",
+      "alias": "Cobertura vegetal (MINAM) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "comunidades_campesinas_recorte",
+      "nombre_nuevo": "comunidades_campesinas_recorte",
+      "alias": "Comunidades campesinas — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "concesiones_electricas_minem_recorte",
+      "nombre_nuevo": "concesiones_electricas_minem_recorte",
+      "alias": "Concesiones eléctricas (MINEM) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "concesiones_forestales_serfor_recorte",
+      "nombre_nuevo": "concesiones_forestales_serfor_recorte",
+      "alias": "Concesiones forestales (SERFOR) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "cuencas_hidrograficas_ana_recorte",
+      "nombre_nuevo": "cuencas_hidrograficas_ana_recorte",
+      "alias": "Cuencas hidrográficas (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "ecorregiones_recorte",
+      "nombre_nuevo": "ecorregiones_recorte",
+      "alias": "Ecorregiones — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "ecosistemas_fragiles_serfor_recorte",
+      "nombre_nuevo": "ecosistemas_fragiles_serfor_recorte",
+      "alias": "Ecosistemas frágiles (SERFOR) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "estaciones_de_bombeo_ana_recorte",
+      "nombre_nuevo": "estaciones_bombeo_ana_recorte",
+      "alias": "Estaciones de bombeo (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "estructuras",
+      "nombre_nuevo": "estructuras",
+      "alias": "Torres y estructuras de líneas de transmisión del proyecto",
+      "rol": "proyecto",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "fajas_marginales_de_cuerpos_de_agua_ana_recorte",
+      "nombre_nuevo": "fajas_marginales_cuerpos_agua_ana_recorte",
+      "alias": "Fajas marginales de cuerpos de agua (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "fisiografia_recorte",
+      "nombre_nuevo": "fisiografia_recorte",
+      "alias": "Fisiografía — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "formalizacion_de_derechos_de_uso_01c8dd3e_recorte",
+      "nombre_nuevo": "formalizacion_derechos_uso_agua_ana_recorte",
+      "alias": "Formalización de derechos de uso de agua (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "franja_servidumbre",
+      "nombre_nuevo": "franja_servidumbre",
+      "alias": "Franja de servidumbre de la LT",
+      "rol": "proyecto",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "geologia_ingemmet_linea_recorte",
+      "nombre_nuevo": "geologia_ingemmet_linea_recorte",
+      "alias": "Geología (INGEMMET) — líneas — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "geologia_ingemmet_poligono_recorte",
+      "nombre_nuevo": "geologia_ingemmet_poligono_recorte",
+      "alias": "Geología (INGEMMET) — polígonos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "geomorfologia_recorte",
+      "nombre_nuevo": "geomorfologia_recorte",
+      "alias": "Geomorfología — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "habitats_criticos_recorte",
+      "nombre_nuevo": "habitats_criticos_recorte",
+      "alias": "Hábitats críticos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "iba_eba_kba_recorte",
+      "nombre_nuevo": "iba_eba_kba_recorte",
+      "alias": "Áreas importantes para aves y biodiversidad (IBA / EBA / KBA) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "instrumentos_de_gestion_74264739_poligono_recorte",
+      "nombre_nuevo": "instrumentos_gestion_ambiental_senace_poligono_recorte",
+      "alias": "Instrumentos de gestión ambiental (SENACE) — polígonos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "instrumentos_de_gestion_amb_9c432944_punto_recorte",
+      "nombre_nuevo": "instrumentos_gestion_ambiental_senace_punto_recorte",
+      "alias": "Instrumentos de gestión ambiental (SENACE) — puntos — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "instrumentos_de_gestion_amb_c6d70745_linea_recorte",
+      "nombre_nuevo": "instrumentos_gestion_ambiental_senace_linea_recorte",
+      "alias": "Instrumentos de gestión ambiental (SENACE) — líneas — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "lagunas_recorte",
+      "nombre_nuevo": "lagunas_recorte",
+      "alias": "Lagunas — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "limite_departamento_recorte",
+      "nombre_nuevo": "limite_departamento_recorte",
+      "alias": "Límites departamentales (INEI) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "limite_distrito_recorte",
+      "nombre_nuevo": "limite_distrito_recorte",
+      "alias": "Límites distritales (INEI) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "limite_provincia_recorte",
+      "nombre_nuevo": "limite_provincia_recorte",
+      "alias": "Límites provinciales (INEI) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "lineas_de_transmision_existentes_64e6b9b1_recorte",
+      "nombre_nuevo": "lineas_transmision_existentes_osinergmin_recorte",
+      "alias": "Líneas de transmisión existentes (OSINERGMIN) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "mapa_nacional_de_ecosistemas_minam_recorte",
+      "nombre_nuevo": "mapa_nacional_ecosistemas_minam_recorte",
+      "alias": "Mapa nacional de ecosistemas (MINAM) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "mline_td_proyecto_area_interes",
+      "nombre_nuevo": "mline_td_proyecto_area_interes",
+      "alias": null,
+      "rol": "migrada",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "Conservar nombre oficial del modelo MapLine migrado."
+    },
+    {
+      "nombre_anterior": "mline_td_proyecto_infraestructura",
+      "nombre_nuevo": "mline_td_proyecto_infraestructura",
+      "alias": null,
+      "rol": "migrada",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "Conservar nombre oficial del modelo MapLine migrado."
+    },
+    {
+      "nombre_anterior": "mline_td_proyecto_ltransmision",
+      "nombre_nuevo": "mline_td_proyecto_ltransmision",
+      "alias": null,
+      "rol": "migrada",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "Conservar nombre oficial del modelo MapLine migrado."
+    },
+    {
+      "nombre_anterior": "paleontologia_recorte",
+      "nombre_nuevo": "paleontologia_recorte",
+      "alias": "Paleontología — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "plantaciones_forestales_en_predio_b9f4663d_recorte",
+      "nombre_nuevo": "plantaciones_forestales_predios_privados_serfor_recorte",
+      "alias": "Plantaciones forestales en predios privados (SERFOR) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "poseedores_posesionarios_b3ad0df0_poligono_recorte",
+      "nombre_nuevo": "poseedores_posesionarios_poligono_recorte",
+      "alias": "Poseedores / posesionarios (sin título inscrito) — polígonos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "poseedores_posesionarios_si_132bef96_punto_recorte",
+      "nombre_nuevo": "poseedores_posesionarios_punto_recorte",
+      "alias": "Poseedores / posesionarios (sin título inscrito) — puntos — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "predios_inscritos_en_sunarp_recorte",
+      "nombre_nuevo": "predios_inscritos_sunarp_recorte",
+      "alias": "Predios inscritos en SUNARP — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "qhapaq_nan_red_vial_inca_minister_f6cbbcad_recorte",
+      "nombre_nuevo": "qhapaq_nan_red_vial_inca_mincul_recorte",
+      "alias": "Qhapaq Ñan – red vial inca (Ministerio de Cultura) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": true,
+      "motivo": "Sustituir truncamiento y hash por tema, fuente y geometria legibles."
+    },
+    {
+      "nombre_anterior": "red_vial_departamental_mtc_recorte",
+      "nombre_nuevo": "red_vial_departamental_mtc_recorte",
+      "alias": "Red vial departamental (MTC) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "red_vial_nacional_mtc_recorte",
+      "nombre_nuevo": "red_vial_nacional_mtc_recorte",
+      "alias": "Red vial nacional (MTC) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "red_vial_vecinal_mtc_recorte",
+      "nombre_nuevo": "red_vial_vecinal_mtc_recorte",
+      "alias": "Red vial vecinal (MTC) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "redes_de_distribucion_en_media_tension_recorte",
+      "nombre_nuevo": "redes_distribucion_media_tension_recorte",
+      "alias": "Redes de distribución en media tensión — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "registro_campo_linea",
+      "nombre_nuevo": "registro_campo_linea",
+      "alias": "Recorridos y registros de campo (GPS) — líneas",
+      "rol": "proyecto",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "registro_campo_punto",
+      "nombre_nuevo": "registro_campo_punto",
+      "alias": "Recorridos y registros de campo (GPS) — puntos",
+      "rol": "proyecto",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "reservas_de_biosfera_unesco_recorte",
+      "nombre_nuevo": "reservas_biosfera_unesco_recorte",
+      "alias": "Reservas de biósfera (UNESCO) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "rios_red_hidrografica_recorte",
+      "nombre_nuevo": "rios_red_hidrografica_recorte",
+      "alias": "Ríos y red hidrográfica — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "rios_secciones_transversales_ana_recorte",
+      "nombre_nuevo": "rios_secciones_transversales_ana_recorte",
+      "alias": "Ríos – secciones transversales (ANA) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYLINE",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "sitios_arqueologicos_poligono_recorte",
+      "nombre_nuevo": "sitios_arqueologicos_poligono_recorte",
+      "alias": "Sitios y patrimonio arqueológico — polígonos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "sitios_arqueologicos_punto_recorte",
+      "nombre_nuevo": "sitios_arqueologicos_punto_recorte",
+      "alias": "Sitios y patrimonio arqueológico — puntos — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "subestacion_poligono",
+      "nombre_nuevo": "subestacion_poligono",
+      "alias": "Subestación del proyecto — polígonos",
+      "rol": "proyecto",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "subestacion_punto",
+      "nombre_nuevo": "subestacion_punto",
+      "alias": "Subestación del proyecto — puntos",
+      "rol": "proyecto",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "subestaciones_osinergmin_recorte",
+      "nombre_nuevo": "subestaciones_osinergmin_recorte",
+      "alias": "Subestaciones en operación y proyectadas (OSINERGMIN) — recorte",
+      "rol": "recorte",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "suelos_recorte",
+      "nombre_nuevo": "suelos_recorte",
+      "alias": "Suelos — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "susceptibilidad_a_movimientos_en_masa_recorte",
+      "nombre_nuevo": "susceptibilidad_movimientos_masa_recorte",
+      "alias": "Susceptibilidad a movimientos en masa — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "uso_actual_de_la_tierra_recorte",
+      "nombre_nuevo": "uso_actual_tierra_recorte",
+      "alias": "Uso actual de la tierra — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "vertices",
+      "nombre_nuevo": "vertices",
+      "alias": "Vértices del trazo de la línea de transmisión del proyecto",
+      "rol": "proyecto",
+      "geometria": "POINT",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "zonas_de_amortiguamiento_de_anp_sernanp_recorte",
+      "nombre_nuevo": "zonas_amortiguamiento_anp_sernanp_recorte",
+      "alias": "Zonas de amortiguamiento de ANP (SERNANP) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "zonas_de_vida_holdridge_recorte",
+      "nombre_nuevo": "zonas_vida_holdridge_recorte",
+      "alias": "Zonas de vida (Holdridge) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": true,
+      "motivo": "Omitir articulos y preposiciones prescindibles; conservar significado."
+    },
+    {
+      "nombre_anterior": "zonas_reservadas_sernanp_recorte",
+      "nombre_nuevo": "zonas_reservadas_sernanp_recorte",
+      "alias": "Zonas reservadas (SERNANP) — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    },
+    {
+      "nombre_anterior": "zonas_restringidas_recorte",
+      "nombre_nuevo": "zonas_restringidas_recorte",
+      "alias": "Zonas restringidas — recorte",
+      "rol": "recorte",
+      "geometria": "POLYGON",
+      "renombrar": false,
+      "motivo": "El nombre ya cumple la convencion; conservarlo."
+    }
+  ]
+}

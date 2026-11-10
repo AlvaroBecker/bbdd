@@ -1,0 +1,30 @@
+PREPARACION DE CARGA INICIAL KMZ 1.13
+
+Estado: PREPARACION_INCOMPLETA
+
+Esta herramienta escribe informes. No crea clases, no modifica campos y no inserta registros.
+Las propuestas de cobertura no son cambios ya aplicados en la SDE.
+
+Fuentes actuales verificadas: True
+Proyectos verificados: False
+Reglas de campos obligatorios definidas: 76
+Reglas de identidad de negocio pendientes: 80
+Lectura de negocio: NEGOCIO_INSPECCIONADO_CON_PENDIENTES
+
+REGLAS DE LA VERSION (SU VERIFICACION DEPENDE DEL RESULTADO)
+id_analisis: Carga inicial KMZ. proyecto: catalogo y CSV confirmado; vea reglas_campos_comunes.csv.
+Reglas SUNARP verificadas en esta ejecucion: True
+La version propone separar las oficinas SUNARP en oficina_registral y oficina_1, ya existentes.
+La segunda oficina requiere la ruta, ocurrencia, contexto y fuente exactos de las reglas incluidas.
+El cierre de tipos y el modelo 12 permanecen intactos.
+
+REVISION DEL RESULTADO
+mapeo_revisable.csv separa destino actual, propuesta sustentada y tratamiento especial.
+Vanos y otros nuevos destinos figuran como propuestas; no se crean automaticamente.
+No se equipara una carpeta Section de PLS-CADD con un vano. Copias/CAD siguen la excepcion del EFT.
+descripciones.csv diferencia contenido ya representado en atributos y contenido que aun debe mapearse.
+negocio en resultado.json muestra los padres, claves, filas necesarias y relaciones leidas en destino.
+Un maximo de ID es informativo: no reserva codigos ni identifica por si mismo el padre de un vertice.
+
+Ninguna ruta queda autorizada para cargar: falta cerrar cobertura y correspondencias de negocio.
+Las lecturas no certifican branch, publicacion de servicios ni reparacion de geometria.

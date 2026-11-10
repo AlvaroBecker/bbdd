@@ -1,0 +1,16 @@
+{
+  "filas_matriz": 3507,
+  "grupos_matriz": 125,
+  "filas_capas": 3638,
+  "elementos_origen": 279623,
+  "clases": 100,
+  "relaciones": 59,
+  "campos_matriz_por_estado": {
+    "PENDIENTE_DESTINO": 1950,
+    "OMITIR_CAMPO_SISTEMA": 282,
+    "CAMPO_TEXTUAL": 1275
+  },
+  "elementos_con_destino_propuesto": 58523,
+  "elementos_pendientes": 221100,
+  "grupos_pendientes": 115
+}

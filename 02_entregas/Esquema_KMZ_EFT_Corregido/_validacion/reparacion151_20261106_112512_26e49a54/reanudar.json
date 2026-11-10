@@ -1,0 +1,13 @@
+{
+  "informe": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\reparacion151_20261106_112512_26e49a54\\Campos_Aprobados_20261106_114208_21e2ca92\\estados\\20261106T144330_161582Z_e40d9beb\\resultado.json",
+  "estado": "CAMPOS_VERIFICADOS",
+  "lote_general_reanudado_sin_cambios": true,
+  "operaciones_escritura_gdb": [],
+  "hashes": {
+    "modelo_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d",
+    "aprobacion_sha256": "1448240df7144fda63a9b161c21c82a36f8050843adad6c1e539832476615049",
+    "modulo_sha256": "e7dd3eb2d6ab0d63f85576fbf4e5d54ca33684d933d9d8dd333f1092de580aba",
+    "modulo_general_sha256": "d4cd55462d167f9ecc04eff7ee47afbc1f7080524c6b38fad9b57fca8084971a",
+    "verificador_sql_sha256": "7a85e79a2b05eecb721523e1ce4ff924be62475b68a2620b59bb798db628602c"
+  }
+}

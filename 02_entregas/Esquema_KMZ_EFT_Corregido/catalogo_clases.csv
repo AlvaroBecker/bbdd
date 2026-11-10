@@ -1,0 +1,77 @@
+﻿clase;dataset;rol;geometria;descripciones_origen;campos;elementos_propuestos;G1 Enlace 500 kV Miguel Grau - Pariñas;G1 LT 220 kV Felam – Tierras Nuevas – Salitral (1);G1 LT 220 kV Muyurina – Mollepata;G1 Nueva SE Palián 22060 kV y LT;Proyecto CHANCHAMAYO;Proyecto FELAM;Proyecto HUARAZ;Proyecto JAENNORTE;Proyecto MUYURINA;Proyecto PALIAN;Proyecto PARIÑAS;Proyecto POROMA;Proyecto PUCALLPA;alias
+accesos;Datos_Proyecto;proyecto;POLYLINE;Acceso existente – camino peatonal | Acceso existente – carretera principal | Acceso existente – trocha carrozable | Acceso nuevo – camino peatonal | Acceso nuevo – trocha carrozable | Accesos del proyecto | Línea de transmisión del proyecto;280;1659;0;0;0;0;48;463;0;11;0;320;480;0;337;Accesos del proyecto
+acreditacion_disponibilidad_hidrica_ana_recorte;Datos_Proyecto;recorte;POINT;Acreditación de disponibilidad hídrica (ANA);39;61;0;0;0;0;0;23;0;0;0;10;28;0;0;Acreditación de disponibilidad hídrica (ANA) — recorte
+area_estudio_campo;Datos_Proyecto;proyecto;POLYGON;Área de estudio;14;87;0;0;0;0;0;15;0;0;21;29;22;0;0;Área de estudio de campo
+area_urbana_recorte;Datos_Proyecto;recorte;POLYGON;Área urbana;51;32;0;0;0;0;0;0;0;0;2;0;30;0;0;Área urbana — recorte
+areas_conservacion_recorte;Datos_Proyecto;recorte;POLYGON;Áreas de conservación privada (SERNANP) | Áreas de conservación regional (SERNANP);45;63;0;0;0;0;0;3;0;31;0;0;27;2;0;Áreas de conservación privada y regional (SERNANP) — recorte
+areas_promocion_proinversion_recorte;Datos_Proyecto;recorte;POLYGON;Áreas de promoción (PROINVERSIÓN);23;11;0;0;0;0;0;0;0;9;0;0;0;2;0;Áreas de promoción (PROINVERSIÓN) — recorte
+areas_naturales_protegidas_sernanp_recorte;Datos_Proyecto;recorte;POLYGON;Áreas naturales protegidas (SERNANP);30;51;0;0;0;0;0;5;0;10;1;3;15;17;0;Áreas naturales protegidas (SERNANP) — recorte
+autorizacion_obras_hidraulicas_ana_recorte;Datos_Proyecto;recorte;POINT;Autorización de ejecución de obras hidráulicas (ANA);32;47;0;0;0;0;0;1;0;0;0;31;15;0;0;Autorización de ejecución de obras hidráulicas (ANA) — recorte
+calicatas;Datos_Proyecto;proyecto;POINT;Calicatas / investigación geotécnica;11;83;0;0;0;0;0;0;0;0;0;0;0;83;0;Calicatas / investigación geotécnica
+caminos_herradura_recorte;Datos_Proyecto;recorte;POLYLINE;Caminos de herradura;15;44;0;0;0;0;0;44;0;0;0;0;0;0;0;Caminos de herradura — recorte
+canales_recorte;Datos_Proyecto;recorte;POLYLINE;Canales de derivación (ANA) | Canales de riego | Canales de trasvase (ANA) | Canales laterales (ANA);104;5087;0;0;0;0;0;649;0;0;624;2221;1593;0;0;Canales de derivación, riego, trasvase y laterales — recorte
+capacidad_uso_mayor_suelos_recorte;Datos_Proyecto;recorte;POLYGON;Capacidad de uso mayor de suelos | Mapa de Capacidad de Uso Mayor de la Región Piura, suministra información de carácter práctico, netamente interpretativa, basada en la aptitud natural que poseen las Tierras para soportar sosteniblemente un determinado uso, sea agrícola, pastoreo, fo…;50;1049;0;0;0;0;13;18;93;0;4;11;0;0;910;Capacidad de uso mayor de suelos — recorte
+catastro_minero_ingemmet_recorte;Datos_Proyecto;recorte;POLYGON;Catastro minero (INGEMMET) | Información del Catastro Minero. La información que se muestra tiene carácter referencia y es solo de consulta. La actualización de derechos mineros es diaria según se registra, consolida y valida la información por los especialistas del Sistema Cata…;75;293;65;1;8;23;0;2;0;12;7;52;79;44;0;Catastro minero (INGEMMET) — recorte
+catastro_rural_midagri_sicar_recorte;Datos_Proyecto;recorte;POLYGON;Catastro rural (MIDAGRI / SICAR);101;1219;0;79;260;0;39;0;65;527;17;83;9;77;63;Catastro rural (MIDAGRI / SICAR) — recorte
+centros_poblados_inei_recorte;Datos_Proyecto;recorte;POINT;Centros poblados (INEI);39;878;0;0;0;0;0;189;0;111;17;0;411;77;73;Centros poblados (INEI) — recorte
+clasificacion_climatica_recorte;Datos_Proyecto;recorte;POLYGON;Clasificación climática;19;8;0;0;0;0;0;2;0;0;1;3;2;0;0;Clasificación climática — recorte
+clasificacion_hidrogeologica_recorte;Datos_Proyecto;recorte;POLYGON;Clasificación hidrogeológica;32;33;0;0;0;0;0;6;0;0;1;15;11;0;0;Clasificación hidrogeológica — recorte
+cobertura_agricola_midagri_recorte;Datos_Proyecto;recorte;POLYGON;Cobertura agrícola (MIDAGRI);17;260;0;0;0;0;0;0;0;0;0;0;0;260;0;Cobertura agrícola (MIDAGRI) — recorte
+cobertura_vegetal_minam_recorte;Datos_Proyecto;recorte;POLYGON;Cobertura vegetal (MINAM);29;267;16;11;4;22;0;0;0;0;4;122;56;32;0;Cobertura vegetal (MINAM) — recorte
+comunidades_campesinas_recorte;Datos_Proyecto;recorte;POLYGON;Comunidades campesinas;41;202;4;12;3;13;0;24;19;10;16;68;33;0;0;Comunidades campesinas — recorte
+concesiones_electricas_minem_recorte;Datos_Proyecto;recorte;POLYGON;Concesiones eléctricas (MINEM);82;456;0;2;1;5;307;0;10;83;0;0;0;40;8;Concesiones eléctricas (MINEM) — recorte
+concesiones_forestales_serfor_recorte;Datos_Proyecto;recorte;POLYGON;Concesiones forestales (SERFOR);27;37;0;0;0;0;0;2;0;0;6;27;2;0;0;Concesiones forestales (SERFOR) — recorte
+cuencas_hidrograficas_ana_recorte;Datos_Proyecto;recorte;POLYGON;Cuencas hidrográficas (ANA);33;22;0;0;0;0;0;22;0;0;0;0;0;0;0;Cuencas hidrográficas (ANA) — recorte
+ecorregiones_recorte;Datos_Proyecto;recorte;POLYGON;Ecorregiones;21;9;1;1;1;2;1;0;1;0;0;0;0;1;1;Ecorregiones — recorte
+ecosistemas_fragiles_serfor_recorte;Datos_Proyecto;recorte;POLYGON;Ecosistemas frágiles (SERFOR);37;31;0;0;0;0;0;5;0;14;1;7;1;3;0;Ecosistemas frágiles (SERFOR) — recorte
+estaciones_bombeo_ana_recorte;Datos_Proyecto;recorte;POINT;Estaciones de bombeo (ANA);77;34;0;0;0;0;0;0;0;0;0;0;34;0;0;Estaciones de bombeo (ANA) — recorte
+estructuras;Datos_Proyecto;proyecto;POINT;Línea de transmisión del proyecto | Torres / estructuras de la LT del proyecto;32;11579;0;0;0;0;53;1783;79;0;0;4263;4884;0;517;Torres y estructuras de líneas de transmisión del proyecto
+fajas_marginales_cuerpos_agua_ana_recorte;Datos_Proyecto;recorte;POINT;Fajas marginales de cuerpos de agua (ANA);44;23781;0;0;0;0;0;4031;0;237;5506;9903;3985;119;0;Fajas marginales de cuerpos de agua (ANA) — recorte
+fisiografia_recorte;Datos_Proyecto;recorte;POLYGON;Fisiografía;30;23;0;0;0;0;6;0;3;0;0;0;0;0;14;Fisiografía — recorte
+formalizacion_derechos_uso_agua_ana_recorte;Datos_Proyecto;recorte;POINT;Formalización de derechos de uso de agua (ANA);36;327;0;0;0;0;0;10;0;0;1;43;273;0;0;Formalización de derechos de uso de agua (ANA) — recorte
+franja_servidumbre;Datos_Proyecto;proyecto;POLYGON;Franja de servidumbre de la LT;17;10;0;0;0;0;0;0;0;5;0;0;0;5;0;Franja de servidumbre de la LT
+geologia_ingemmet_linea_recorte;Datos_Proyecto;recorte;POLYLINE;Geología (INGEMMET);18;545;4;0;2;16;0;89;0;0;24;410;0;0;0;Geología (INGEMMET) — líneas — recorte
+geologia_ingemmet_poligono_recorte;Datos_Proyecto;recorte;POLYGON;Geología (INGEMMET);19;30;0;0;0;0;10;0;6;8;0;0;0;0;6;Geología (INGEMMET) — polígonos — recorte
+geomorfologia_recorte;Datos_Proyecto;recorte;POLYGON;Geomorfología;23;274;67;21;3;18;4;2;6;0;3;90;51;0;9;Geomorfología — recorte
+habitats_criticos_recorte;Datos_Proyecto;recorte;POLYGON;Hábitats críticos;40;8;0;0;0;0;0;2;0;0;2;2;2;0;0;Hábitats críticos — recorte
+iba_eba_kba_recorte;Datos_Proyecto;recorte;POLYGON;Lugares más importantes para la conservación basada en el hábitat de las aves | Red de sitios que son importantes para la viabilidad a largo plazo de las poblaciones de aves presentes en la naturaleza | Áreas clave para la biodiversidad (KBA) | Áreas importantes para las aves (IBA);45;36;0;0;0;0;0;9;0;10;2;7;7;1;0;Áreas importantes para aves y biodiversidad (IBA / EBA / KBA) — recorte
+instrumentos_gestion_ambiental_senace_poligono_recorte;Datos_Proyecto;recorte;POLYGON;Instrumentos de gestión ambiental (SENACE);24;89;42;35;5;7;0;0;0;0;0;0;0;0;0;Instrumentos de gestión ambiental (SENACE) — polígonos — recorte
+instrumentos_gestion_ambiental_senace_punto_recorte;Datos_Proyecto;recorte;POINT;Instrumentos de gestión ambiental (SENACE);52;4;4;0;0;0;0;0;0;0;0;0;0;0;0;Instrumentos de gestión ambiental (SENACE) — puntos — recorte
+instrumentos_gestion_ambiental_senace_linea_recorte;Datos_Proyecto;recorte;POLYLINE;Instrumentos de gestión ambiental (SENACE);24;3;3;0;0;0;0;0;0;0;0;0;0;0;0;Instrumentos de gestión ambiental (SENACE) — líneas — recorte
+lagunas_recorte;Datos_Proyecto;recorte;POLYGON;Lagunas;17;15;0;0;0;0;0;15;0;0;0;0;0;0;0;Lagunas — recorte
+limite_departamento_recorte;Datos_Proyecto;recorte;POLYGON;Límites político-administrativos (INEI);34;12;1;1;1;1;0;8;0;0;0;0;0;0;0;Límites departamentales (INEI) — recorte
+limite_distrito_recorte;Datos_Proyecto;recorte;POLYGON;Límites político-administrativos (INEI);32;101;7;3;4;11;0;76;0;0;0;0;0;0;0;Límites distritales (INEI) — recorte
+limite_provincia_recorte;Datos_Proyecto;recorte;POLYGON;Límites político-administrativos (INEI);21;7;3;1;1;2;0;0;0;0;0;0;0;0;0;Límites provinciales (INEI) — recorte
+lineas_transmision_existentes_osinergmin_recorte;Datos_Proyecto;recorte;POLYLINE;Líneas de transmisión existentes (OSINERGMIN);65;2071;9;9;7;8;10;28;9;0;640;1276;72;0;3;Líneas de transmisión existentes (OSINERGMIN) — recorte
+mapa_nacional_ecosistemas_minam_recorte;Datos_Proyecto;recorte;POLYGON;Mapa nacional de ecosistemas (MINAM);37;567;0;0;0;0;0;30;0;325;4;122;68;18;0;Mapa nacional de ecosistemas (MINAM) — recorte
+mline_td_proyecto_area_interes;Datos_Proyecto;migrada;POLYGON;Área de estudio;36;1;0;0;0;0;0;0;0;1;0;0;0;0;0;
+mline_td_proyecto_infraestructura;Datos_Proyecto;migrada;POLYLINE;Línea de transmisión del proyecto | Trazo / alternativas de ruta de la LT;44;727;0;0;0;0;3;64;4;25;20;527;60;14;10;
+mline_td_proyecto_ltransmision;Datos_Proyecto;migrada;POLYLINE;Línea de transmisión del proyecto;50;116;2;0;1;8;0;31;0;0;27;36;2;9;0;
+paleontologia_recorte;Datos_Proyecto;recorte;POINT;Paleontología;28;433;0;0;0;1;0;0;0;386;0;0;0;46;0;Paleontología — recorte
+plantaciones_forestales_predios_privados_serfor_recorte;Datos_Proyecto;recorte;POLYGON;Plantaciones forestales en predios privados (SERFOR);45;11;0;0;0;0;0;0;0;0;0;0;11;0;0;Plantaciones forestales en predios privados (SERFOR) — recorte
+poseedores_posesionarios_poligono_recorte;Datos_Proyecto;recorte;POLYGON;Poseedores / posesionarios (sin título inscrito);36;99;0;0;0;0;43;0;9;0;0;0;0;18;29;Poseedores / posesionarios (sin título inscrito) — polígonos — recorte
+poseedores_posesionarios_punto_recorte;Datos_Proyecto;recorte;POINT;Poseedores / posesionarios (sin título inscrito);21;81;0;0;0;0;43;0;9;0;0;0;0;0;29;Poseedores / posesionarios (sin título inscrito) — puntos — recorte
+predios_inscritos_sunarp_recorte;Datos_Proyecto;recorte;POLYGON;Predios inscritos en SUNARP;81;1019;0;0;0;0;22;41;117;0;22;49;247;35;486;Predios inscritos en SUNARP — recorte
+qhapaq_nan_red_vial_inca_mincul_recorte;Datos_Proyecto;recorte;POLYLINE;Qhapaq Ñan – red vial inca (Ministerio de Cultura);65;172;0;6;9;6;0;100;0;0;33;0;18;0;0;Qhapaq Ñan – red vial inca (Ministerio de Cultura) — recorte
+red_vial_departamental_mtc_recorte;Datos_Proyecto;recorte;POLYLINE;Red vial departamental (MTC);61;444;2;0;0;1;0;106;0;96;0;26;74;139;0;Red vial departamental (MTC) — recorte
+red_vial_nacional_mtc_recorte;Datos_Proyecto;recorte;POLYLINE;Red vial nacional (MTC);315;847;12;4;1;7;0;99;0;233;33;171;121;166;0;Red vial nacional (MTC) — recorte
+red_vial_vecinal_mtc_recorte;Datos_Proyecto;recorte;POLYLINE;Red vial vecinal (MTC);38;4897;6;10;1;7;0;738;0;1939;128;973;419;676;0;Red vial vecinal (MTC) — recorte
+redes_distribucion_media_tension_recorte;Datos_Proyecto;recorte;POLYLINE;Redes de distribución en media tensión;22;1401;0;802;139;458;0;0;2;0;0;0;0;0;0;Redes de distribución en media tensión — recorte
+registro_campo_linea;Datos_Proyecto;proyecto;POLYLINE;Recorridos y registros de campo (GPS);12;101;0;0;0;0;0;32;0;4;0;0;0;0;65;Recorridos y registros de campo (GPS) — líneas
+registro_campo_punto;Datos_Proyecto;proyecto;POINT;Recorridos y registros de campo (GPS);11;1020;0;0;0;0;0;0;0;907;0;0;0;113;0;Recorridos y registros de campo (GPS) — puntos
+reservas_biosfera_unesco_recorte;Datos_Proyecto;recorte;POLYGON;Reservas de biósfera (UNESCO);28;12;2;0;2;0;0;1;0;0;2;2;3;0;0;Reservas de biósfera (UNESCO) — recorte
+rios_red_hidrografica_recorte;Datos_Proyecto;recorte;POLYLINE;Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 17 s | Elementos de la Red Hidrográfica de la Carta Nacional escala 1:100 000 del IGN. Corresponde a toda la zona UTM 18 L y 18 K | Ríos / red hidrográfica;49;70528;0;0;0;0;0;7762;0;0;238;60306;2222;0;0;Ríos y red hidrográfica — recorte
+rios_secciones_transversales_ana_recorte;Datos_Proyecto;recorte;POLYLINE;Ríos – secciones transversales (ANA);26;2702;0;0;0;0;0;941;0;0;203;558;1000;0;0;Ríos – secciones transversales (ANA) — recorte
+sitios_arqueologicos_poligono_recorte;Datos_Proyecto;recorte;POLYGON;Patrimonio arqueológico | Sitios arqueológicos delimitados (Ministerio de Cultura);43;549;2;2;1;0;0;134;9;48;11;4;178;160;0;Sitios y patrimonio arqueológico — polígonos — recorte
+sitios_arqueologicos_punto_recorte;Datos_Proyecto;recorte;POINT;Patrimonio arqueológico | Sitios arqueológicos declarados (Ministerio de Cultura);37;571;1;1;0;0;0;79;11;186;0;0;138;155;0;Sitios y patrimonio arqueológico — puntos — recorte
+subestacion_poligono;Datos_Proyecto;proyecto;POLYGON;Subestación del proyecto | Trazo / alternativas de ruta de la LT;24;240;4;5;2;6;3;18;4;4;20;140;25;3;6;Subestación del proyecto — polígonos
+subestacion_punto;Datos_Proyecto;proyecto;POINT;Subestación del proyecto | Trazo / alternativas de ruta de la LT;25;115;0;0;0;0;0;0;8;74;5;0;1;25;2;Subestación del proyecto — puntos
+subestaciones_osinergmin_recorte;Datos_Proyecto;recorte;POINT;Subestaciones en operación (OSINERGMIN) | Subestaciones proyectadas (OSINERGMIN);47;593;3;0;0;0;0;17;0;0;511;27;35;0;0;Subestaciones en operación y proyectadas (OSINERGMIN) — recorte
+suelos_recorte;Datos_Proyecto;recorte;POLYGON;Suelos;29;9;0;0;0;0;8;0;1;0;0;0;0;0;0;Suelos — recorte
+susceptibilidad_movimientos_masa_recorte;Datos_Proyecto;recorte;POLYGON;Susceptibilidad a movimientos en masa;33;101;0;0;0;0;0;25;0;0;4;41;31;0;0;Susceptibilidad a movimientos en masa — recorte
+uso_actual_tierra_recorte;Datos_Proyecto;recorte;POLYGON;"Para identificar las Unidades de Uso actual del suelo, se tuvo en cuenta la interpretación visual de imágenes de satélite ASTER VNIR de 15 m.; selección y análisis de información secundaria cartográfica y bibliográfica; recolección de información en… | Uso actual | Uso actual de la tierra";36;102;0;0;0;0;0;27;0;0;13;55;7;0;0;Uso actual de la tierra — recorte
+vertices;Datos_Proyecto;proyecto;POINT;Línea de transmisión del proyecto | Vértices del trazo de la LT del proyecto;28;842;0;77;14;87;17;84;24;124;238;30;37;74;36;Vértices del trazo de la línea de transmisión del proyecto
+zonas_amortiguamiento_anp_sernanp_recorte;Datos_Proyecto;recorte;POLYGON;Zonas de amortiguamiento de ANP (SERNANP);28;34;0;0;0;0;0;5;0;9;1;3;10;6;0;Zonas de amortiguamiento de ANP (SERNANP) — recorte
+zonas_vida_holdridge_recorte;Datos_Proyecto;recorte;POLYGON;Zonas de vida (Holdridge);38;19;0;0;0;0;0;0;0;14;0;0;0;3;2;Zonas de vida (Holdridge) — recorte
+zonas_reservadas_sernanp_recorte;Datos_Proyecto;recorte;POLYGON;Zonas reservadas (SERNANP);28;2;0;0;0;0;0;0;0;2;0;0;0;0;0;Zonas reservadas (SERNANP) — recorte
+zonas_restringidas_recorte;Datos_Proyecto;recorte;POLYGON;Zonas restringidas;42;11;0;0;0;0;0;0;0;0;0;0;11;0;0;Zonas restringidas — recorte

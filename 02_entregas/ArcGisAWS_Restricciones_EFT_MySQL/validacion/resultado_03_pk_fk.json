@@ -1,0 +1,48 @@
+{
+  "review_mode": "static SQL text and literal PK/FK map compared with independently verified MySQL DDL",
+  "script_file": "03_agregar_PK_FK_SQLServer.sql",
+  "script_sha256": "bd702fe7bc6756d0fcb5eef633fa138f572055e8c5e11ea51f6fc895e3d9ce5c",
+  "source_sha256": "ea9fc0fafa0f0f9cd1688cd4777901f45fbe9db307ee1d2e2272edefca0c63dd",
+  "pk_count": 8,
+  "active_fk_count": 11,
+  "self_fk_count": 2,
+  "original_secondary_indexes_verified": 27,
+  "pk_matches_source": true,
+  "active_fk_matches_source": true,
+  "excluded_classes": {
+    "obsolete_no_fk": 3,
+    "pending_spatial": 3,
+    "pending_parameter_domain": 8,
+    "pending_portal": 2
+  },
+  "static_checks": {
+    "same_existing_database": true,
+    "no_prior_transaction": true,
+    "base_script_requires_arcgis_verification": true,
+    "all_tables_preflight": true,
+    "all_pk_int_not_null_preflight": true,
+    "existing_objectid_pk_not_replaced": true,
+    "pk_name_index_collision_preflight": true,
+    "pk_nonclustered": true,
+    "fk_with_check": true,
+    "fk_no_action": true,
+    "fk_equivalence_simple_enabled_trusted": true,
+    "fk_equivalence_no_action": true,
+    "fk_equivalence_not_for_replication_false": true,
+    "arcgis_verification_recent_15_minutes": true,
+    "all_data_preflight": true,
+    "idempotent_equivalent_plan": true,
+    "nullable_existing_plan": true,
+    "single_transaction_and_rollback": true,
+    "post_checks_before_commit": true,
+    "no_drop_or_row_changes": true,
+    "no_sqlcmd": true
+  },
+  "sql_server_parse_tested": false,
+  "sql_server_execution_tested": false,
+  "arcgis_execution_tested": false,
+  "limitations": [
+    "Static idempotence and rollback review is not an engine execution test.",
+    "Fresh ArcGIS registration/versioning state is required in the destination environment."
+  ]
+}

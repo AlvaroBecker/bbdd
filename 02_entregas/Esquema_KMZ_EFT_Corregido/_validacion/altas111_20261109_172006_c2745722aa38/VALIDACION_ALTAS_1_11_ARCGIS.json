@@ -1,0 +1,57 @@
+{
+  "estado": "ENSAYO_LOCAL_ALTAS_VERIFICADO",
+  "version_paquete": "1.11",
+  "arcgis": "3.7.1",
+  "geodatabase": "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\ensayo.gdb",
+  "registros_iniciales": 40,
+  "registros_finales": 42,
+  "nuevas_filas": 2,
+  "validacion_sin_cambios_fisicos": true,
+  "validacion_sin_cambios": true,
+  "rollback_nativo_verificado": true,
+  "rollback_verificado": true,
+  "idempotencia_verificada": true,
+  "registros_anteriores_inalterados": true,
+  "altas_creadas": 2,
+  "reejecucion_sin_altas": true,
+  "esquema_inalterado": true,
+  "modelo_inalterado": true,
+  "toolbox_ejecutada": false,
+  "runtime_ejecutado": true,
+  "editor_tracking_nativo_verificado": true,
+  "global_id_nativo_verificado": true,
+  "campos_legado": 34,
+  "validacion_sde": false,
+  "concurrencia_sql_server_validada": false,
+  "branch_versioning_validado": false,
+  "ingesta_kmz_realizada": false,
+  "exclusividad": "Exclusiva sobre GDB nueva local; no acredita exclusividad en SDE.",
+  "informes": [
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\solo_validar\\Alta_Proyectos_20261109_172053_bbf4cd6c981c\\resultado.json",
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\rollback\\Alta_Proyectos_20261109_172054_38bc7a0c802f\\resultado.json",
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\aplicar\\Alta_Proyectos_20261109_172055_2315807de28f\\resultado.json",
+    "C:\\Users\\aibecker\\Desktop\\ENGIE PERU\\bbdd\\02_entregas\\Esquema_KMZ_EFT_Corregido\\_validacion\\altas111_20261109_172006_c2745722aa38\\repetir\\Alta_Proyectos_20261109_172056_0399cc098b3b\\resultado.json"
+  ],
+  "llamadas": {
+    "da.ListSubtypes": 4,
+    "da.ListDomains": 8,
+    "da.SearchCursor": 9,
+    "da.Editor": 2,
+    "da.InsertCursor": 2
+  },
+  "archivos_paquete_sha256": {
+    "alta_proyectos.py": "6e5b8d8046eedfacc3b658c617d6a731f822a6d0468dd32b2212fcbc578bcd8c",
+    "alta_proyectos_logica.py": "139cb7d41e6fff22e7a387aca9927efbdceb80ad3f55fe33084d3d871d1c8ebe",
+    "crear_esquema.py": "0f0cedc8d1970d63f14cb74185acd98146ef4a499d020c8d6c9e5a181333b4cf",
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133"
+  },
+  "archivos_sha256": {
+    "alta_proyectos.py": "6e5b8d8046eedfacc3b658c617d6a731f822a6d0468dd32b2212fcbc578bcd8c",
+    "alta_proyectos_logica.py": "139cb7d41e6fff22e7a387aca9927efbdceb80ad3f55fe33084d3d871d1c8ebe",
+    "crear_esquema.py": "0f0cedc8d1970d63f14cb74185acd98146ef4a499d020c8d6c9e5a181333b4cf",
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "03_scripts/probar_alta_proyectos_1_11_arcgis.py": "54524db4c31be43171e7d5450ba224b97ce5abf3b411b60fbc05720b3b9047f2"
+  },
+  "script_sha256": "54524db4c31be43171e7d5450ba224b97ce5abf3b411b60fbc05720b3b9047f2",
+  "alcance": "Prueba del runtime y de ArcPy Editor/InsertCursor reales en File GDB sintética creada desde cero. No acredita el destino SQL Server, concurrencia entre escritores, servicios, versionado, relaciones ni carga KMZ."
+}

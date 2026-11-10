@@ -1,0 +1,15 @@
+{
+  "version_paquete": "1.5",
+  "version_modelo": 9,
+  "arcgis": "3.7.1",
+  "clases": 76,
+  "campos": 3340,
+  "nombres_campo_distintos": 1282,
+  "nombres_validos_en_gdb_local": true,
+  "palabras_reservadas_sqlserver_en_modelo": [],
+  "nombres_rechazados_sde_en_modelo": [],
+  "operaciones_de_escritura_en_geodatabase": 0,
+  "validacion_sde": false,
+  "alcance": "ValidateTableName y ValidateFieldName sobre GDB local; cotejo estatico contra palabras reservadas actuales de Transact-SQL. No demuestra validez en SDE.",
+  "esquema_sha256": "3a819d55272930e3bc812ca278a58acfa18adecce61791350d9354af2a5e793d"
+}

@@ -1,0 +1,72 @@
+{
+  "version_paquete": "1.13",
+  "estado": "VERIFICACION_KMZ_REAL_OK",
+  "referencias": {
+    "estado": "REFERENCIAS_SUNARP_VERIFICADAS",
+    "referencias": [
+      {
+        "archivo": "esquema.json",
+        "sha256": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133"
+      },
+      {
+        "archivo": "PERFIL_COMPLETO_KMZ_1_9.json",
+        "sha256": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0"
+      },
+      {
+        "archivo": "campos_por_ruta.csv",
+        "sha256": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31"
+      },
+      {
+        "archivo": "mapeo_capas_revision.csv",
+        "sha256": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439"
+      }
+    ],
+    "esquema": {
+      "estado": "ESQUEMA_SUNARP_VERIFICADO",
+      "clase": "predios_inscritos_sunarp_recorte",
+      "campos": [
+        "oficina",
+        "oficina_1",
+        "oficina_re",
+        "oficina_registral"
+      ],
+      "ddl": false
+    },
+    "carga_ejecutada": false
+  },
+  "registros": 1019,
+  "valores": 1378,
+  "rutas": 12,
+  "pares_distintos": 253,
+  "pares_iguales": 35,
+  "por_fuente": {
+    "Proyecto CHANCHAMAYO.kmz": 22,
+    "Proyecto FELAM.kmz": 41,
+    "Proyecto HUARAZ.kmz": 117,
+    "Proyecto MUYURINA.kmz": 22,
+    "Proyecto PALIAN.kmz": 49,
+    "Proyecto PARIÑAS.kmz": 247,
+    "Proyecto POROMA.kmz": 35,
+    "Proyecto PUCALLPA.kmz": 486
+  },
+  "por_campo": {
+    "oficina": 660,
+    "oficina_registral": 288,
+    "oficina_1": 359,
+    "oficina_re": 71
+  },
+  "errores": [],
+  "ddl": false,
+  "carga_ejecutada": false,
+  "fuentes_inalteradas": true,
+  "archivos_sha256": {
+    "reglas_sunarp_ingesta.py": "af15c78ee883316a711edb77cce4de17f7b51c7b52ee1604bd3ad18be33dc92b",
+    "reglas_sunarp_1_13.json": "b8980b71c0368caec6396e1641e4a2488a64754ad7ab97388efaadddf162efc9",
+    "inspeccion_kmz.py": "de960fd80e58a0c6d6d556d702e6c30e37f3e1a5070765653c7991feba427479",
+    "esquema.json": "18388bcda344ab2baf3dc6ab848027b6f0c05d63d418aedcfa908e7b58d69133",
+    "PERFIL_COMPLETO_KMZ_1_9.json": "a2774dab1e48466b88c44279652be397065e93eec7d71640168fae724bafb2a0",
+    "campos_por_ruta.csv": "a54846cbc3eff4a74e696d7cceab132e23ce9132f6ca3a0030f86f3e6c1a6b31",
+    "mapeo_capas_revision.csv": "ef46c65a08a3fc23dc95fdf5457c247f417124d71f9922d9831223a066103439",
+    "03_scripts/probar_reglas_sunarp_1_13.py": "49e6f1281714a4317205d94b1d5acb68af8bdad13b9496623306383f643b9dc8"
+  }
+}
